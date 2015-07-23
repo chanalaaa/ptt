@@ -46,13 +46,13 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: 'supermarketregular';
+  font-family: 'supermarket';
   src: url("fonts/supermarket-webfont.eot");
   src: url("fonts/supermarket-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/supermarket-webfont.woff2") format("woff2"), url("fonts/supermarket-webfont.woff") format("woff"), url("fonts/supermarket-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 body {
-  font-family: 'supermarketregular'; }
+  font-family: 'supermarket'; }
 
 .clear {
   clear: both; }
