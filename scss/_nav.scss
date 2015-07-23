@@ -1,9 +1,42 @@
 .nav_main {
     width: 100%;
     height: 100px;
-    background-color: #000;
+    background-color: #FFF;
     opacity: .8;
     position: absolute;
     top: 0px;
     z-index: 2;
+    .nav_area {
+
+       // background-color: #F00;
+        width: 95%;
+        height: 50px;
+        margin: 10px auto;
+        ul {
+        	
+            li {            	
+                width: 50px;
+                display: inline;
+                img#nav_icon {
+                    float: left;
+                    width: 30px;
+                    height: 20px;
+                    margin-top: 30px;
+                }
+                img#nav_logo {
+                    margin: 0 auto;
+                    width: 116px;
+                    height: 79px;
+                    padding-left: 44%;
+                    //display: block;
+                }
+                img#nav_btn {
+                    float: right;
+                    width: 30px;
+                    height: 20px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
 }

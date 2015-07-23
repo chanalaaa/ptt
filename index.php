@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <? include("views/header.php"); ?>
+    	<? include("views/header.php"); ?>
         <? include("views/content.php"); ?>
 </body>
 
