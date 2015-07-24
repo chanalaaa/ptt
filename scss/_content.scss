@@ -79,9 +79,22 @@ body {
         top: 75;
         height: 100%;
         bottom: 0em;
-        left: 75%;
+        left: 70%;
         .sy-caption {
             text-align: center;
+            z-index: 333;
+            display:block;
+            .cap1_title{
+                background-color: #FFF;
+                color: #1F71B7;
+            }
+            .cap1_info{
+                color:#FFF;
+            }
+            .cap1_btn{
+                
+            }
         }
+        
     }
 }

@@ -207,8 +207,8 @@
   margin: 0; }
   .sy-controls li {
     position: absolute;
-    width: 10%;
-    min-width: 4.2em;
+    width: 0%;
+    min-width: 2.9em;
     height: 100%;
     z-index: 33; }
     .sy-controls li.sy-prev {
@@ -247,15 +247,13 @@
         font-weight: 800;
         position: absolute;
         background-color: #fff;
-        width: 2.8em;
-        height: 2.8em;
+        width: 1.8em;
+        height: 4em;
         left: 50%;
         top: 50%;
         margin-top: -1.4em;
         margin-left: -1.4em;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%; }
+        }
   @media only screen and (max-device-width: 600px) {
     .sy-controls {
       display: block; }

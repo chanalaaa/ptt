@@ -188,8 +188,15 @@ body {
     top: 75;
     height: 100%;
     bottom: 0em;
-    left: 75%; }
+    left: 70%; }
     .today .sy-caption-wrap .sy-caption {
-      text-align: center; }
+      text-align: center;
+      z-index: 333;
+      display: block; }
+      .today .sy-caption-wrap .sy-caption .cap1_title {
+        background-color: #FFF;
+        color: #1F71B7; }
+      .today .sy-caption-wrap .sy-caption .cap1_info {
+        color: #FFF; }
 
 /*# sourceMappingURL=style.css.map */

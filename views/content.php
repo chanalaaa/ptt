@@ -1,4 +1,3 @@
-
 <div id="wrapper">
     <div id="fullpage">
         <div class="section" id="section1">
@@ -15,7 +14,12 @@
                 <article class="today_block">
                     <ul id="today_ul">
                         <li>
-                            <a href="#slide1"><img src="img/today/image-1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla. Donec sed tellus tempor ligula condimentum placerat. Vivamus placerat magna nisi, eu elementum risus imperdiet sit amet. Nunc varius dictum porttitor. Morbi rhoncus magna in quam fring"></a>
+                            <a href="#slide1"><img src="img/today/image-1.jpg" alt=" 
+                            <div class='cap1_title'>TODAY'S SPECIAL</div> <br>
+							<div class='cap1_info'>Blue Point 500 <br>คะแนน แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
+							<div class='cap1_btn'><img src='img/today/ico/twitter_logo.png'></div>
+
+                            "></a>
                         </li>
                         <li>
                             <a href="#slide2"><img src="img/today/image-2.jpg" alt="This is an awesome jQuery slider plugin."></a>
@@ -27,7 +31,6 @@
                 </article>
             </section>
         </div>
-
         <br>
         <br>
         <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.
@@ -59,7 +62,6 @@
         </p>
     </div>
 </div>
-
 <!-- full page script -->
 <script type="text/javascript">
 fullpage.initialize('#fullpage', {
