@@ -105,12 +105,7 @@ body {
       font-family: 'supermarket';
       margin-right: 10px; }
       .nav_area #nav_btn #nav_btn1:hover {
-        background: #3cb0fd;
-        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        opacity: .7;
         text-decoration: none; }
     .nav_area #nav_btn #nav_btn2 {
       border-radius: 5px;
@@ -123,12 +118,7 @@ body {
       text-align: center;
       font-family: 'supermarket'; }
       .nav_area #nav_btn #nav_btn2:hover {
-        background: #3cb0fd;
-        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        opacity: .7;
         text-decoration: none; }
 
 .content {
@@ -136,17 +126,16 @@ body {
   top: 50%;
   transform: translateY(-50%);
   text-align: center; }
+  .content img {
+    width: 172px;
+    height: 60px; }
 
 /* Section 1
          * --------------------------------------- */
 #section1 {
-  background-image: url("../img/header_img/1.jpg"); }
-
-#section1 h1 {
-  color: #fff; }
-
-#section1 p {
-  opacity: 0.8; }
+  background-image: url("../img/header_img/1.jpg");
+  background-position: center center;
+  background-size: cover; }
 
 .wrap {
   margin-left: auto;
@@ -154,21 +143,10 @@ body {
   width: 980px;
   position: relative;
   padding: 20px 0 20px 0; }
-
-.wrap h1 {
-  font-size: 2.3em;
-  color: #333;
-  padding: 30px 0 10px 0; }
-
-.wrap p {
-  font-size: 16px;
-  padding: 0 0 10px 0; }
-
-.box {
-  display: block;
-  background: #f2f2f2;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin: 20px 0; }
+  .wrap .today {
+    width: auto;
+    height: 365px; }
+  .wrap .sy-pager {
+    display: none; }
 
 /*# sourceMappingURL=style.css.map */

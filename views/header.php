@@ -1,4 +1,4 @@
-<meta name="viewport" content="width=device-width">
+
 <div class="nav_main">
     <div class="nav_area">
         <ul>
