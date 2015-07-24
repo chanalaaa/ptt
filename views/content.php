@@ -1,3 +1,4 @@
+
 <div id="wrapper">
     <div id="fullpage">
         <div class="section" id="section1">
@@ -10,18 +11,23 @@
     </div>
     <div class="wrap">
         <div class="today">
-            <ul id="today_ul">
-                <li>
-                    <a href="#slide1"><img src="img/today/image-1.jpg" alt="Welcome to Slippry!"></a>
-                </li>
-                <li>
-                    <a href="#slide2"><img src="img/today/image-2.jpg" alt="This is an awesome jQuery slider plugin."></a>
-                </li>
-                <li>
-                    <a href="#slide3"><img src="img/today/image-4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-                </li>
-            </ul>
+            <section class="today_wrapper">
+                <article class="today_block">
+                    <ul id="today_ul">
+                        <li>
+                            <a href="#slide1"><img src="img/today/image-1.jpg" alt="Welcome to Slippry!"></a>
+                        </li>
+                        <li>
+                            <a href="#slide2"><img src="img/today/image-2.jpg" alt="This is an awesome jQuery slider plugin."></a>
+                        </li>
+                        <li>
+                            <a href="#slide3"><img src="img/today/image-4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
         </div>
+        
         <br>
         <br>
         <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.
@@ -53,6 +59,7 @@
         </p>
     </div>
 </div>
+
 <!-- full page script -->
 <script type="text/javascript">
 fullpage.initialize('#fullpage', {
@@ -73,7 +80,7 @@ $(function() {
         // auto: true,
         // preload: 'visible',
         // autoHover: false
-        
+
     });
 });
 </script>
