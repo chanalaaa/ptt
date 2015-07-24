@@ -14,19 +14,20 @@
                 <article class="today_block">
                     <ul id="today_ul">
                         <li>
-                            <a href="#slide1"><img src="img/today/image-1.jpg" alt=" 
-                            <div class='cap1_title'>TODAY'S SPECIAL</div> <br>
-							<div class='cap1_info'>Blue Point 500 <br>คะแนน แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-							<div class='cap1_btn'><img src='img/today/ico/twitter_logo.png'></div>
+                            <a href="#"><img src="img/today/image-1.jpg" alt=" 
+                            <div class='cap1_title'><p>TODAY'S SPECIAL</p></div> <br>
+							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
+							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>
 
                             "></a>
+                            <!--
                         </li>
                         <li>
-                            <a href="#slide2"><img src="img/today/image-2.jpg" alt="This is an awesome jQuery slider plugin."></a>
+                            <a href="#"><img src="img/today/image-2.jpg" alt="This is an awesome jQuery slider plugin."></a>
                         </li>
                         <li>
-                            <a href="#slide3"><img src="img/today/image-4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-                        </li>
+                            <a href="#"><img src="img/today/image-4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
+                        </li>-->
                     </ul>
                 </article>
             </section>

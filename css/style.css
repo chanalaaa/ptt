@@ -195,8 +195,19 @@ body {
       display: block; }
       .today .sy-caption-wrap .sy-caption .cap1_title {
         background-color: #FFF;
-        color: #1F71B7; }
+        color: #1F71B7;
+        padding: 5px 12px 2px;
+        width: 60%;
+        font-size: 1.5em;
+        margin: 0 auto;
+        letter-spacing: .1em; }
       .today .sy-caption-wrap .sy-caption .cap1_info {
-        color: #FFF; }
+        margin-top: 32px;
+        color: #FFF;
+        font-size: 1.7em; }
+      .today .sy-caption-wrap .sy-caption .cap1_btn img {
+        margin-top: 27px;
+        width: 58px;
+        height: 58px; }
 
 /*# sourceMappingURL=style.css.map */
