@@ -15,7 +15,7 @@
                 <article class="today_block">
                     <ul id="today_ul">
                         <li>
-                            <a href="#slide1"><img src="img/today/image-1.jpg" alt="Welcome to Slippry!"></a>
+                            <a href="#slide1"><img src="img/today/image-1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla. Donec sed tellus tempor ligula condimentum placerat. Vivamus placerat magna nisi, eu elementum risus imperdiet sit amet. Nunc varius dictum porttitor. Morbi rhoncus magna in quam fring"></a>
                         </li>
                         <li>
                             <a href="#slide2"><img src="img/today/image-2.jpg" alt="This is an awesome jQuery slider plugin."></a>
@@ -27,7 +27,7 @@
                 </article>
             </section>
         </div>
-        
+
         <br>
         <br>
         <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.

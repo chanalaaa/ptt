@@ -121,6 +121,23 @@ body {
         opacity: .7;
         text-decoration: none; }
 
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4b7dd8+0,54a3ee+24,6daee8+49,54a3ee+75,4b7dd8+100 */
+  background: #4b7dd8;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #4b7dd8 0%, #54a3ee 24%, #6daee8 49%, #54a3ee 75%, #4b7dd8 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #4b7dd8), color-stop(24%, #54a3ee), color-stop(49%, #6daee8), color-stop(75%, #54a3ee), color-stop(100%, #4b7dd8));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #4b7dd8 0%, #54a3ee 24%, #6daee8 49%, #54a3ee 75%, #4b7dd8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #4b7dd8 0%, #54a3ee 24%, #6daee8 49%, #54a3ee 75%, #4b7dd8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #4b7dd8 0%, #54a3ee 24%, #6daee8 49%, #54a3ee 75%, #4b7dd8 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #4b7dd8 0%, #54a3ee 24%, #6daee8 49%, #54a3ee 75%, #4b7dd8 100%);
+  /* W3C */ }
+
 .content {
   position: relative;
   top: 50%;
@@ -166,8 +183,11 @@ body {
     max-height: 363px; }
   .today .sy-caption-wrap {
     width: 40%;
+    top: 50;
     height: 100%;
     bottom: 0em;
     left: 75%; }
+    .today .sy-caption-wrap .sy-caption {
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,21 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4b7dd8+0,54a3ee+24,6daee8+49,54a3ee+75,4b7dd8+100 */
+    background: rgb(75, 125, 216);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(75, 125, 216, 1) 0%, rgba(84, 163, 238, 1) 24%, rgba(109, 174, 232, 1) 49%, rgba(84, 163, 238, 1) 75%, rgba(75, 125, 216, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(75, 125, 216, 1)), color-stop(24%, rgba(84, 163, 238, 1)), color-stop(49%, rgba(109, 174, 232, 1)), color-stop(75%, rgba(84, 163, 238, 1)), color-stop(100%, rgba(75, 125, 216, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(75, 125, 216, 1) 0%, rgba(84, 163, 238, 1) 24%, rgba(109, 174, 232, 1) 49%, rgba(84, 163, 238, 1) 75%, rgba(75, 125, 216, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(75, 125, 216, 1) 0%, rgba(84, 163, 238, 1) 24%, rgba(109, 174, 232, 1) 49%, rgba(84, 163, 238, 1) 75%, rgba(75, 125, 216, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(75, 125, 216, 1) 0%, rgba(84, 163, 238, 1) 24%, rgba(109, 174, 232, 1) 49%, rgba(84, 163, 238, 1) 75%, rgba(75, 125, 216, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(75, 125, 216, 1) 0%, rgba(84, 163, 238, 1) 24%, rgba(109, 174, 232, 1) 49%, rgba(84, 163, 238, 1) 75%, rgba(75, 125, 216, 1) 100%);
+    /* W3C */
+}
+
 .content {
     position: relative;
     top: 50%;
@@ -28,10 +46,10 @@
 }
 
 .today {
-    position:relative;
+    position: relative;
     height: 363px;
     .today_wrapper {
-        position:absolute;
+        position: absolute;
         width: 100%;
         margin: 0 auto;
         max-height: 363px;
@@ -55,8 +73,12 @@
     }
     .sy-caption-wrap {
         width: 40%;
+        top: 50;
         height: 100%;
         bottom: 0em;
         left: 75%;
+        .sy-caption{
+            text-align: center;
+        }
     }
 }
