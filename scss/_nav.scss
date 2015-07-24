@@ -1,42 +1,73 @@
+@import 'font-face';
+@mixin nav_btn($color) {
+    //margin-top: 30px;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #FFF;
+    font-size: 19px;
+    background: $color none repeat scroll 0% 0%;
+    padding: 6px 31px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'supermarket';
+    &:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+    }
+}
+
 .nav_main {
     width: 100%;
     height: 100px;
-    background-color: #FFF;
-    opacity: .8;
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     top: 0px;
     z-index: 2;
-    .nav_area {
+}
 
-       // background-color: #F00;
-        width: 95%;
-        height: 50px;
-        margin: 10px auto;
-        ul {
-        	
-            li {            	
-                width: 50px;
-                display: inline;
-                img#nav_icon {
-                    float: left;
-                    width: 30px;
-                    height: 20px;
-                    margin-top: 30px;
-                }
-                img#nav_logo {
-                    margin: 0 auto;
-                    width: 116px;
-                    height: 79px;
-                    padding-left: 44%;
-                    //display: block;
-                }
-                img#nav_btn {
-                    float: right;
-                    width: 30px;
-                    height: 20px;
-                    margin-top: 30px;
-                }
+.nav_area {
+    // background-color: #F00;
+    width: 95%;
+    height: 50px;
+    margin: 10px auto;
+    ul {
+    	width: 50px;
+        li { 
+            //display: inline;
+            img#nav_icon {
+                float: left;
+                width: 30px;
+                height: 20px;
+                margin-top: 30px;
             }
+        }
+    }
+    #nav_logo {
+        margin: 0 auto;
+        width: 116px;
+        //padding-left: 44%;
+        //display: block;
+        img {
+            width: 116px;
+            height: 79px;
+              position: absolute;
+        }
+    }
+    #nav_btn {
+        width: 250px;
+        float: right;
+        margin-top: 30px;
+        #nav_btn1 {
+            @include nav_btn(#1F71B7);
+            margin-right: 10px;
+        }
+        #nav_btn2 {
+            @include nav_btn(#808080);
         }
     }
 }
