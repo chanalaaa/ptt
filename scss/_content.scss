@@ -47,8 +47,8 @@ body {
 
 .today {
     position: relative;
-    height: 363px;
-    .today_wrapper {
+    height: 300px;
+    .today-wrapper {
         position: absolute;
         width: 100%;
         margin: 0 auto;
@@ -57,11 +57,11 @@ body {
         overflow: hidden;
     }
     @media screen and (max-width: 800px) {
-        .today_wrapper {
+        .today-wrapper {
             width: 80%;
         }
     }
-    .today_block {
+    .today-block {
         width: 100%;
         max-height: 363px;
     }
@@ -102,9 +102,45 @@ body {
                 margin-top: 27px;
                 width: 58px;
                 height: 58px;
-                &:hover{
-                    opacity:.5;
+                &:hover {
+                    opacity: .5;
                 }
+            }
+        }
+    }
+}
+
+.privilege {
+    position: relative;
+    height: 363px;
+    .privilege-wrapper {
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: -7px;
+        max-height: 466px;
+        z-index: 22;
+        overflow: hidden;
+        
+    }
+    .privilege-block {
+        width: 100%;
+        max-height: auto;
+        .privilege-block_header {
+            background-image: url("../img/privilege/pvl_headder_box.png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            max-width: 960px;
+            height: 61px;
+            //border-radius: 15px;
+            .privilege-block_header-title {
+                float: right;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 1.4em;
+                letter-spacing: .2em;
+                margin: 3.1% 5% 0% 0%;
             }
         }
     }

@@ -165,8 +165,8 @@ body {
 
 .today {
   position: relative;
-  height: 363px; }
-  .today .today_wrapper {
+  height: 300px; }
+  .today .today-wrapper {
     position: absolute;
     width: 100%;
     margin: 0 auto;
@@ -174,9 +174,9 @@ body {
     top: -65px;
     overflow: hidden; }
   @media screen and (max-width: 800px) {
-    .today .today_wrapper {
+    .today .today-wrapper {
       width: 80%; } }
-  .today .today_block {
+  .today .today-block {
     width: 100%;
     max-height: 363px; }
   .today .sy-pager {
@@ -213,5 +213,34 @@ body {
         height: 58px; }
         .today .sy-caption-wrap .sy-caption .cap1_btn img:hover {
           opacity: .5; }
+
+.privilege {
+  position: relative;
+  height: 363px; }
+  .privilege .privilege-wrapper {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -7px;
+    max-height: 466px;
+    z-index: 22;
+    overflow: hidden; }
+  .privilege .privilege-block {
+    width: 100%;
+    max-height: auto; }
+    .privilege .privilege-block .privilege-block_header {
+      background-image: url("../img/privilege/pvl_headder_box.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      max-width: 960px;
+      height: 61px; }
+      .privilege .privilege-block .privilege-block_header .privilege-block_header-title {
+        float: right;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 1.4em;
+        letter-spacing: .2em;
+        margin: 3.1% 5% 0% 0%; }
 
 /*# sourceMappingURL=style.css.map */
