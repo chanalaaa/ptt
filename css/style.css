@@ -237,7 +237,7 @@ body {
       background-repeat: no-repeat;
       max-width: inherit;
       height: 61px; }
-      .privilege .privilege-block .privilege-block_header .privilege-block_header-title {
+      .privilege .privilege-block .privilege-block_header .privilege-block_header_title {
         max-width: inherit;
         float: right;
         color: #FFFFFF;
@@ -245,14 +245,29 @@ body {
         font-size: 1.4em;
         letter-spacing: .2em;
         margin: 3.1% 5% 0% 0%; }
-    .privilege .privilege-block .privilege-block_body-img {
+    .privilege .privilege-block .privilege-block_body_img_ul {
       max-width: inherit;
       list-style: none;
       font-size: 0px;
-      margin: 0 auto; }
-      .privilege .privilege-block .privilege-block_body-img li {
+      margin: 0 auto;
+      overflow: hidden; }
+      .privilege .privilege-block .privilege-block_body_img_ul li {
         display: inline; }
-        .privilege .privilege-block .privilege-block_body-img li img {
+        .privilege .privilege-block .privilege-block_body_img_ul li img {
           max-width: 320px; }
+    .privilege .privilege-block .privilege-block_body_info {
+      position: relative;
+      max-width: inherit; }
+      .privilege .privilege-block .privilege-block_body_info .privilege-block_body_info_ul {
+        list-style: none;
+        margin: 0 auto;
+        overflow: hidden; }
+        .privilege .privilege-block .privilege-block_body_info .privilege-block_body_info_ul li {
+          background-image: url("../img/privilege/tab_img.jpg");
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+          max-height: 85px;
+          display: inline; }
 
 /*# sourceMappingURL=style.css.map */

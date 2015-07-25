@@ -135,7 +135,7 @@ body {
             max-width: inherit;
             height: 61px;
             //border-radius: 15px;
-            .privilege-block_header-title {
+            .privilege-block_header_title {
                 max-width: inherit;
                 float: right;
                 color: #FFFFFF;
@@ -145,15 +145,35 @@ body {
                 margin: 3.1% 5% 0% 0%;
             }
         }
-        .privilege-block_body-img {
+        .privilege-block_body_img_ul {
             max-width: inherit;
             list-style: none;
             font-size: 0px;
             margin: 0 auto;
+            overflow: hidden;
             li {
                 display: inline;
                 img {
                     max-width: 320px;
+                }
+            }
+        }
+        .privilege-block_body_info {
+            position: relative;
+            max-width: inherit;
+            .privilege-block_body_info_ul {
+                //position: absolute;
+                list-style: none;
+                //font-size: 0px;
+                margin: 0 auto;
+                overflow: hidden;
+                li {
+                    background-image: url("../img/privilege/tab_img.jpg");
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    max-height: 85px;
+                    display:inline;
                 }
             }
         }
