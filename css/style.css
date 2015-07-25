@@ -82,6 +82,8 @@ body {
       width: 30px;
       height: 20px;
       margin-top: 30px; }
+      .nav_area ul li img#nav_icon:hover {
+        opacity: .5; }
   .nav_area #nav_logo {
     margin: 0 auto;
     width: 116px; }
