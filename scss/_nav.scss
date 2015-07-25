@@ -6,7 +6,7 @@
     color: #FFF;
     font-size: 19px;
     background: $color none repeat scroll 0% 0%;
-    padding: 0px 31px;
+    padding: 2px 31px 0px 31px;
     text-decoration: none;
     text-align: center;
     font-family: 'supermarket';
@@ -31,8 +31,8 @@
     height: 50px;
     margin: 10px auto;
     ul {
-    	width: 50px;
-        li { 
+        width: 50px;
+        li {
             //display: inline;
             img#nav_icon {
                 float: left;
@@ -50,7 +50,7 @@
         img {
             width: 116px;
             height: 79px;
-              position: absolute;
+            position: absolute;
         }
     }
     #nav_btn {
@@ -62,7 +62,7 @@
             margin-right: 10px;
         }
         #nav_btn2 {
-            @include nav_btn(#808080);
+            @include nav_btn(#808080);  
         }
     }
 }
