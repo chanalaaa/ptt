@@ -38,9 +38,16 @@
 <div class="privilege">
     <article class="privilege-wrapper">
         <section class="privilege-block">
-        <div class="privilege-block_header">
-        	<p class="privilege-block_header-title">PRIVILEGE</p>
-        </div>
+            <div class="privilege-block_header">
+                <p class="privilege-block_header-title">PRIVILEGE</p>
+            </div>
+            <div class="privilege-block_body">
+                <ul class="privilege-block_body-img">
+                	<li><img src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                	<li><img src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                	<li><img src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                </ul>
+            </div>
         </section>
     </article>
 </div>

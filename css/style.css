@@ -216,15 +216,17 @@ body {
 
 .privilege {
   position: relative;
-  height: 363px; }
+  height: 363px;
+  max-width: 960px;
+  margin-left: 20px; }
   .privilege .privilege-wrapper {
     position: absolute;
     width: 100%;
     margin: 0 auto;
     margin-top: -7px;
     max-height: 466px;
-    z-index: 22;
-    overflow: hidden; }
+    overflow: hidden;
+    z-index: 10; }
   .privilege .privilege-block {
     width: 100%;
     max-height: auto; }
@@ -233,14 +235,24 @@ body {
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-      max-width: 960px;
+      max-width: inherit;
       height: 61px; }
       .privilege .privilege-block .privilege-block_header .privilege-block_header-title {
+        max-width: inherit;
         float: right;
         color: #FFFFFF;
         text-align: center;
         font-size: 1.4em;
         letter-spacing: .2em;
         margin: 3.1% 5% 0% 0%; }
+    .privilege .privilege-block .privilege-block_body-img {
+      max-width: inherit;
+      list-style: none;
+      font-size: 0px;
+      margin: 0 auto; }
+      .privilege .privilege-block .privilege-block_body-img li {
+        display: inline; }
+        .privilege .privilege-block .privilege-block_body-img li img {
+          max-width: 320px; }
 
 /*# sourceMappingURL=style.css.map */
