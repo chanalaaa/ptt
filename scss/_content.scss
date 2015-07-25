@@ -112,7 +112,7 @@ body {
 
 .privilege {
     position: relative;
-    height: 363px;
+    height: 466px;
     max-width: 960px;
     margin-left: 20px;
     .privilege-wrapper {
@@ -120,13 +120,13 @@ body {
         width: 100%;
         margin: 0 auto;
         margin-top: -7px;
-        max-height: 466px;
+        max-height: 100%;
         overflow: hidden;
         z-index: 10;
     }
     .privilege-block {
         width: 100%;
-        max-height: auto;
+        max-height: 100%;
         .privilege-block_header {
             background-image: url("../img/privilege/pvl_headder_box.png");
             background-size: cover;
@@ -160,20 +160,24 @@ body {
         }
         .privilege-block_body_info {
             position: relative;
-            max-width: inherit;
+            max-width: 100%;
             .privilege-block_body_info_ul {
                 //position: absolute;
+                max-width: inherit;
                 list-style: none;
                 //font-size: 0px;
                 margin: 0 auto;
-                overflow: hidden;
-                li {
-                    background-image: url("../img/privilege/tab_img.jpg");
+                // overflow: hidden;
+                li.privilege-block_body_info_li {
+                    float: left;
+                    margin-top: -11px;
+                    display: inline;
+                    height: 85px;
+                    width: 320px;
+                    background-image: url("../img/privilege/tab_img.png");
                     background-size: cover;
                     background-position: center center;
                     background-repeat: no-repeat;
-                    max-height: 85px;
-                    display:inline;
                 }
             }
         }

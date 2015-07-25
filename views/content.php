@@ -49,9 +49,9 @@
                 </ul>
                 <div class="privilege-block_body_info">
                     <ul class="privilege-block_body_info_ul">
-                        <li>test1</li>
-                        <li>test2</li>
-                        <li>test3</li>
+                        <li class="privilege-block_body_info_li">test1</li>
+                        <li class="privilege-block_body_info_li">test2</li>
+                        <li class="privilege-block_body_info_li">test3</li>
                     </ul>
                 </div>
             </div>
