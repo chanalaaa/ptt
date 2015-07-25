@@ -20,14 +20,14 @@
 							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>
 
                             "></a>
-                            <!--
+                          
                         </li>
                         <li>
                             <a href="#"><img src="img/today/image-2.jpg" alt="This is an awesome jQuery slider plugin."></a>
                         </li>
                         <li>
                             <a href="#"><img src="img/today/image-4.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a>
-                        </li>-->
+                        </li>
                     </ul>
                 </article>
             </section>

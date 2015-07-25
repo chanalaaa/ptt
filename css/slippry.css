@@ -208,19 +208,37 @@
   .sy-controls li {
     position: absolute;
     width: 0%;
-    min-width: 2.9em;
+    min-width: 2.8em;
     height: 100%;
     z-index: 33; }
     .sy-controls li.sy-prev {
       left: 0;
       top: 0; }
       .sy-controls li.sy-prev a:after {
-        background-position: -5% 0; }
+        background-image: url("../img/today/ico/arrow.png");
+        width: 9px;
+        height: 18px;
+        padding: 23px 13px 23px 8px;
+        background-position: 35% center; 
+        background-repeat: no-repeat;
+        
+        }
     .sy-controls li.sy-next {
       right: 0;
       top: 0; }
       .sy-controls li.sy-next a:after {
-        background-position: 105% 0; }
+          background-image: url("../img/today/ico/arrow.png");
+          width: 9px;
+          height: 18px;
+          padding: 23px 15px 23px 8px;
+          background-position: center center; 
+          background-repeat: no-repeat;
+          -webkit-transform: rotate(180deg);
+          -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
     .sy-controls li a {
       position: relative;
       width: 100%;
@@ -228,29 +246,22 @@
       display: block;
       text-indent: -9999px; }
       .sy-controls li a:link, .sy-controls li a:visited {
-        opacity: 0.4; }
+        opacity: 0.8 ; }
       .sy-controls li a:hover, .sy-controls li a:focus {
-        opacity: 0.8;
+        opacity: 1;
         outline: none; }
       .sy-controls li a:after {
         content: "";
         background-image: url("../img/today/arrows.svg");
-        background-repeat: no-repeat;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        -webkit-background-size: cover;
-        background-size: cover;
         text-align: center;
         text-indent: 0;
         line-height: 2.8em;
         color: #111;
         font-weight: 800;
         position: absolute;
-        background-color: #fff;
-        width: 1.8em;
-        height: 4em;
+        background-color: rgba(255,255,255,0.3);
         left: 50%;
-        top: 50%;
+        top: 47%;
         margin-top: -1.4em;
         margin-left: -1.4em;
         }

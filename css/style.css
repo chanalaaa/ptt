@@ -209,5 +209,7 @@ body {
         margin-top: 27px;
         width: 58px;
         height: 58px; }
+        .today .sy-caption-wrap .sy-caption .cap1_btn img:hover {
+          opacity: .5; }
 
 /*# sourceMappingURL=style.css.map */

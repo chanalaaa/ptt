@@ -102,6 +102,9 @@ body {
                 margin-top: 27px;
                 width: 58px;
                 height: 58px;
+                &:hover{
+                    opacity:.5;
+                }
             }
         }
     }
