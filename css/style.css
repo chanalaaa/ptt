@@ -260,7 +260,23 @@ body {
           overflow: hidden;
           max-width: 320px; }
     .privilege .privilege-block .privilege-block_body .privilege-block_body_info {
-      height: 466px; }
+      height: auto;
+      /*
+      .privilege-block_body_info_ul_foot {
+          margin: 0 auto;
+          display: inline-flex;
+          max-width: inherit;
+          list-style: none;
+          border: none;
+          li.privilege-block_body_info_li_foot2 {
+              font-size: 0px;
+              width: 320px;
+              height: 20px;
+              background-color: #5FCDEF;
+              //margin-top: -1px;
+          }
+      }
+      */ }
       .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul {
         margin: 0 auto;
         display: inline-flex;
@@ -302,12 +318,12 @@ body {
               top: 11px;
               background-color: #5FCDEF;
               display: inline-block;
-              font-size: 0px;
-              border-bottom-left-radius: 18px; }
+              font-size: 0px; }
               .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box .privilege-block_body_info_li_tab:before {
                 background: #5FCDEF;
-                -moz-border-radius: 100px / 50px;
-                /* -webkit-border-radius: 100px / 50px; */
+                    /*
+-moz-border-radius: 200px / 15px;
+ -webkit-border-radius: 100px / 50px; */
                 border-radius: 200px / 15px;
                 border-bottom: 20px solid #5FCDEF;
                 border-left: 50px solid transparent;
@@ -316,7 +332,8 @@ body {
                 left: -12px;
                 position: absolute;
                 top: -11px;
-                width: 232px; }
+                width: 232px;
+                transform: rotate(180deg); }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box p {
               position: absolute;
               color: #FFF;
@@ -326,16 +343,5 @@ body {
               width: 320px;
               top: 30%;
               z-index: 20; }
-      .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul_foot {
-        margin: 0 auto;
-        display: inline-flex;
-        max-width: inherit;
-        list-style: none;
-        border: none; }
-        .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul_foot li.privilege-block_body_info_li_foot2 {
-          font-size: 0px;
-          width: 320px;
-          height: 20px;
-          background-color: #5FCDEF; }
 
 /*# sourceMappingURL=style.css.map */

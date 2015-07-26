@@ -59,13 +59,13 @@
                         </li>
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
-                                <img src="img/privilege/tab_img.png" alt="">
+                                <div class="privilege-block_body_info_li_tab"></div>
                                 <p>Muthi Maya Forest Pool Villa</p>
                             </div>
                         </li>
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
-                                <img src="img/privilege/tab_img.png" alt="">
+                                <div class="privilege-block_body_info_li_tab"></div>
                                 <p>Art In Paradise Bangkok</p>
                             </div>
                         </li>
@@ -126,25 +126,6 @@ fullpage.initialize('#fullpage', {
     css3: true,
     fitToSection: false
 });
-
-
-$( ".privilege-block_body_info_li_tab" )
-  .mouseenter(function() {
-    $( this ).animate({
-        height: "+=100px",
-        marginTop: "-=100px"
-    }, 200);
-  })
-  .mouseleave(function() {
-    $( this ).animate({
-        height: "-=100px",
-        marginTop: "+=100px"
-    }, 500);
-  });
-
-
-
-
 
 
 
