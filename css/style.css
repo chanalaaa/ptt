@@ -267,6 +267,7 @@ body {
         max-width: inherit;
         list-style: none; }
         .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li {
+          border: none;
           position: relative;
           margin-top: -11px;
           display: inline-block;
@@ -295,11 +296,13 @@ body {
         margin: 0 auto;
         display: inline-flex;
         max-width: inherit;
-        list-style: none; }
+        list-style: none;
+        border: none; }
         .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul_foot .privilege-block_body_info_li_foot {
           font-size: 0px;
           width: 320px;
           height: 20px;
-          background-color: #5FCDEF; }
+          background-color: #5FCDEF;
+          margin-top: -1px; }
 
 /*# sourceMappingURL=style.css.map */
