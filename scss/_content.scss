@@ -222,16 +222,14 @@ body {
                                 //border-bottom-left-radius: 18px;
                                 //transition: all .5s;
                                 &:before {
-                                    background: #5FCDEF;/*
-                                    -moz-border-radius: 200px / 15px;
-                                     -webkit-border-radius: 100px / 50px; */
+                                    position: absolute;
+                                    background: #5FCDEF;
                                     border-radius: 200px / 15px;
                                     border-bottom: 20px solid #5FCDEF;
-                                    border-left: 50px solid transparent;
+                                    border-left: 38px solid transparent;
                                     border-right: 50px solid transparent;
                                     content: "";
-                                    left: -12px;
-                                    position: absolute;
+                                    left: 0px;
                                     top: -11px;
                                     width: 232px;
                                     transform: rotate(180deg);
