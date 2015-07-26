@@ -214,17 +214,19 @@ body {
                                 position: relative;
                                 font-size: 0px;
                                 width: 320px;
-                                height: 20px;
+                                height: 100px;
                                 top: 11px;
-                                background-color: red;
+                                background-color: #5FCDEF;
                                 display: inline-block;
                                 font-size: 0px;
+                                border-bottom-left-radius: 18px;
+                                //transition: all .5s;
                                 &:before {
-                                    background: #6aceed;
+                                    background: #5FCDEF;
                                     -moz-border-radius: 100px / 50px;
                                     /* -webkit-border-radius: 100px / 50px; */
                                     border-radius: 200px / 15px;
-                                    border-bottom: 20px solid #6aceed;
+                                    border-bottom: 20px solid #5FCDEF;
                                     border-left: 50px solid transparent;
                                     border-right: 50px solid transparent;
                                     content: "";
@@ -241,7 +243,7 @@ body {
                                 font-weight: normal;
                                 text-align: center;
                                 width: 320px;
-                                top: -60%;
+                                top: 30%;
                                 z-index: 20;
                                 //vertical-align: bottom;
                             }

@@ -51,15 +51,11 @@
                     <ul class="privilege-block_body_info_ul">
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
-                                
-                                
                                 <div class="privilege-block_body_info_li_tab"></div>
                                 <p>Takumi Japanese
                                     <br> กับสุดยอดเชฟจากแดนปลาดิบ
                                 </p>
-                                
                             </div>
-                            
                         </li>
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
@@ -132,6 +128,26 @@ fullpage.initialize('#fullpage', {
 });
 
 
+$( ".privilege-block_body_info_li_tab" )
+  .mouseenter(function() {
+    $( this ).animate({
+        height: "+=100px",
+        marginTop: "-=100px"
+    }, 200);
+  })
+  .mouseleave(function() {
+    $( this ).animate({
+        height: "-=100px",
+        marginTop: "+=100px"
+    }, 500);
+  });
+
+
+
+
+
+
+
 $(function() {
     var demo1 = $("#today_ul").slippry({
         // transition: 'fade',
@@ -143,5 +159,6 @@ $(function() {
         // autoHover: false
 
     });
+
 });
 </script>
