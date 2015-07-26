@@ -50,31 +50,40 @@
                 <div class="privilege-block_body_info">
                     <ul class="privilege-block_body_info_ul">
                         <li class="privilege-block_body_info_li">
-                            <img src="img/privilege/tab_img.png" alt="">
-                            <p>Takumi Japanese
-                                <br> กับสุดยอดเชฟจากแดนปลาดิบ
-                            </p>
-                        </li>
-                        <li class="privilege-block_body_info_li">
-                            <img src="img/privilege/tab_img.png" alt="">
-                            <p>Muthi Maya Forest Pool Villa</p>
-                        </li>
-                        <li class="privilege-block_body_info_li">
-                            <img src="img/privilege/tab_img.png" alt="">
-                            <p>Art In Paradise Bangkok</p>
-                        </li>
-                    </ul>
-                    <ul  class="privilege-block_body_info_ul_foot">
-                        <li class="privilege-block_body_info_li_foot">
+                            <div class="privilege-block_body_info_box">
+                                
+                                
+                                <div class="privilege-block_body_info_li_tab"></div>
+                                <p>Takumi Japanese
+                                    <br> กับสุดยอดเชฟจากแดนปลาดิบ
+                                </p>
+                                
+                            </div>
                             
                         </li>
-                        <li class="privilege-block_body_info_li_foot">
-                            
+                        <li class="privilege-block_body_info_li">
+                            <div class="privilege-block_body_info_box">
+                                <img src="img/privilege/tab_img.png" alt="">
+                                <p>Muthi Maya Forest Pool Villa</p>
+                            </div>
                         </li>
-                        <li class="privilege-block_body_info_li_foot">
-                           
+                        <li class="privilege-block_body_info_li">
+                            <div class="privilege-block_body_info_box">
+                                <img src="img/privilege/tab_img.png" alt="">
+                                <p>Art In Paradise Bangkok</p>
+                            </div>
                         </li>
                     </ul>
+                    <!--
+                    <ul class="privilege-block_body_info_ul_foot">
+                        <li class="privilege-block_body_info_li_foot">
+                        </li>
+                        <li class="privilege-block_body_info_li_foot">
+                        </li>
+                        <li class="privilege-block_body_info_li_foot">
+                        </li>
+                    </ul>
+                    -->
                 </div>
             </div>
         </section>
@@ -121,6 +130,7 @@ fullpage.initialize('#fullpage', {
     css3: true,
     fitToSection: false
 });
+
 
 $(function() {
     var demo1 = $("#today_ul").slippry({

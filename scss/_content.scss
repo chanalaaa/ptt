@@ -171,7 +171,7 @@ body {
                     margin: 0 auto;
                     display: inline-flex;
                     max-width: inherit;
-                    list-style: none;                  
+                    list-style: none;
                     //border-style: #5FCDEF;
                     //position: absolute;
                     //position: relative;
@@ -187,36 +187,64 @@ body {
                         -webkit-transition: margin 2s;
                         transition: margin 2s;
                         flex-grow: 1;
-
                         //float: left;
                         //background-image: url("../img/privilege/tab_img.png");
                         //background-size: cover;
                         //background-position: center center;
                         //background-repeat: no-repeat;
-                        img {
-                            height: 85px;
+                        .privilege-block_body_info_box {
                             width: 320px;
-                            position: absolute;
-                            overflow: hidden;
-                            font-size: 0px;
-
-                        }
-
-                        &:hover {
-                            margin-top: 100px;
-                            //opacity: .5;
-                            //height: 120px;
-                        }
-
-                        p {
-                            position: absolute;
-                            color: #FFF;
-                            font-size: 1.4em;
-                            font-weight: normal;
-                            text-align: center;
-                            top: 30%;
-                            width: 320px;
-                            //vertical-align: bottom;
+                            height: auto;
+                            display: block;
+                            /*
+                            img {
+                                height: 85px;
+                                width: 320px;
+                                //position: absolute;
+                                //overflow: hidden;
+                                font-size: 0px;
+                            }
+                            &:hover {
+                                //margin-top: -40px;
+                                //opacity: .5;
+                                //height: 120px;
+                            }
+                            */
+                            .privilege-block_body_info_li_tab {
+                                position: relative;
+                                font-size: 0px;
+                                width: 320px;
+                                height: 20px;
+                                top: 11px;
+                                background-color: red;
+                                display: inline-block;
+                                font-size: 0px;
+                                &:before {
+                                    background: #6aceed;
+                                    -moz-border-radius: 100px / 50px;
+                                    /* -webkit-border-radius: 100px / 50px; */
+                                    border-radius: 200px / 15px;
+                                    border-bottom: 20px solid #6aceed;
+                                    border-left: 50px solid transparent;
+                                    border-right: 50px solid transparent;
+                                    content: "";
+                                    left: -12px;
+                                    position: absolute;
+                                    top: -11px;
+                                    width: 232px;
+                                }
+                            }
+                            p {
+                                position: absolute;
+                                color: #FFF;
+                                font-size: 1.4em;
+                                font-weight: normal;
+                                text-align: center;
+                                width: 320px;
+                                top: -60%;
+                                z-index: 20;
+                                //vertical-align: bottom;
+                            }
                         }
                     }
                 }
@@ -226,12 +254,12 @@ body {
                     max-width: inherit;
                     list-style: none;
                     border: none;
-                    .privilege-block_body_info_li_foot {
+                    li.privilege-block_body_info_li_foot2 {
                         font-size: 0px;
                         width: 320px;
                         height: 20px;
                         background-color: #5FCDEF;
-                        margin-top: -1px;
+                        //margin-top: -1px;
                     }
                 }
             }
