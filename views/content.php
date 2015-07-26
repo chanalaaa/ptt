@@ -15,19 +15,19 @@
                     <ul id="today_ul">
                         <li>
                             <a href="#"><img src="img/today/image-1.jpg" alt=" 
-                            <div class='cap1_title'><p>TODAY'S SPECIAL</p></div> <br>
+                            <div class='cap1_title'><p>today's special</p></div> <br>
 							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
 							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>"></a>
         </li>
         <li>
             <a href="#"><img src="img/today/image-1.jpg" alt=" 
-                            <div class='cap1_title'><p>TOMORROW'S SPECIAL</p></div> <br>
+                            <div class='cap1_title'><p>tomorrow special</p></div> <br>
 							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
 							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>"></a>
     </li>
     <li>
         <a href="#"><img src="img/today/image-1.jpg" alt=" 
-                            <div class='cap1_title'><p>SOMEDAY'S SPECIAL</p></div> <br>
+                            <div class='cap1_title'><p>someday special</p></div> <br>
 							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
 							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>"></a>
 </li>
@@ -39,7 +39,7 @@
     <article class="privilege-wrapper">
         <section class="privilege-block">
             <div class="privilege-block_header">
-                <p class="privilege-block_header_title">PRIVILEGE</p>
+                <p class="privilege-block_header_title">privilege</p>
             </div>
             <div class="privilege-block_body">
                 <ul class="privilege-block_body_img_ul">
@@ -49,9 +49,31 @@
                 </ul>
                 <div class="privilege-block_body_info">
                     <ul class="privilege-block_body_info_ul">
-                        <li class="privilege-block_body_info_li">test1</li>
-                        <li class="privilege-block_body_info_li">test2</li>
-                        <li class="privilege-block_body_info_li">test3</li>
+                        <li class="privilege-block_body_info_li">
+                            <img src="img/privilege/tab_img.png" alt="">
+                            <p>Takumi Japanese
+                                <br> กับสุดยอดเชฟจากแดนปลาดิบ
+                            </p>
+                        </li>
+                        <li class="privilege-block_body_info_li">
+                            <img src="img/privilege/tab_img.png" alt="">
+                            <p>Muthi Maya Forest Pool Villa</p>
+                        </li>
+                        <li class="privilege-block_body_info_li">
+                            <img src="img/privilege/tab_img.png" alt="">
+                            <p>Art In Paradise Bangkok</p>
+                        </li>
+                    </ul>
+                    <ul  class="privilege-block_body_info_ul_foot">
+                        <li class="privilege-block_body_info_li_foot">
+                            
+                        </li>
+                        <li class="privilege-block_body_info_li_foot">
+                            
+                        </li>
+                        <li class="privilege-block_body_info_li_foot">
+                           
+                        </li>
                     </ul>
                 </div>
             </div>
