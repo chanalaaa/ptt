@@ -44,14 +44,14 @@
             <div class="privilege-block_body">
                 <ul class="privilege-block_body_img_ul">
                     <li><img src="img/privilege/pvl_img/1.jpg" alt=""></li>
-                    <li><img src="img/privilege/pvl_img/1.jpg" alt=""></li>
-                    <li><img src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                    <li><img src="img/privilege/pvl_img/2.jpg" alt=""></li>
+                    <li><img src="img/privilege/pvl_img/3.jpg" alt=""></li>
                 </ul>
                 <div class="privilege-block_body_info">
                     <ul class="privilege-block_body_info_ul">
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
-                                <div class="privilege-block_body_info_li_tab"></div>
+                                <div id="pvl_first_tab_li" class="privilege-block_body_info_li_tab"></div>
                                 <p>Takumi Japanese
                                     <br> กับสุดยอดเชฟจากแดนปลาดิบ
                                 </p>
@@ -65,11 +65,12 @@
                         </li>
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
-                                <div class="privilege-block_body_info_li_tab"></div>
+                                <div id="pvl_last_tab_li" class="privilege-block_body_info_li_tab"></div>
                                 <p>Art In Paradise Bangkok</p>
                             </div>
                         </li>
                     </ul>
+                    <img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
                     <!--
                     <ul class="privilege-block_body_info_ul_foot">
                         <li class="privilege-block_body_info_li_foot">

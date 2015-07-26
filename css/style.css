@@ -260,7 +260,7 @@ body {
           overflow: hidden;
           max-width: 320px; }
     .privilege .privilege-block .privilege-block_body .privilege-block_body_info {
-      height: auto;
+      height: 6.25em;
       /*
       .privilege-block_body_info_ul_foot {
           margin: 0 auto;
@@ -277,11 +277,16 @@ body {
           }
       }
       */ }
+      .privilege .privilege-block .privilege-block_body .privilege-block_body_info img.privilege-block_body_info_quote_footer {
+        float: right;
+        width: 282px;
+        height: 120px; }
       .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul {
         margin: 0 auto;
         display: inline-flex;
         max-width: inherit;
-        list-style: none; }
+        list-style: none;
+        height: inherit; }
         .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li {
           border: none;
           position: relative;
@@ -331,6 +336,10 @@ body {
                 top: -11px;
                 width: 232px;
                 transform: rotate(180deg); }
+            .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box #pvl_first_tab_li {
+              border-bottom-left-radius: 18px; }
+            .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box #pvl_last_tab_li {
+              border-bottom-right-radius: 18px; }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box p {
               position: absolute;
               color: #FFF;
