@@ -96,17 +96,24 @@
                     <p class="promotion-block_header_title">promotion</p>
                 </div>
             </div>
-            <div class="promotion_slide_block">
-                <ul id="promotion_slide_ul">
+            <div class="promotion-slide_block">
+                <ul id="promotion-slide_ul">
                     <li>
                         <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
                     </li>
                     <li>
                         <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
                     </li>
+                </ul>
+            </div>
+            <div class="promotion-slide_tab">
+                <div class="promotion-slide_tab_img">
+                    <div class="promotion-slide_tab_info">
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="promotion-block-info">
+        <section class="promotion-block_info">
         </section>
     </article>
 </div>
@@ -166,7 +173,7 @@ $(function() {
 
     });
 
-    $("#promotion_slide_ul").slippry({
+    $("#promotion-slide_ul").slippry({
         // transition: 'fade',
         // useCSS: true,
         // speed: 1000,
