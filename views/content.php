@@ -140,9 +140,11 @@
 </div>
 
 
-<div class="promote">
-    <article class="promotion-wrapper">
-        <section class="promotion-block_slide">
+<div class="news">
+    <article class="news-wrapper">
+        <section class="news-block_left">
+        </section>
+        <section class="news-block_right">
         </section>
     </article>
 </div>
