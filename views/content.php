@@ -118,7 +118,6 @@
             </div>
             <img id="prm_quote_footer" src="img/promotion/prm_slide/prm_quote_footer.png" alt="">
         </section>
-
         <section class="promotion-block_info">
             <div class="promotion-block_info_block">
                 <div class="prm_info_one">
@@ -139,6 +138,17 @@
         </section>
     </article>
 </div>
+
+
+<div class="promote">
+    <article class="promotion-wrapper">
+        <section class="promotion-block_slide">
+        </section>
+    </article>
+</div>
+
+
+
 <br>
 <br>
 <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.

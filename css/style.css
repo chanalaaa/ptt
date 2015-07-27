@@ -364,7 +364,7 @@ body {
     position: relative;
     display: inline-block;
     width: 100%;
-    height: 330px; }
+    height: 350px; }
     .promotion .promotion-wrapper .promotion-block_slide {
       position: absolute;
       width: 63%;
@@ -399,7 +399,7 @@ body {
         .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box {
           height: 280px; }
           .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-controls li.sy-next {
-            right: -13px; }
+            right: -16px; }
           .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-pager {
             display: none; }
       .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_tab {
