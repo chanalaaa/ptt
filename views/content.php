@@ -96,7 +96,10 @@
                 <ul id="promotion_slide_ul">
                     <li>
                         <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
-            </li>
+            		</li>
+            		<li>
+                        <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+            		</li>
 </div>
 </section>
 <section class="promotion-block-info">
@@ -148,7 +151,7 @@ fullpage.initialize('#fullpage', {
 
 
 $(function() {
-    var demo1 = $("#today_ul").slippry({
+    $("#today_ul").slippry({
         // transition: 'fade',
         // useCSS: true,
         // speed: 1000,
@@ -159,7 +162,7 @@ $(function() {
 
     });
 
-    var demo2 = $("#promotion_slide_ul").slippry({
+    $("#promotion_slide_ul").slippry({
         // transition: 'fade',
         // useCSS: true,
         // speed: 1000,

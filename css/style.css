@@ -183,8 +183,8 @@ body {
   .today .today-block {
     width: 100%;
     max-height: 363px; }
-  .today .sy-pager {
-    display: none; }
+    .today .today-block .sy-pager {
+      display: none; }
   .today a img {
     border-radius: 15px;
     width: 45%;
@@ -392,6 +392,12 @@ body {
         width: 100%;
         max-height: 338px;
         overflow: hidden; }
+        .promotion .promotion-wrapper .promotion-block_slide .promotion_slide_block .sy-box {
+          height: 280px; }
+          .promotion .promotion-wrapper .promotion-block_slide .promotion_slide_block .sy-box .sy-controls li.sy-next {
+            right: -13px; }
+          .promotion .promotion-wrapper .promotion-block_slide .promotion_slide_block .sy-box .sy-pager {
+            display: none; }
 
 /* End Promotion * --------------------------------------- */
 
