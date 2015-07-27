@@ -482,7 +482,28 @@ body {
                             letter-spacing: .05em;
                         }
                     }
-                }
+                } //end .news_email_title
+                .news_email_input {
+                    input.input_box {
+                        margin-top: 20px;
+                        width: 284px;
+                        height: 38px;
+                        padding-left: 20px;
+                        background: url("../img/news/news_ico/ico_input.png");
+                        cursor: pointer;
+                        background-size: cover;
+                        border: none;
+                        color: #FFF;
+                        outline: none;
+                        font-family: "supermarket";
+                        font-size: 1.2em;
+                        opacity: 0.8;
+                        &:focus,
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                } //end .news_email_input
             }
         } //end .news-block_left
         .news-block_right {

@@ -138,30 +138,28 @@
         </section>
     </article>
 </div>
-
-
 <div class="news">
     <article class="news-wrapper">
         <section class="news-block_left">
-        <div class="email">
-        <div class="news_email_title">
-        	 <img src="img/news/news_ico/ico_email.png " alt="">
+            <div class="email">
+                <div class="news_email_title">
+                    <img src="img/news/news_ico/ico_email.png " alt="">
                     <div class="news_email_info">
-                    	<h2>e-Newsletter</h2>
+                        <h2>e-Newsletter</h2>
                         <p>ข่าวสารอัพเดท ตรงถึงชาวบลู</p>
-                        
                     </div>
-        </div>
-        	
-        </div>
+                </div>
+                <div class="news_email_input">
+                    <form>
+                        <input class="input_box" type="email" name="email" placeholder="your e-mail" value="">
+                    </form>
+                </div>
+            </div>
         </section>
         <section class="news-block_right">
         </section>
     </article>
 </div>
-
-
-
 <br>
 <br>
 <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.
