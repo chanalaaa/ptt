@@ -172,6 +172,14 @@
             </div>
         </section>
         <section class="news-block_right">
+        <div class="activity">
+        	<div class="ac_header">
+        		<p class="ac_header_title">activity</p>
+
+        	</div>
+
+        </div>
+
         </section>
     </article>
 </div>

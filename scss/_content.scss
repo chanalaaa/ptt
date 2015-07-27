@@ -574,7 +574,6 @@ body {
                                 letter-spacing: .03em;
                                 margin-top: 17px;
                             }
-
                             img {
                                 width: 58px;
                                 height: 58px;
@@ -594,6 +593,30 @@ body {
             height: 750px;
             float: right;
             background-color: rgba(0, 255, 0, 0.5);
+            .activity {
+                position: absolute;
+                width: 100%;
+                height: 453px;
+                background-color: rgba(211, 25, 122, 0.5);
+                overflow: hidden;
+                top: -130px;
+                z-index: 40;
+                .ac_header {
+                    @include bg_img("../img/news/news_tab/ac_header.png");
+                    max-width: 100%;
+                    height: 46px;
+                    .ac_header_title {
+                        max-width: inherit;
+                        float: right;
+                        color: #323232;
+                        text-align: center;
+                        font-size: 1.4em;
+                        letter-spacing: .2em;
+                        margin: 4% 10% 0% 8%;
+                        text-transform: uppercase;
+                    }
+                }
+            } //end .activity
         } //end .news-block_right
     } //end .news-wrapper
 } //end .news

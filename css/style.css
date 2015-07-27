@@ -603,6 +603,32 @@ body {
       height: 750px;
       float: right;
       background-color: rgba(0, 255, 0, 0.5); }
+      .news .news-wrapper .news-block_right .activity {
+        position: absolute;
+        width: 100%;
+        height: 453px;
+        background-color: rgba(211, 25, 122, 0.5);
+        overflow: hidden;
+        top: -130px;
+        z-index: 40; }
+        .news .news-wrapper .news-block_right .activity .ac_header {
+          background-image: url("../img/news/news_tab/ac_header.png");
+          background-size: 100% 100%;
+          background-position: center center;
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          max-width: 100%;
+          height: 46px; }
+          .news .news-wrapper .news-block_right .activity .ac_header .ac_header_title {
+            max-width: inherit;
+            float: right;
+            color: #323232;
+            text-align: center;
+            font-size: 1.4em;
+            letter-spacing: .2em;
+            margin: 4% 10% 0% 8%;
+            text-transform: uppercase; }
 
 /*End News * --------------------------------------- */
 
