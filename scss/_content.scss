@@ -323,8 +323,8 @@ body {
             width: 50%;
             height: 540px;
             float: left;
-            background-color: red;
-            top: -150px;
+            //background-color: red;
+            top: -145px;
             z-index: 30;
             .promotion-block_header_block {
                 max-width: 100%;
@@ -388,11 +388,16 @@ body {
                         height: 58px;
                         float: right;
                         margin: 8.5% 5% 0% 0%;
-                        &:hover{
-                            opacity:.6;
+                        &:hover {
+                            opacity: .6;
                         }
                     }
                 }
+            }
+            img#prm_quote_footer {
+                width: 148px;
+                height: 48px;
+                margin: -7% 37%;
             }
         } //end .promotion-slide_block
     } //end .promotion-wrapper

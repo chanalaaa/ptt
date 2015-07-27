@@ -115,8 +115,8 @@
                     </div>
                     <img src="img/ico/ico_go.png" alt="">
                 </div>
-
             </div>
+            <img id="prm_quote_footer" src="img/promotion/prm_slide/prm_quote_footer.png" alt="">
         </section>
         <section class="promotion-block_info">
         </section>
