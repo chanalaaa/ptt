@@ -129,10 +129,9 @@
                 </div>
                 <img id="ico_line" src="img/promotion/prm_ico/ico_line.png " alt="">
                 <div class="prm_info_one">
-                    <img src="img/promotion/prm_ico/ico_gas.png " alt="">
+                    <img src="img/promotion/prm_ico/ico_twit.png " alt="">
                     <div class="prm_info_one_info">
-                        <p>Blue Gasohal 95</p>
-                        <h2>35.66 บาท</h2>
+                        <p>ปตท. ร่วมใจช่วยภัยแล้ง สมาชิกบัตรสินเชื่อ เกษตรกร รับส่วนลดน้ำมัน ลิตรละ 50 ส.ต. และส่วนลด 10 %</p>
                     </div>
                 </div>
             </div>

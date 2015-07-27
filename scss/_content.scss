@@ -401,16 +401,16 @@ body {
             }
         } //end .promotion-block_slide
         .promotion-block_info {
-            width: 30%;
+            width: 31%;
             height: 220px;
-            background-color: red;
+            //background-color: red;
             float: right;
             margin-top: 3%;
             .promotion-block_info_block {
                 display: block;
                 .prm_info_one {
-                    display: inline-block;
-                    width: 75%;
+                    display: inline-flex;
+                    width: 100%;
                     img {
                         width: 78px;
                         height: 78px;
@@ -418,8 +418,12 @@ body {
                     }
                     .prm_info_one_info {
                         float: right;
-                        margin-top: 7.5%;
+                        margin-top: 2.5%;
                         color: #FFF;
+                        margin-left: 10%;
+                        p{
+                            font-size: 1.1em;
+                        }
                         h2 {
                             font-size: 2em;
                         }
@@ -427,8 +431,10 @@ body {
                 }
                 #ico_line {
                     width: 310px;
+                    height: 1px;
                     padding: 20px 0px;
                 }
+               
             }
         } //end .promotion-block_info
     } //end .promotion-wrapper
