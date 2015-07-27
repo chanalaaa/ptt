@@ -86,6 +86,35 @@
         </section>
     </article>
 </div>
+
+
+
+
+<div class="promotion">
+    <article class="promotion-wrapper">
+        <section class="promotion-block-slide">
+
+
+
+
+
+
+
+        
+        </section>
+        <section class="promotion-block-info">
+        </section>
+    </article>
+</div>
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.

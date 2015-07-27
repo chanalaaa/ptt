@@ -27,9 +27,16 @@ body {
     }
 }
 
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000;
+    position: relative;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+}
 
-/* Section 1
-         * --------------------------------------- */
+/* Header * --------------------------------------- */
 
 #section1 {
     background-image: url("../img/header_img/1.jpg");
@@ -37,173 +44,173 @@ body {
     background-size: cover;
 }
 
-.wrap {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 980px;
-    position: relative;
-    padding: 20px 0 20px 0;
-}
 
-.today {
-    position: relative;
-    height: 300px;
-    .today-wrapper {
-        position: absolute;
-        width: 100%;
-        margin: 0 auto;
-        max-height: 363px;
-        top: -65px;
-        overflow: hidden;
-    }
-    @media screen and (max-width: 800px) {
+/* End Header * --------------------------------------- */
+
+
+    /* Today * --------------------------------------- */
+    .today {
+        width: 980px;
+        position: relative;
+        height: 300px;
+        margin-left: 20px;
         .today-wrapper {
-            width: 80%;
+            position: absolute;
+            width: 100%;
+            margin: 0 auto;
+            max-height: 363px;
+            top: -65px;
+            overflow: hidden;
         }
-    }
-    .today-block {
-        width: 100%;
-        max-height: 363px;
-    }
-    .sy-pager {
-        display: none;
-    }
-    a img {
-        border-radius: 15px;
-        width: 45%;
-        max-height: 363px;
-    }
-    .sy-caption-wrap {
-        width: 40%;
-        top: 75;
-        height: 100%;
-        bottom: 0em;
-        left: 70%;
-        .sy-caption {
-            text-align: center;
-            z-index: 333;
-            display: block;
-            .cap1_title {
-                background-color: #FFF;
-                color: #1F71B7;
-                padding: 5px 12px 2px;
-                width: 60%;
-                font-size: 1.5em;
-                margin: 0 auto;
-                letter-spacing: .1em;
-                text-transform: uppercase;
-            }
-            .cap1_info {
-                margin-top: 32px;
-                color: #FFF;
-                font-size: 1.7em;
-                //letter-spacing: .05em;
-            }
-            .cap1_btn img {
-                margin-top: 27px;
-                width: 58px;
-                height: 58px;
-                &:hover {
-                    opacity: .5;
-                }
+        @media screen and (max-width: 800px) {
+            .today-wrapper {
+                width: 80%;
             }
         }
-    }
-}
-
-.privilege {
-    position: relative;
-    height: 466px;
-    max-width: 960px;
-    margin-left: 20px;
-    .privilege-wrapper {
-        position: absolute;
-        width: 100%;
-        margin: 0 auto;
-        margin-top: -7px;
-        max-height: 100%;
-        overflow: hidden;
-        z-index: 10;
-    }
-    .privilege-block {
-        width: 100%;
-        max-height: 100%;
-        .privilege-block_header {
-            background-image: url("../img/privilege/pvl_headder_box.png");
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            max-width: inherit;
-            height: 61px;
-            //border-radius: 15px;
-            .privilege-block_header_title {
-                max-width: inherit;
-                float: right;
-                color: #FFFFFF;
+        .today-block {
+            width: 100%;
+            max-height: 363px;
+        }
+        .sy-pager {
+            display: none;
+        }
+        a img {
+            border-radius: 15px;
+            width: 45%;
+            max-height: 363px;
+        }
+        .sy-caption-wrap {
+            width: 40%;
+            top: 75;
+            height: 100%;
+            bottom: 0em;
+            left: 70%;
+            .sy-caption {
                 text-align: center;
-                font-size: 1.4em;
-                letter-spacing: .2em;
-                margin: 3.1% 5% 0% 0%;
-                text-transform: uppercase;
-            }
-        }
-        .privilege-block_body {
-            .privilege-block_body_img_ul {
-                max-width: inherit;
-                list-style: none;
-                font-size: 0px;
-                margin: 0 auto;
-                overflow: hidden;
-                li {
-                    display: inline;
-                    img {
-                        position: relative;
-                        overflow: hidden;
-                        max-width: 320px;
-                        //height: 466px;
+                z-index: 333;
+                display: block;
+                .cap1_title {
+                    background-color: #FFF;
+                    color: #1F71B7;
+                    padding: 5px 12px 2px;
+                    width: 60%;
+                    font-size: 1.5em;
+                    margin: 0 auto;
+                    letter-spacing: .1em;
+                    text-transform: uppercase;
+                }
+                .cap1_info {
+                    margin-top: 32px;
+                    color: #FFF;
+                    font-size: 1.7em;
+                    //letter-spacing: .05em;
+                }
+                .cap1_btn img {
+                    margin-top: 27px;
+                    width: 58px;
+                    height: 58px;
+                    &:hover {
+                        opacity: .5;
                     }
                 }
             }
-            .privilege-block_body_info {
-                //max-width: 100%;
-                height: 6.25em;
-                img.privilege-block_body_info_quote_footer {
+        }
+    }
+    /* End Today * --------------------------------------- */
+    /* Privilege * --------------------------------------- */
+    .privilege {
+        position: relative;
+        height: 466px;
+        max-width: 980px;
+        margin-left: 40px;
+        .privilege-wrapper {
+            position: absolute;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: -7px;
+            max-height: 100%;
+            overflow: hidden;
+            z-index: 10;
+        }
+        .privilege-block {
+            width: 100%;
+            max-height: 100%;
+            .privilege-block_header {
+                background-image: url("../img/privilege/pvl_headder_box.png");
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                max-width: inherit;
+                height: 61px;
+                //border-radius: 15px;
+                .privilege-block_header_title {
+                    max-width: inherit;
                     float: right;
-                    width: 282px;
-                    height: 120px;
-                    //position:absolute;
+                    color: #FFFFFF;
+                    text-align: center;
+                    font-size: 1.4em;
+                    letter-spacing: .2em;
+                    margin: 3.1% 5% 0% 0%;
+                    text-transform: uppercase;
                 }
-                .privilege-block_body_info_ul {
-                    margin: 0 auto;
-                    display: inline-flex;
+            }
+            .privilege-block_body {
+                .privilege-block_body_img_ul {
                     max-width: inherit;
                     list-style: none;
-                    height: inherit;
-                    //border-style: #5FCDEF;
-                    //position: absolute;
-                    //position: relative;
-                    //font-size: 0px;
-                    //overflow: hidden;
-                    li.privilege-block_body_info_li {
-                        border: none;
-                        position: relative;
-                        margin-top: -11px;
-                        display: inline-block;
-                        height: 85px;
-                        width: 320px;
-                        -webkit-transition: margin 2s;
-                        transition: margin 2s;
-                        flex-grow: 1;
-                        //float: left;
-                        //background-image: url("../img/privilege/tab_img.png");
-                        //background-size: cover;
-                        //background-position: center center;
-                        //background-repeat: no-repeat;
-                        .privilege-block_body_info_box {
+                    font-size: 0px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    li {
+                        display: inline;
+                        img {
+                            position: relative;
+                            overflow: hidden;
+                            max-width: 320px;
+                            //height: 466px;
+                        }
+                    }
+                }
+                .privilege-block_body_info {
+                    //max-width: 100%;
+                    height: 6.25em;
+                    img.privilege-block_body_info_quote_footer {
+                        float: right;
+                        width: 282px;
+                        height: 120px;
+                        //position:absolute;
+                    }
+                    .privilege-block_body_info_ul {
+                        margin: 0 auto;
+                        display: inline-flex;
+                        max-width: inherit;
+                        list-style: none;
+                        height: inherit;
+                        //border-style: #5FCDEF;
+                        //position: absolute;
+                        //position: relative;
+                        //font-size: 0px;
+                        //overflow: hidden;
+                        li.privilege-block_body_info_li {
+                            border: none;
+                            position: relative;
+                            margin-top: -11px;
+                            display: inline-block;
+                            height: 85px;
                             width: 320px;
-                            height: auto;
-                            display: block;
-                            /*
+                            -webkit-transition: margin 2s;
+                            transition: margin 2s;
+                            flex-grow: 1;
+                            //float: left;
+                            //background-image: url("../img/privilege/tab_img.png");
+                            //background-size: cover;
+                            //background-position: center center;
+                            //background-repeat: no-repeat;
+                            .privilege-block_body_info_box {
+                                width: 320px;
+                                height: auto;
+                                display: block;
+                                /*
                             img {
                                 height: 85px;
                                 width: 320px;
@@ -217,52 +224,52 @@ body {
                                 //height: 120px;
                             }
                             */
-                            .privilege-block_body_info_li_tab {
-                                position: relative;
-                                font-size: 0px;
-                                width: 320px;
-                                height: 100px;
-                                top: 11px;
-                                background-color: #5FCDEF;
-                                display: inline-block;
-                                font-size: 0px;
-                                //border-bottom-left-radius: 18px;
-                                //transition: all .5s;
-                                &:before {
+                                .privilege-block_body_info_li_tab {
+                                    position: relative;
+                                    font-size: 0px;
+                                    width: 320px;
+                                    height: 100px;
+                                    top: 11px;
+                                    background-color: #5FCDEF;
+                                    display: inline-block;
+                                    font-size: 0px;
+                                    //border-bottom-left-radius: 18px;
+                                    //transition: all .5s;
+                                    &:before {
+                                        position: absolute;
+                                        background: #5FCDEF;
+                                        border-radius: 200px / 15px;
+                                        border-bottom: 20px solid #5FCDEF;
+                                        border-left: 38px solid transparent;
+                                        border-right: 50px solid transparent;
+                                        content: "";
+                                        left: 0px;
+                                        top: -11px;
+                                        width: 232px;
+                                        transform: rotate(180deg);
+                                    }
+                                }
+                                #pvl_first_tab_li {
+                                    border-bottom-left-radius: 18px;
+                                }
+                                #pvl_last_tab_li {
+                                    border-bottom-right-radius: 18px;
+                                }
+                                p {
                                     position: absolute;
-                                    background: #5FCDEF;
-                                    border-radius: 200px / 15px;
-                                    border-bottom: 20px solid #5FCDEF;
-                                    border-left: 38px solid transparent;
-                                    border-right: 50px solid transparent;
-                                    content: "";
-                                    left: 0px;
-                                    top: -11px;
-                                    width: 232px;
-                                    transform: rotate(180deg);
+                                    color: #FFF;
+                                    font-size: 1.4em;
+                                    font-weight: normal;
+                                    text-align: center;
+                                    width: 320px;
+                                    top: 30%;
+                                    z-index: 20;
+                                    //vertical-align: bottom;
                                 }
                             }
-                            #pvl_first_tab_li {
-                                border-bottom-left-radius: 18px;
-                            }
-                            #pvl_last_tab_li {
-                                border-bottom-right-radius: 18px;
-                            }
-                            p {
-                                position: absolute;
-                                color: #FFF;
-                                font-size: 1.4em;
-                                font-weight: normal;
-                                text-align: center;
-                                width: 320px;
-                                top: 30%;
-                                z-index: 20;
-                                //vertical-align: bottom;
-                            }
                         }
-                    }
-                }
-                /*
+                    } // end .privilege-block_body_info_ul
+                    /*
                 .privilege-block_body_info_ul_foot {
                     margin: 0 auto;
                     display: inline-flex;
@@ -278,7 +285,21 @@ body {
                     }
                 }
                 */
+                }
             }
         }
-    }
-}
+    } //end .privilege
+    /* End Privilege * --------------------------------------- */
+    /* Promotion * --------------------------------------- */
+    .promotion {
+        position: relative;
+        margin-top: 10px;
+        //margin-left: 20px;
+        .promotion-wrapper {
+            max-width: 990px;
+            height: 600px;
+        }
+    } //end .promotion
+
+    /* End Promotion * --------------------------------------- */
+

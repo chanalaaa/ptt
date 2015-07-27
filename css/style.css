@@ -149,23 +149,27 @@ body {
     width: 172px;
     height: 60px; }
 
-/* Section 1
-         * --------------------------------------- */
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000;
+  position: relative;
+  padding: 20px 0 20px 0;
+  margin: 0 auto; }
+
+/* Header * --------------------------------------- */
 #section1 {
   background-image: url("../img/header_img/1.jpg");
   background-position: center center;
   background-size: cover; }
 
-.wrap {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 980px;
-  position: relative;
-  padding: 20px 0 20px 0; }
-
+/* End Header * --------------------------------------- */
+/* Today * --------------------------------------- */
 .today {
+  width: 980px;
   position: relative;
-  height: 300px; }
+  height: 300px;
+  margin-left: 20px; }
   .today .today-wrapper {
     position: absolute;
     width: 100%;
@@ -215,11 +219,13 @@ body {
         .today .sy-caption-wrap .sy-caption .cap1_btn img:hover {
           opacity: .5; }
 
+/* End Today * --------------------------------------- */
+/* Privilege * --------------------------------------- */
 .privilege {
   position: relative;
   height: 466px;
-  max-width: 960px;
-  margin-left: 20px; }
+  max-width: 980px;
+  margin-left: 40px; }
   .privilege .privilege-wrapper {
     position: absolute;
     width: 100%;
@@ -261,22 +267,22 @@ body {
           max-width: 320px; }
     .privilege .privilege-block .privilege-block_body .privilege-block_body_info {
       height: 6.25em;
-      /*
-      .privilege-block_body_info_ul_foot {
-          margin: 0 auto;
-          display: inline-flex;
-          max-width: inherit;
-          list-style: none;
-          border: none;
-          li.privilege-block_body_info_li_foot2 {
-              font-size: 0px;
-              width: 320px;
-              height: 20px;
-              background-color: #5FCDEF;
-              //margin-top: -1px;
-          }
-      }
-      */ }
+    /*
+.privilege-block_body_info_ul_foot {
+    margin: 0 auto;
+    display: inline-flex;
+    max-width: inherit;
+    list-style: none;
+    border: none;
+    li.privilege-block_body_info_li_foot2 {
+        font-size: 0px;
+        width: 320px;
+        height: 20px;
+        background-color: #5FCDEF;
+        //margin-top: -1px;
+    }
+}
+*/ }
       .privilege .privilege-block .privilege-block_body .privilege-block_body_info img.privilege-block_body_info_quote_footer {
         float: right;
         width: 282px;
@@ -301,20 +307,20 @@ body {
             width: 320px;
             height: auto;
             display: block;
-            /*
-            img {
-                height: 85px;
-                width: 320px;
-                //position: absolute;
-                //overflow: hidden;
-                font-size: 0px;
-            }
-            &:hover {
-                //margin-top: -40px;
-                //opacity: .5;
-                //height: 120px;
-            }
-            */ }
+        /*
+    img {
+        height: 85px;
+        width: 320px;
+        //position: absolute;
+        //overflow: hidden;
+        font-size: 0px;
+    }
+    &:hover {
+        //margin-top: -40px;
+        //opacity: .5;
+        //height: 120px;
+    }
+    */ }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box .privilege-block_body_info_li_tab {
               position: relative;
               font-size: 0px;
@@ -349,5 +355,16 @@ body {
               width: 320px;
               top: 30%;
               z-index: 20; }
+
+/* End Privilege * --------------------------------------- */
+/* Promotion * --------------------------------------- */
+.promotion {
+  position: relative;
+  margin-top: 10px; }
+  .promotion .promotion-wrapper {
+    max-width: 990px;
+    height: 600px; }
+
+/* End Promotion * --------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
