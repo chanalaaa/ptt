@@ -1,12 +1,12 @@
 @import 'reset';
 @import 'font-face';
-
-
 body {
     font-family: 'supermarket';
 }
 
-.clear {
+@mixin clearfix {
+    zoom: 1;
+    content: " ";
     clear: both;
 }
 
