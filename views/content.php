@@ -174,15 +174,23 @@
             <div class="activity">
                 <div class="ac_header">
                     <p class="ac_header_title">activity</p>
-                    <div class="ac-slide_block">
-                        <ul id="ac-slide_ul">
-                            <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
-                            </li>
-                        </ul>
+                </div>
+                <div class="ac-slide_block">
+                    <ul id="ac-slide_ul">
+                        <li>
+                            <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ac-slide_tab">
+                    <div class="ac-slide_tab_img">
+                        <div class="ac-slide_tab_info">
+                            <p>Pray for Nepal</p>
+                        </div>
+                        <img src="img/ico/ico_go_dark.png" alt="">
                     </div>
                 </div>
             </div>

@@ -615,22 +615,59 @@ body {
                         margin: 4% 10% 0% 8%;
                         text-transform: uppercase;
                     }
-                    .ac-slide_block {
+                }
+                .ac-slide_block {
+                    width: 100%;
+                    height: 288px;
+                    overflow: hidden;
+                    img {
                         width: 100%;
                         height: 288px;
-                        overflow: hidden;
-                        img{
-                            width: 100%;
-                            height: 288px;
+                    }
+                    .sy-box {
+                        //height: 288px;
+                        .sy-controls li.sy-next {
+                            right: -16px;
                         }
-                        .sy-box {
-                            height: 288px;
-
-                            .sy-controls li.sy-next {
-                                right: -16px;
+                        .sy-pager {
+                            display: none;
+                        }
+                    }
+                }
+                .ac-slide_tab {
+                    width: 100%;
+                    height: 208px;
+                    position: relative;
+                    .ac-slide_tab_img {
+                        @include bg_img("../img/news/news_tab/ac_tab.png");
+                        position: absolute;
+                        width: 100%;
+                        height: 208px;
+                        top: -25px;
+                        z-index: 44;
+                        .ac-slide_tab_info {
+                            width: auto;
+                            height: auto;
+                            position: absolute;
+                            top: 30px;
+                            left: 50px;
+                            color: #FFF;
+                            text-align: center;
+                            /* margin: 0 auto; */
+                            p {
+                                font-size: 1.2em;
+                                color: #323232;
+                                letter-spacing: .03em;
+                                margin-top: 17px;
                             }
-                            .sy-pager {
-                                display: none;
+                        }
+                        img {
+                            width: 43px;
+                            height: 43px;
+                            margin: 8% 5% 0% 0%;
+                            float: right;
+                            &:hover {
+                                opacity: .6;
                             }
                         }
                     }
