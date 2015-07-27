@@ -166,20 +166,26 @@
                             <p>6,000 คะแนนแลกรับฟรี! Blue Portable Speaker</p>
                             <a href="#"><img src="img/ico/ico_go.png" alt=""></a>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
         <section class="news-block_right">
-        <div class="activity">
-        	<div class="ac_header">
-        		<p class="ac_header_title">activity</p>
-
-        	</div>
-
-        </div>
-
+            <div class="activity">
+                <div class="ac_header">
+                    <p class="ac_header_title">activity</p>
+                    <div class="ac-slide_block">
+                        <ul id="ac-slide_ul">
+                            <li>
+                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     </article>
 </div>
@@ -240,6 +246,17 @@ $(function() {
     });
 
     $("#promotion-slide_ul").slippry({
+        // transition: 'fade',
+        // useCSS: true,
+        // speed: 1000,
+        // pause: 3000,
+        // auto: true,
+        // preload: 'visible',
+        // autoHover: false
+
+    });
+
+    $("#ac-slide_ul").slippry({
         // transition: 'fade',
         // useCSS: true,
         // speed: 1000,
