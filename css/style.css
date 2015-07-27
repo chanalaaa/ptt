@@ -502,7 +502,7 @@ body {
             .news .news-wrapper .news-block_left .email .news_email_title .news_email_info p {
               font-size: 1.1em;
               letter-spacing: .05em; }
-        .news .news-wrapper .news-block_left .email .news_email_input input.input_box {
+        .news .news-wrapper .news-block_left .email .news_email_input input.email_input_box {
           margin-top: 20px;
           width: 284px;
           height: 38px;
@@ -516,8 +516,20 @@ body {
           font-family: "supermarket";
           font-size: 1.2em;
           opacity: 0.8; }
-          .news .news-wrapper .news-block_left .email .news_email_input input.input_box:focus, .news .news-wrapper .news-block_left .email .news_email_input input.input_box:hover {
+          .news .news-wrapper .news-block_left .email .news_email_input input.email_input_box:focus, .news .news-wrapper .news-block_left .email .news_email_input input.email_input_box:hover {
             opacity: 1; }
+        .news .news-wrapper .news-block_left .email .news_email_input input.email_submit_btn {
+          padding: 1px 30px;
+          margin-left: 1.5%;
+          color: #1F71B7;
+          background: #FFF;
+          border: 0 none;
+          cursor: pointer;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+          font-family: "supermarket";
+          font-size: 1.2em;
+          outline: none; }
     .news .news-wrapper .news-block_right {
       position: relative;
       width: 49%;

@@ -484,7 +484,7 @@ body {
                     }
                 } //end .news_email_title
                 .news_email_input {
-                    input.input_box {
+                    input.email_input_box {
                         margin-top: 20px;
                         width: 284px;
                         height: 38px;
@@ -502,6 +502,19 @@ body {
                         &:hover {
                             opacity: 1;
                         }
+                    }
+                    input.email_submit_btn {
+                        padding: 1px 30px;
+                        margin-left: 1.5%;
+                        color: #1F71B7;
+                        background: #FFF;
+                        border: 0 none;
+                        cursor: pointer;
+                        -webkit-border-radius: 5px;
+                        border-radius: 5px;
+                        font-family: "supermarket";
+                        font-size: 1.2em;
+                        outline: none;
                     }
                 } //end .news_email_input
             }

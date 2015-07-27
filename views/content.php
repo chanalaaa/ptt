@@ -151,7 +151,9 @@
                 </div>
                 <div class="news_email_input">
                     <form>
-                        <input class="input_box" type="email" name="email" placeholder="your e-mail" value="">
+                        <input class="email_input_box" type="email" name="email" placeholder="your e-mail" value="">
+                        <input class="email_submit_btn" type="submit" value="SUBMIT">
+                    </form>
                     </form>
                 </div>
             </div>
