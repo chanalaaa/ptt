@@ -320,7 +320,7 @@ body {
         height: 600px;
         .promotion-block_slide {
             position: absolute;
-            width: 50%;
+            width: 63%;
             height: 540px;
             float: left;
             //background-color: red;
@@ -340,7 +340,7 @@ body {
                         text-align: center;
                         font-size: 1.4em;
                         letter-spacing: .2em;
-                        margin: 4.0% 5% 0% 10%;
+                            margin: 3% 0% 0% 8%;
                         text-transform: uppercase;
                     }
                 }
@@ -387,7 +387,7 @@ body {
                         width: 58px;
                         height: 58px;
                         float: right;
-                        margin: 8.5% 5% 0% 0%;
+                        margin: 7.5% 5% 0% 0%;
                         &:hover {
                             opacity: .6;
                         }
