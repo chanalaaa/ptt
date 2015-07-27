@@ -116,7 +116,7 @@
                     <img src="img/ico/ico_go.png" alt="">
                 </div>
             </div>
-            <img id="prm_quote_footer" src="img/promotion/prm_slide/prm_quote_footer.png" alt="">
+            <img id="prm_quote_footer" src="img/promotion/prm_tab/prm_quote_footer.png" alt="">
         </section>
         <section class="promotion-block_info">
             <div class="promotion-block_info_block">
@@ -156,11 +156,19 @@
                     </form>
                 </div>
             </div>
-
             <div class="reward">
-            	<div class="reward_img">
-            		
-            	</div>
+                <div class="reward_img"></div>
+                <div class="reward_tab">
+                    <div class="reward_tab_img">
+                        <div class="reward_tab_img_info">
+                            <div id="news_info_title">reward</div>
+                            <h2>Blue Portable Speaker</h2>
+                            <p>6,000 คะแนนแลกรับฟรี! Blue Portable Speaker</p>
+                            <a href="#"><img src="img/ico/ico_go.png" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </section>
         <section class="news-block_right">
