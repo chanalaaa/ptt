@@ -1,3 +1,12 @@
+@mixin bg_img($uri) {
+    background-image: url($uri);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+}
+
 body {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f71b7+0,1dadd8+50,1f71b7+100 */
     background: rgb(31, 113, 183);
@@ -146,12 +155,7 @@ body {
             max-width: 100%;
             height: 61px;
             .privilege-block_header {
-                background-image: url("../img/privilege/pvl_headder_box.png");
-                background-size: 100% 100%;
-                background-position: center center;
-                background-repeat: no-repeat;
-                max-width: 100%;
-                height: 100%;
+                @include bg_img("../img/privilege/pvl_headder_box.png");
                 //border-radius: 15px;
                 .privilege-block_header_title {
                     max-width: inherit;
@@ -326,12 +330,8 @@ body {
                 max-width: 100%;
                 height: 48px;
                 .promotion-block_header {
-                    background-image: url("../img/promotion/prm_slide/prm_header.png");
-                    background-size: 100% 100%;
+                    @include bg_img("../img/promotion/prm_slide/prm_header.png");
                     background-position: center left;
-                    background-repeat: no-repeat;
-                    max-width: 100%;
-                    height: 100%;
                     //border-radius: 15px;
                     .promotion-block_header_title {
                         max-width: inherit;
@@ -366,12 +366,7 @@ body {
                 .promotion-slide_tab_img {
                     position: absolute;
                     top: -32px;
-                    width: 100%;
-                    height: 100%;
-                    background-image: url("../img/promotion/prm_slide/prm_tab.png");
-                    background-size: 100% 100%;
-                    background-position: center left;
-                    background-repeat: no-repeat;
+                    @include bg_img("../img/promotion/prm_slide/prm_tab.png");
                     z-index: 35;
                 }
             }
