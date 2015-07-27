@@ -95,10 +95,7 @@
             <div class="promotion_slide_block">
                 <ul id="promotion_slide_ul">
                     <li>
-                        <a href="#"><img src="img/today/image-1.jpg" alt=" 
-                            <div class='cap1_title'><p>today's special</p></div> <br>
-							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>"></a>
+                        <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
             </li>
 </div>
 </section>
@@ -162,7 +159,7 @@ $(function() {
 
     });
 
-    var demo1 = $("#today_ul").slippry({
+    var demo2 = $("#promotion_slide_ul").slippry({
         // transition: 'fade',
         // useCSS: true,
         // speed: 1000,
