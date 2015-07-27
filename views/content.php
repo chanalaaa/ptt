@@ -154,8 +154,13 @@
                         <input class="email_input_box" type="email" name="email" placeholder="your e-mail" value="">
                         <input class="email_submit_btn" type="submit" value="SUBMIT">
                     </form>
-                    </form>
                 </div>
+            </div>
+
+            <div class="reward">
+            	<div class="reward_img">
+            		
+            	</div>
             </div>
         </section>
         <section class="news-block_right">

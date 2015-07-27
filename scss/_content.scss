@@ -516,8 +516,25 @@ body {
                         font-size: 1.2em;
                         outline: none;
                     }
-                } //end .news_email_input
-            }
+                }
+            } //end .email
+            .reward {
+                max-width: 100%;
+                height: 590px;
+                background: gray;
+                position: relative;
+                margin-top: 15%;
+                border-radius: 40px;
+                .reward_img {
+                    @include bg_img("../img/news/news_img/1.jpg");
+                    max-width: 100%;
+                    height: 290px;
+                    //background: #fef3e2;
+                    border-top-left-radius: 40px;
+                    border-top-right-radius: 40px;
+                    background-size: cover;
+                }
+            } //end .reward
         } //end .news-block_left
         .news-block_right {
             position: relative;

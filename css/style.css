@@ -530,6 +530,25 @@ body {
           font-family: "supermarket";
           font-size: 1.2em;
           outline: none; }
+      .news .news-wrapper .news-block_left .reward {
+        max-width: 100%;
+        height: 590px;
+        background: gray;
+        position: relative;
+        margin-top: 15%;
+        border-radius: 40px; }
+        .news .news-wrapper .news-block_left .reward .reward_img {
+          background-image: url("../img/news/news_img/1.jpg");
+          background-size: 100% 100%;
+          background-position: center center;
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          max-width: 100%;
+          height: 290px;
+          border-top-left-radius: 40px;
+          border-top-right-radius: 40px;
+          background-size: cover; }
     .news .news-wrapper .news-block_right {
       position: relative;
       width: 49%;
