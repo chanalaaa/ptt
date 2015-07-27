@@ -441,7 +441,31 @@ body {
       .promotion .promotion-wrapper .promotion-block_slide img#prm_quote_footer {
         width: 148px;
         height: 48px;
-        margin: -7% 37%; }
+        margin: -6% 36%; }
+    .promotion .promotion-wrapper .promotion-block_info {
+      width: 30%;
+      height: 220px;
+      background-color: red;
+      float: right;
+      margin-top: 3%; }
+      .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block {
+        display: block; }
+        .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one {
+          display: inline-block;
+          width: 75%; }
+          .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one img {
+            width: 78px;
+            height: 78px;
+            float: left; }
+          .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one .prm_info_one_info {
+            float: right;
+            margin-top: 7.5%;
+            color: #FFF; }
+            .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one .prm_info_one_info h2 {
+              font-size: 2em; }
+        .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block #ico_line {
+          width: 310px;
+          padding: 20px 0px; }
 
 /* End Promotion * --------------------------------------- */
 

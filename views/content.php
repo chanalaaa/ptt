@@ -119,6 +119,23 @@
             <img id="prm_quote_footer" src="img/promotion/prm_slide/prm_quote_footer.png" alt="">
         </section>
         <section class="promotion-block_info">
+            <div class="promotion-block_info_block">
+                <div class="prm_info_one">
+                    <img src="img/promotion/prm_ico/ico_gas.png " alt="">
+                    <div class="prm_info_one_info">
+                        <p>Blue Gasohal 95</p>
+                        <h2>35.66 บาท</h2>
+                    </div>
+                </div>
+                <img id="ico_line" src="img/promotion/prm_ico/ico_line.png " alt="">
+                <div class="prm_info_one">
+                    <img src="img/promotion/prm_ico/ico_gas.png " alt="">
+                    <div class="prm_info_one_info">
+                        <p>Blue Gasohal 95</p>
+                        <h2>35.66 บาท</h2>
+                    </div>
+                </div>
+            </div>
         </section>
     </article>
 </div>
