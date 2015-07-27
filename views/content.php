@@ -86,35 +86,26 @@
         </section>
     </article>
 </div>
-
-
-
-
 <div class="promotion">
     <article class="promotion-wrapper">
-        <section class="promotion-block-slide">
-
-
-
-
-
-
-
-        
-        </section>
-        <section class="promotion-block-info">
-        </section>
-    </article>
+        <section class="promotion-block_slide">
+            <div class="promotion-block_header">
+                <p class="promotion-block_header_title">promotion</p>
+            </div>
+            <div class="promotion_slide_block">
+                <ul id="promotion_slide_ul">
+                    <li>
+                        <a href="#"><img src="img/today/image-1.jpg" alt=" 
+                            <div class='cap1_title'><p>today's special</p></div> <br>
+							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
+							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>"></a>
+            </li>
 </div>
-
-
-
-
-
-
-
-
-
+</section>
+<section class="promotion-block-info">
+</section>
+</article>
+</div>
 <br>
 <br>
 <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.
@@ -160,6 +151,17 @@ fullpage.initialize('#fullpage', {
 
 
 $(function() {
+    var demo1 = $("#today_ul").slippry({
+        // transition: 'fade',
+        // useCSS: true,
+        // speed: 1000,
+        // pause: 3000,
+        // auto: true,
+        // preload: 'visible',
+        // autoHover: false
+
+    });
+
     var demo1 = $("#today_ul").slippry({
         // transition: 'fade',
         // useCSS: true,
