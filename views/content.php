@@ -143,6 +143,17 @@
 <div class="news">
     <article class="news-wrapper">
         <section class="news-block_left">
+        <div class="email">
+        <div class="news_email_title">
+        	 <img src="img/news/news_ico/ico_email.png " alt="">
+                    <div class="news_email_info">
+                    	<h2>e-Newsletter</h2>
+                        <p>ข่าวสารอัพเดท ตรงถึงชาวบลู</p>
+                        
+                    </div>
+        </div>
+        	
+        </div>
         </section>
         <section class="news-block_right">
         </section>

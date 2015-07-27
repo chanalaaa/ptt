@@ -481,6 +481,27 @@ body {
       height: 750px;
       float: left;
       background-color: rgba(255, 0, 0, 0.5); }
+      .news .news-wrapper .news-block_left .email {
+        width: 90%;
+        margin: 0 auto;
+        height: 92px; }
+        .news .news-wrapper .news-block_left .email .news_email_title {
+          width: 62%;
+          height: auto;
+          margin: 0 auto; }
+          .news .news-wrapper .news-block_left .email .news_email_title img {
+            width: 57px;
+            height: 36px;
+            float: left; }
+          .news .news-wrapper .news-block_left .email .news_email_title .news_email_info {
+            float: right;
+            color: #FFF; }
+            .news .news-wrapper .news-block_left .email .news_email_title .news_email_info h2 {
+              font-size: 1.3em;
+              letter-spacing: .2em; }
+            .news .news-wrapper .news-block_left .email .news_email_title .news_email_info p {
+              font-size: 1.1em;
+              letter-spacing: .05em; }
     .news .news-wrapper .news-block_right {
       position: relative;
       width: 49%;
