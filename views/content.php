@@ -38,8 +38,10 @@
 <div class="privilege">
     <article class="privilege-wrapper">
         <section class="privilege-block">
-            <div class="privilege-block_header">
-                <p class="privilege-block_header_title">privilege</p>
+            <div class="privilege-block_header_block">
+                <div class="privilege-block_header">
+                    <p class="privilege-block_header_title">privilege</p>
+                </div>
             </div>
             <div class="privilege-block_body">
                 <ul class="privilege-block_body_img_ul">
@@ -89,22 +91,24 @@
 <div class="promotion">
     <article class="promotion-wrapper">
         <section class="promotion-block_slide">
-            <div class="promotion-block_header">
-                <p class="promotion-block_header_title">promotion</p>
+            <div class="promotion-block_header_block">
+                <div class="promotion-block_header">
+                    <p class="promotion-block_header_title">promotion</p>
+                </div>
             </div>
             <div class="promotion_slide_block">
                 <ul id="promotion_slide_ul">
                     <li>
                         <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
-            		</li>
-            		<li>
+                    </li>
+                    <li>
                         <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
-            		</li>
-</div>
-</section>
-<section class="promotion-block-info">
-</section>
-</article>
+                    </li>
+            </div>
+        </section>
+        <section class="promotion-block-info">
+        </section>
+    </article>
 </div>
 <br>
 <br>
