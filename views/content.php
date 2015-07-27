@@ -17,19 +17,19 @@
                             <a href="#"><img src="img/today/image-1.jpg" alt=" 
                             <div class='cap1_title'><p>today's special</p></div> <br>
 							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>"></a>
+							<div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
         </li>
         <li>
             <a href="#"><img src="img/today/image-1.jpg" alt=" 
                             <div class='cap1_title'><p>tomorrow special</p></div> <br>
 							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>"></a>
+							<div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
     </li>
     <li>
         <a href="#"><img src="img/today/image-1.jpg" alt=" 
                             <div class='cap1_title'><p>someday special</p></div> <br>
 							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-							<div class='cap1_btn'><a href='#'><img src='img/today/ico/ico_go.png'></a></div>"></a>
+							<div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
 </li>
 </ul>
 </section>
@@ -109,8 +109,13 @@
             <div class="promotion-slide_tab">
                 <div class="promotion-slide_tab_img">
                     <div class="promotion-slide_tab_info">
+                        <p id="prm_info_title">อิ่มฟรี... กับ PTT Blue Card</p>
+                        <p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
+                            <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly </p>
                     </div>
+                    <img src="img/ico/ico_go.png" alt="">
                 </div>
+
             </div>
         </section>
         <section class="promotion-block_info">
