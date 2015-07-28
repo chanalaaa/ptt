@@ -649,10 +649,12 @@ body {
                                         z-index: 50;
                                         /* margin: 0 auto; */
                                         p {
+                                            text-align: left;
                                             font-size: 1.2em;
                                             color: #323232;
                                             letter-spacing: .03em;
                                             margin-top: 17px;
+                                            margin-left: 35%;
                                         }
                                     }
                                     div#ac_ico {
@@ -661,7 +663,7 @@ body {
                                         background-image: url("../img/ico/ico_go_dark.png");
                                         background-size: cover;
                                         float: right;
-                                        margin-top: -20px;
+                                        margin-top: -35px;
                                         margin-right: -28%;
                                         &:hover {
                                             opacity: .6;
@@ -747,11 +749,12 @@ body {
                                         z-index: 50;
                                         /* margin: 0 auto; */
                                         p {
+                                            text-align: left;
                                             font-size: 1.2em;
                                             color: #FFF;
                                             letter-spacing: .03em;
                                             //margin-top: 20px;
-                                            margin-left: 30px;
+                                            margin-left: 35%;
                                         }
                                     }
                                     div#pr_ico {
@@ -820,7 +823,7 @@ body {
                         width: 111px;
                         height: 36px;
                         margin-left: 10%;
-                        float:left;
+                        float: left;
                     }
                 }
             } //end .pr

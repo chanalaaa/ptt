@@ -191,8 +191,9 @@
                             </a>
                             </li>
                             <li>
-                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='ac-slide_tab_info'><p>FAST</p><div id='ac_ico'></div></div>
-                            	"></a>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='ac-slide_tab_info'><p>PTT Blue Card Happiness<br>
+									Movie : Fast & Furious 7</p></div>
+                            	<div id='ac_ico'></div>"></a>
                             </li>
                         </ul>
                     </div>
