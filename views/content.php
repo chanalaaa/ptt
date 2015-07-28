@@ -258,6 +258,8 @@
         </section>
     </article>
 </div>
+<!-- ****************** CONTACT & FOLLOW ****************** -->
+<p class="hotline">PTT Contact Center 1365</p>
 <br>
 <br>
 <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.
