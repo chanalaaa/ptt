@@ -885,9 +885,31 @@ body {
 /* End Regis * --------------------------------------- */
 /* Contact-Follow  * --------------------------------------- */
 p.hotline {
+  margin-top: 4%;
   text-align: center;
   color: #FFF;
-  font-size: 1.5em; }
+  font-size: 2em; }
+
+.follow {
+  margin-top: 3.5%; }
+  .follow .follow_block {
+    width: 65%;
+    height: 52px; }
+    .follow .follow_block ul {
+      float: right; }
+      .follow .follow_block ul li {
+        margin-left: 30px;
+        display: inline;
+        float: left; }
+        .follow .follow_block ul li p {
+          font-size: 1.2em;
+          margin-top: 20px;
+          color: #FFF; }
+        .follow .follow_block ul li img {
+          width: 52px;
+          height: 52px; }
+          .follow .follow_block ul li img:hover {
+            opacity: .6; }
 
 /* End Contact-Follow * --------------------------------------- */
 

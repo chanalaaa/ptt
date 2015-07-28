@@ -132,7 +132,7 @@
                 </div>
                 <img id="ico_line" src="img/promotion/prm_ico/ico_line.png " alt="">
                 <div class="prm_info_one">
-                    <img src="img/promotion/prm_ico/ico_twit.png " alt="">
+                    <img src="img/promotion/prm_ico/ico_twit.png" alt="">
                     <div class="prm_info_one_info">
                         <p>ปตท. ร่วมใจช่วยภัยแล้ง สมาชิกบัตรสินเชื่อ เกษตรกร รับส่วนลดน้ำมัน ลิตรละ 50 ส.ต. และส่วนลด 10 %</p>
                     </div>
@@ -237,7 +237,9 @@
 <div class="regis">
     <article class="regis-wrapper">
         <section class="regis-block">
-            <div class="regis-block_opacity"><div class="regis-block_opacity_gra"></div> </div>
+            <div class="regis-block_opacity">
+                <div class="regis-block_opacity_gra"></div>
+            </div>
             <div class="regis-block_info">
                 <ul class="regis-block_info_ul">
                     <li>
@@ -260,6 +262,27 @@
 </div>
 <!-- ****************** CONTACT & FOLLOW ****************** -->
 <p class="hotline">PTT Contact Center 1365</p>
+<div class="follow">
+    <div class="follow_block">
+        <ul>
+            <li>
+                <p>Follow us on</p>
+            </li>
+            <li>
+                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_twit.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_twit.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_twit.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_twit.png" alt=""></a>
+            </li>
+        </ul>
+    </div>
+</div>
 <br>
 <br>
 <h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.

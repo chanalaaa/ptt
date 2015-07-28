@@ -833,7 +833,9 @@ body {
 
 /*End News * --------------------------------------- */
 
+
 /* Regis * --------------------------------------- */
+
 .regis {
     margin: 3% 3%;
     @include clearfix;
@@ -885,7 +887,7 @@ body {
                         display: inline;
                         float: left;
                         margin-left: 10%;
-                        &:hover{
+                        &:hover {
                             opacity: .8;
                         }
                     }
@@ -921,10 +923,41 @@ body {
 
 /* Contact-Follow  * --------------------------------------- */
 
-p.hotline{
+p.hotline {
+    margin-top: 4%;
     text-align: center;
     color: #FFF;
-    font-size: 1.5em;
+    font-size: 2em;
 }
-/* End Contact-Follow * --------------------------------------- */
 
+.follow {
+    margin-top: 3.5%;
+    .follow_block {
+        width: 65%;
+        height: 52px;
+        //margin: 0 auto;
+        ul {
+            float: right;
+            li {
+                margin-left: 30px;
+                p{
+                    font-size: 1.2em;
+                    margin-top:20px;
+                    color:#FFF;
+                }
+                display: inline;
+                float: left;
+                img {
+                    width: 52px;
+                    height: 52px;
+                    &:hover{
+                        opacity:.6;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* End Contact-Follow * --------------------------------------- */
