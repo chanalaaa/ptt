@@ -226,6 +226,7 @@
                         <div class="pr-slide_tab_img">
                         </div>
                     </div>
+                    <img id="pr_quote_footer" src="img/news/news_tab/pr_quote_footer.png" alt="">
                 </div>
             </div>
         </section>
