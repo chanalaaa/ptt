@@ -15,6 +15,7 @@
 <body>
     	<? include("views/header.php"); ?>
         <? include("views/content.php"); ?>
+        <? include("views/footer.php"); ?>
         <script type="text/javascript" src="js/main.js"></script>
 </body>
 

@@ -295,12 +295,7 @@
 </div>
 </div>
 <!-- end wrap -->
-<!-- ****************** FOOTER ****************** -->
-<div class="footer">
-    <div class="footer_block">
-        <p>สงวนลิขสิทธิ์ พ.ศ. 2554 บริษัท ปตท. จำกัด (มหาชน)</p>
-    </div>
-</div>
+
 </div>
 <script type="text/javascript">
 // full page script 
