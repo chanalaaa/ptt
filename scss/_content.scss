@@ -7,6 +7,28 @@
     height: 100%;
 }
 
+::-webkit-input-placeholder {
+    color: #BDCCD4;
+}
+
+::-moz-placeholder {
+    color: #BDCCD4;
+}
+
+
+/* firefox 19+ */
+
+:-ms-input-placeholder {
+    color: #BDCCD4;
+}
+
+
+/* ie */
+
+input:-moz-placeholder {
+    color: #BDCCD4;
+}
+
 body {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f71b7+0,1dadd8+50,1f71b7+100 */
     background: rgb(31, 113, 183);
