@@ -17,20 +17,20 @@
                         <li>
                             <a href="#"><img src="img/today/image-1.jpg" alt=" 
                             <div class='cap1_title'><p>today's special</p></div> <br>
-							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-							<div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
+                            <div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
+                            <div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
         </li>
         <li>
             <a href="#"><img src="img/today/image-1.jpg" alt=" 
                             <div class='cap1_title'><p>tomorrow special</p></div> <br>
-							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-							<div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
+                            <div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
+                            <div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
     </li>
     <li>
         <a href="#"><img src="img/today/image-1.jpg" alt=" 
                             <div class='cap1_title'><p>someday special</p></div> <br>
-							<div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-							<div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
+                            <div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
+                            <div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
 </li>
 </ul>
 </section>
@@ -105,16 +105,12 @@
                         <a href="#"><img src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>อิ่มฟรี... กับ PTT Blue Card
                         </div><br><p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
                             <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p></div>
-                            	<div id='prm_ico'></div>"></a>
-                    </li> 
-                    
+                                <div id='prm_ico'></div>"></a>
+                    </li>
                     <li>
                         <a href="#"><img src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><p>Happiness! Blue Card</p></div>
-                            	<div id='prm_ico'></div>"></a>
+                                <div id='prm_ico'></div>"></a>
                     </li>
-                    
-
-
                 </ul>
             </div>
             <div class="promotion-slide_tab">
@@ -197,13 +193,13 @@
                             <li>
                                 <a href="#"><img src="img/news/news_img/2.jpg" alt="
                                 <div class='ac-slide_tab_info'><p>Pray for Nepal</p></div>
-                            	<div id='ac_ico'></div>">
+                                <div id='ac_ico'></div>">
                             </a>
                             </li>
                             <li>
                                 <a href="#"><img src="img/news/news_img/2.jpg" alt="<div class='ac-slide_tab_info'><p>PTT Blue Card Happiness<br>
-									Movie : Fast & Furious 7</p></div>
-                            	<div id='ac_ico'></div>"></a>
+                                    Movie : Fast & Furious 7</p></div>
+                                <div id='ac_ico'></div>"></a>
                             </li>
                         </ul>
                     </div>
@@ -222,13 +218,13 @@
                         <ul id="pr-slide_ul">
                             <li>
                                 <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>PTT Blue Card Happiness<br>
-									Movie : Fast & Furious 7</p></div>
-                            	<div id='pr_ico'></div>"></a>
+                                    Movie : Fast & Furious 7</p></div>
+                                <div id='pr_ico'></div>"></a>
                             </li>
                             <!--
                             <li>
                                 <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
-                            	<div id='pr_ico'></div>"></a>
+                                <div id='pr_ico'></div>"></a>
                             </li>
                             -->
                         </ul>
@@ -295,7 +291,6 @@
 </div>
 </div>
 <!-- end wrap -->
-
 </div>
 <script type="text/javascript">
 // full page script 
@@ -323,35 +318,15 @@ $(function() {
     });
 
     $("#promotion-slide_ul").slippry({
-        // transition: 'fade',
-        // useCSS: true,
-        // speed: 1000,
-        // pause: 3000,
-        // auto: true,
-        // preload: 'visible',
-        // autoHover: false
 
     });
 
     $("#ac-slide_ul").slippry({
-        // transition: 'fade',
-        // useCSS: true,
-        // speed: 1000,
-        // pause: 3000,
-        // auto: true,
-        // preload: 'visible',
-        // autoHover: false
 
     });
 
     $("#pr-slide_ul").slippry({
-        // transition: 'fade',
-        // useCSS: true,
-        // speed: 1000,
-        // pause: 3000,
-        // auto: true,
-        // preload: 'visible',
-        // autoHover: false
+
 
     });
 

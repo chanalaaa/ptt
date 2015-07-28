@@ -333,6 +333,7 @@ body {
 /* Promotion * --------------------------------------- */
 
 .promotion {
+    margin: 1% 1%;
     margin-top: 10px;
     //margin-left: 20px;
     .promotion-wrapper {
@@ -371,6 +372,11 @@ body {
                 width: 100%;
                 max-height: 338px;
                 //overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    
+                }
                 .sy-box {
                     height: 288px;
                     .sy-next {
@@ -434,13 +440,15 @@ body {
                 } //end .promotion_slide_block > sy-box
             }
             .promotion-slide_tab {
-                position: relative;
                 width: 100%;
                 height: 137px;
+                position: relative;
                 .promotion-slide_tab_img {
+                    @include bg_img("../img/promotion/prm_tab/prm_tab.png");
                     position: absolute;
                     top: -32px;
-                    @include bg_img("../img/promotion/prm_tab/prm_tab.png");
+                    width: 100%;
+                    height: 137px;
                     z-index: 35;
                     /*
                     .promotion-slide_tab_info {
@@ -473,7 +481,7 @@ body {
             img#prm_quote_footer {
                 width: 148px;
                 height: 48px;
-                margin: -6% 36%;
+                margin: -34px 36%;
             }
         } //end .promotion-block_slide
         .promotion-block_info {
