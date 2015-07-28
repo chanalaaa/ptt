@@ -205,7 +205,7 @@
             <div class="pr">
                 <div class="pr_block">
                     <div class="pr_header">
-                        <p class="pr_header_title">activity</p>
+                        <p class="pr_header_title">pr & news</p>
                     </div>
                     <div class="pr-slide_block">
                         <ul id="pr-slide_ul">

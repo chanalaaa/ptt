@@ -687,7 +687,7 @@ body {
                     height: 453px;
                     background-color: rgba(211, 25, 122, 0.5);
                     overflow: hidden;
-                    top: -130px;
+                    top: -175px;
                     z-index: 47;
                     .pr_header {
                         @include bg_img("../img/news/news_tab/pr_header.png");
@@ -695,8 +695,8 @@ body {
                         height: 46px;
                         .pr_header_title {
                             max-width: inherit;
-                            float: right;
-                            color: #323232;
+                            float: left;
+                            color: #FFF;
                             text-align: center;
                             font-size: 1.4em;
                             letter-spacing: .2em;

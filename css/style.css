@@ -690,7 +690,7 @@ body {
           height: 453px;
           background-color: rgba(211, 25, 122, 0.5);
           overflow: hidden;
-          top: -130px;
+          top: -175px;
           z-index: 47; }
           .news .news-wrapper .news-block_right .pr .pr_block .pr_header {
             background-image: url("../img/news/news_tab/pr_header.png");
@@ -703,8 +703,8 @@ body {
             height: 46px; }
             .news .news-wrapper .news-block_right .pr .pr_block .pr_header .pr_header_title {
               max-width: inherit;
-              float: right;
-              color: #323232;
+              float: left;
+              color: #FFF;
               text-align: center;
               font-size: 1.4em;
               letter-spacing: .2em;
