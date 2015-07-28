@@ -210,21 +210,19 @@
                     <div class="pr-slide_block">
                         <ul id="pr-slide_ul">
                             <li>
-                                <a href="#"><img src="img/news/news_img/3.jpg" alt=""></a>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
+                            	<div id='pr_ico'></div>"></a>
                             </li>
                             <!--
                             <li>
-                                <a href="#"><img src="img/news/news_img/2.jpg" alt=""></a>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
+                            	<div id='pr_ico'></div>"></a>
                             </li>
                             -->
                         </ul>
                     </div>
                     <div class="pr-slide_tab">
                         <div class="pr-slide_tab_img">
-                            <div class="pr-slide_tab_info">
-                                <p>Pray for Nepal</p>
-                            </div>
-                            <img src="img/ico/ico_go_dark.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -276,6 +274,17 @@ $(function() {
     });
 
     $("#ac-slide_ul").slippry({
+        // transition: 'fade',
+        // useCSS: true,
+        // speed: 1000,
+        // pause: 3000,
+        // auto: true,
+        // preload: 'visible',
+        // autoHover: false
+
+    });
+
+    $("#pr-slide_ul").slippry({
         // transition: 'fade',
         // useCSS: true,
         // speed: 1000,
