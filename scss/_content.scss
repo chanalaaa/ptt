@@ -648,7 +648,7 @@ body {
                                         z-index: 50;
                                         /* margin: 0 auto; */
                                         p {
-                                            font-size: 1.3em;
+                                            font-size: 1.2em;
                                             color: #323232;
                                             letter-spacing: .03em;
                                             margin-top: 17px;
@@ -746,10 +746,11 @@ body {
                                         z-index: 50;
                                         /* margin: 0 auto; */
                                         p {
-                                            font-size: 1.3em;
+                                            font-size: 1.2em;
                                             color: #FFF;
                                             letter-spacing: .03em;
-                                            margin-top: 17px;
+                                            //margin-top: 20px;
+                                            margin-left: 30px;
                                         }
                                     }
                                     div#pr_ico {
@@ -758,7 +759,7 @@ body {
                                         background-image: url("../img/ico/ico_go.png");
                                         background-size: cover;
                                         float: right;
-                                        margin-top: -20px;
+                                        margin-top: -30px;
                                         margin-right: -28%;
                                         &:hover {
                                             opacity: .6;

@@ -210,7 +210,8 @@
                     <div class="pr-slide_block">
                         <ul id="pr-slide_ul">
                             <li>
-                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>PTT Blue Card Happiness<br>
+									Movie : Fast & Furious 7</p></div>
                             	<div id='pr_ico'></div>"></a>
                             </li>
                             <!--
