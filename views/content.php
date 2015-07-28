@@ -283,15 +283,16 @@
         </ul>
     </div>
 </div>
-<br>
-<br>
-<h1>This is like a normal website.</h1> Just place the rest of your page after the fullpage wrapper and use the option `fitToSection:false` and `autoScrolling:false`. And enjoy a great single slider.
-<script src="https://gist.github.com/alvarotrigo/368e6d6ad3c5c0e98d3c.js"></script>
-<script src="https://gist.github.com/alvarotrigo/c74366b59ecba2f9c3da.js"></script>
+</div>
+<!-- end wrap -->
+<!-- ****************** FOOTER ****************** -->
+<div class="footer">
+    <div class="footer_block">
+    </div>
 </div>
 </div>
-<!-- full page script -->
 <script type="text/javascript">
+// full page script 
 fullpage.initialize('#fullpage', {
     anchors: ['firstPage'],
     menu: '#menu',
