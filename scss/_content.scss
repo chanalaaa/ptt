@@ -370,9 +370,59 @@ body {
             .promotion-slide_block {
                 width: 100%;
                 max-height: 338px;
-                overflow: hidden;
+                //overflow: hidden;
                 .sy-box {
-                    height: 280px;
+                    height: 288px;
+                    .sy-next {
+                        right: -13px;
+                    }
+                    .sy-caption-wrap {
+                        z-index: 46;
+                        bottom: -4.5em;
+                        left: 22%;
+                        width: 100%;
+                        .sy-caption {
+                            top: -15;
+                            .prm-slide_tab_info {
+                                width: auto;
+                                height: auto;
+                                //position: absolute;
+                                top: 30px;
+                                left: 50px;
+                                //color: #FFF;
+                                text-align: center;
+                                z-index: 50;
+                                /* margin: 0 auto; */
+                                .prm_info_title {
+                                    font-size: 1.4em;
+                                    //line-height: 2em;
+                                    margin-top: 17px;
+                                    margin-left: 35%;
+                                    color:red;
+                                }
+                                p {
+                                    text-align: left;
+                                    font-size: 1.2em;
+                                    color: #323232;
+                                    letter-spacing: .03em;
+                                    margin-top: 17px;
+                                    margin-left: 35%;
+                                }
+                            }
+                            div#prm_ico {
+                                width: 43px;
+                                height: 43px;
+                                background-image: url("../img/ico/ico_go.png");
+                                background-size: cover;
+                                float: right;
+                                margin-top: -35px;
+                                margin-right: -28%;
+                                &:hover {
+                                    opacity: .6;
+                                }
+                            }
+                        }
+                    }
                     .sy-controls li.sy-next {
                         right: -16px;
                     }
@@ -390,6 +440,7 @@ body {
                     top: -32px;
                     @include bg_img("../img/promotion/prm_tab/prm_tab.png");
                     z-index: 35;
+                    /*
                     .promotion-slide_tab_info {
                         width: auto;
                         height: auto;
@@ -414,6 +465,7 @@ body {
                             opacity: .6;
                         }
                     }
+                    */
                 }
             }
             img#prm_quote_footer {

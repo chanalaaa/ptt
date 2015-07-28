@@ -102,21 +102,31 @@
             <div class="promotion-slide_block">
                 <ul id="promotion-slide_ul">
                     <li>
-                        <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
-                    </li>
+                        <a href="#"><img src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>อิ่มฟรี... กับ PTT Blue Card
+                        </div><br><p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
+                            <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p></div>
+                            	<div id='prm_ico'></div>"></a>
+                    </li> 
+                    <!--
                     <li>
-                        <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                        <a href="#"><img src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><p>Happiness! Blue Card</p></div>
+                            	<div id='prm_ico'></div>"></a>
                     </li>
+                    -->
+
+
                 </ul>
             </div>
             <div class="promotion-slide_tab">
                 <div class="promotion-slide_tab_img">
+                    <!--
                     <div class="promotion-slide_tab_info">
                         <p id="prm_info_title">อิ่มฟรี... กับ PTT Blue Card</p>
                         <p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
                             <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly </p>
                     </div>
                     <img src="img/ico/ico_go.png" alt="">
+                    -->
                 </div>
             </div>
             <img id="prm_quote_footer" src="img/promotion/prm_tab/prm_quote_footer.png" alt="">
@@ -288,7 +298,7 @@
 <!-- ****************** FOOTER ****************** -->
 <div class="footer">
     <div class="footer_block">
-    <p>สงวนลิขสิทธิ์ พ.ศ. 2554 บริษัท ปตท. จำกัด (มหาชน)</p>
+        <p>สงวนลิขสิทธิ์ พ.ศ. 2554 บริษัท ปตท. จำกัด (มหาชน)</p>
     </div>
 </div>
 </div>
