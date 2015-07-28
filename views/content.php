@@ -269,16 +269,16 @@
                 <p>Follow us on</p>
             </li>
             <li>
-                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_twit.png" alt=""></a>
+                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_fb.png" alt=""></a>
             </li>
             <li>
                 <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_twit.png" alt=""></a>
             </li>
             <li>
-                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_twit.png" alt=""></a>
+                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_ins.png" alt=""></a>
             </li>
             <li>
-                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_twit.png" alt=""></a>
+                <a href="#"><img id="follow_ico" src="img/follow/follow_ico/ico_yb.png" alt=""></a>
             </li>
         </ul>
     </div>
