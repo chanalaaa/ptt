@@ -237,8 +237,24 @@
 <div class="regis">
     <article class="regis-wrapper">
         <section class="regis-block">
-        <div class="regis-block_opacity"></div>
-        <div class="regis-block_info"></div>
+            <div class="regis-block_opacity"><div class="regis-block_opacity_gra"></div> </div>
+            <div class="regis-block_info">
+                <ul class="regis-block_info_ul">
+                    <li>
+                        <a href="#"><img id="regis_card" src="img/regis_bar/regis_img/regis_card.png"> </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p id="regis_btn">register now</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p id="regis_word">สมัครสมาชิก ฟรี!</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </article>
 </div>
