@@ -622,13 +622,52 @@ body {
                     .ac-slide_block {
                         width: 100%;
                         height: 288px;
-                        overflow: hidden;
+                        //overflow: hidden;
                         img {
                             width: 100%;
                             height: 288px;
+                            background-size: cover;
                         }
                         .sy-box {
                             //height: 288px;
+                            .sy-caption-wrap {
+                                z-index: 46;
+                                bottom: -4.5em;
+                                left: 22%;
+                                width: 100%;
+                                .sy-caption {
+                                    top: -15;
+                                    .ac-slide_tab_info {
+                                        width: auto;
+                                        height: auto;
+                                        //position: absolute;
+                                        top: 30px;
+                                        left: 50px;
+                                        //color: #FFF;
+                                        text-align: center;
+                                        z-index: 50;
+                                        /* margin: 0 auto; */
+                                        p {
+                                            font-size: 1.3em;
+                                            color: #323232;
+                                            letter-spacing: .03em;
+                                            margin-top: 17px;
+                                        }
+                                    }
+                                    div#ac_ico {
+                                        width: 43px;
+                                        height: 43px;
+                                        background-image: url("../img/ico/ico_go_dark.png");
+                                        background-size: cover;
+                                        float: right;
+                                        margin-top: -20px;
+                                        margin-right: -28%;
+                                        &:hover {
+                                            opacity: .6;
+                                        }
+                                    }
+                                }
+                            }
                             .sy-controls li.sy-next {
                                 right: -16px;
                             }
@@ -648,31 +687,6 @@ body {
                             height: 208px;
                             top: -25px;
                             z-index: 44;
-                            .ac-slide_tab_info {
-                                width: auto;
-                                height: auto;
-                                position: absolute;
-                                top: 30px;
-                                left: 50px;
-                                color: #FFF;
-                                text-align: center;
-                                /* margin: 0 auto; */
-                                p {
-                                    font-size: 1.2em;
-                                    color: #323232;
-                                    letter-spacing: .03em;
-                                    margin-top: 17px;
-                                }
-                            }
-                            img {
-                                width: 43px;
-                                height: 43px;
-                                margin: 8% 5% 0% 0%;
-                                float: right;
-                                &:hover {
-                                    opacity: .6;
-                                }
-                            }
                         }
                     }
                 }

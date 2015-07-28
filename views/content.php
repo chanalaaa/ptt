@@ -185,19 +185,19 @@
                     <div class="ac-slide_block">
                         <ul id="ac-slide_ul">
                             <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                                <a href="#"><img src="img/news/news_img/2.jpg" alt="
+                                <div class='ac-slide_tab_info'><p>Pray for Nepal</p></div>
+                            	<div id='ac_ico'></div>">
+                            </a>
                             </li>
                             <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='ac-slide_tab_info'><p>FAST</p><div id='ac_ico'></div></div>
+                            	"></a>
                             </li>
                         </ul>
                     </div>
                     <div class="ac-slide_tab">
                         <div class="ac-slide_tab_img">
-                            <div class="ac-slide_tab_info">
-                                <p>Pray for Nepal</p>
-                            </div>
-                            <img src="img/ico/ico_go_dark.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -210,11 +210,13 @@
                     <div class="pr-slide_block">
                         <ul id="pr-slide_ul">
                             <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt=""></a>
                             </li>
+                            <!--
                             <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                                <a href="#"><img src="img/news/news_img/2.jpg" alt=""></a>
                             </li>
+                            -->
                         </ul>
                     </div>
                     <div class="pr-slide_tab">
