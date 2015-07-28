@@ -922,6 +922,10 @@ p.hotline {
     width: 100%;
     height: 78;
     background-color: #323232; }
+    .footer .footer_block p {
+      color: #FFF;
+      text-align: center;
+      padding-top: 2.5%; }
 
 /* End Footer * --------------------------------------- */
 

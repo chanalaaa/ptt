@@ -957,8 +957,7 @@ p.hotline {
             }
         }
     }
-}// end .follow
-
+} // end .follow
 
 /* End Contact-Follow * --------------------------------------- */
 
@@ -972,8 +971,12 @@ p.hotline {
         width: 100%;
         height: 78;
         background-color: #323232;
+        p {
+            color: #FFF;
+            text-align: center;
+            padding-top: 2.5%;
+        }
     }
-}//end .footer
-
+} //end .footer
 
 /* End Footer * --------------------------------------- */
