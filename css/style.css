@@ -474,7 +474,7 @@ body {
   .news .news-wrapper {
     display: inline-block;
     width: 100%;
-    height: 750px; }
+    height: 700px; }
     .news .news-wrapper .news-block_left {
       position: relative;
       top: -30;
@@ -805,6 +805,29 @@ body {
             height: 36px;
             margin-left: 10%;
             float: left; }
+
+.regis {
+  margin: 3% 3%;
+  zoom: 1;
+  content: " ";
+  clear: both; }
+  .regis .regis-wrapper .regis-block {
+    position: relative;
+    background-image: url("../img/regis_bar/regis_img/regis_bg.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 182px;
+    border-radius: 20px; }
+    .regis .regis-wrapper .regis-block .regis-block_opacity {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.9);
+      width: 100%;
+      height: 182px;
+      border-radius: 20px; }
 
 /*End News * --------------------------------------- */
 

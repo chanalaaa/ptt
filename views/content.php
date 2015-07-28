@@ -191,7 +191,7 @@
                             </a>
                             </li>
                             <li>
-                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='ac-slide_tab_info'><p>PTT Blue Card Happiness<br>
+                                <a href="#"><img src="img/news/news_img/2.jpg" alt="<div class='ac-slide_tab_info'><p>PTT Blue Card Happiness<br>
 									Movie : Fast & Furious 7</p></div>
                             	<div id='ac_ico'></div>"></a>
                             </li>
@@ -230,6 +230,15 @@
                     <img id="pr_quote_footer" src="img/news/news_tab/pr_quote_footer.png" alt="">
                 </div>
             </div>
+        </section>
+    </article>
+</div>
+<!-- ****************** REGIS ****************** -->
+<div class="regis">
+    <article class="regis-wrapper">
+        <section class="regis-block">
+        <div class="regis-block_opacity"></div>
+        <div class="regis-block_info"></div>
         </section>
     </article>
 </div>

@@ -449,7 +449,7 @@ body {
     .news-wrapper {
         display: inline-block;
         width: 100%;
-        height: 750px;
+        height: 700px;
         .news-block_left {
             position: relative;
             top: -30;
@@ -830,5 +830,28 @@ body {
         } //end .news-block_right
     } //end .news-wrapper
 } //end .news
+.regis {
+    margin: 3% 3%;
+    @include clearfix;
+    .regis-wrapper {
+        .regis-block {
+            position:relative;
+            @include bg_img("../img/regis_bar/regis_img/regis_bg.jpg");
+            width: 100%;
+            height: 182px;
+            border-radius: 20px;
+            .regis-block_opacity{
+                position:absolute;
+                background-color: rgba(255,255,255,0.9);
+                width: 100%;
+                height: 182px;
+                border-radius: 20px;
+            }
+            .regis-block_info{
+
+            }
+        }//end .regis-block
+    }//end .regis-wrapper
+} //end .regis
 
 /*End News * --------------------------------------- */
