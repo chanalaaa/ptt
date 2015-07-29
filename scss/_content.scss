@@ -96,9 +96,11 @@ body {
         overflow: hidden;
     }
     @media screen and (max-width: 800px) {
+        /*
         .today-wrapper {
             width: 80%;
         }
+        */
     }
     .today-block {
         width: 100%;
@@ -1046,21 +1048,3 @@ p.hotline {
 /* End Contact-Follow * --------------------------------------- */
 
 
-/* Footer * --------------------------------------- */
-
-.footer {
-    margin-top: 2%;
-    @include clearfix;
-    .footer_block {
-        width: 100%;
-        height: 78;
-        background-color: #323232;
-        p {
-            color: #FFF;
-            text-align: center;
-            padding-top: 2.5%;
-        }
-    }
-} //end .footer
-
-/* End Footer * --------------------------------------- */
