@@ -1,29 +1,56 @@
+$(document).ready(function() {
 
-$(document).ready(function(){
+    $(".privilege-block_body_info_li_tab")
+        .mouseenter(function() {
+            $id = ($(this).index('.privilege-block_body_info_li_tab'));
+            animate_tab($id, true);
+            console.log($id);
+        })
+        .mouseleave(function() {
+            $id = ($(this).index('.privilege-block_body_info_li_tab'));
+            animate_tab($id, false);
+        });
 
-    $( ".privilege-block_body_info_li_tab" )
-  .mouseenter(function() {
-    $( this ).animate({
-        height: "+=100px",
-        marginTop: "-=100px"
-    }, 200);
-  })
-  .mouseleave(function() {
-    $( this ).animate({
-        height: "-=100px",
-        marginTop: "+=100px"
-    }, 500);
-  });
-  
-	/*
-    $('.privilege-block_body_info_li_tab').hover(function(){
-     $(this).animate({ 
-                height:"+=100px",
-                marginTop:"-=100px"}, 200);},
-        function() {
-            $(this).animate({ 
-                height:"-=100px",
-                marginTop:"+=100px"}, 500);
-           });
-        */
+
+    $(".privilege-block_body_img_li")
+        .mouseenter(function() {
+            $id = ($(this).index('.privilege-block_body_img_li'));
+            animate_tab($id, true);
+        })
+        .mouseleave(function() {
+            $id = ($(this).index('.privilege-block_body_img_li'));
+            animate_tab($id, false);
+        });
+
+
+
+    $(".privilege-block_body_info_li_p")
+        .mouseenter(function() {
+            $id = ($(this).index('.privilege-block_body_info_li_p'));
+            animate_tab($id, true);
+        })
+        .mouseleave(function() {
+            $id = ($(this).index('.privilege-block_body_info_li_p'));
+            animate_tab($id, false);
+        });
+
+/* Hover Func. *------------------------------*/
+
+    function animate_tab($id, $bool) {
+
+        if ($bool) {
+            $(".privilege-block_body_info_li_tab").eq($id).animate({
+                height: "+=100px",
+                marginTop: "-=100px"
+            }, 200);
+
+        } else {
+            $(".privilege-block_body_info_li_tab").eq($id).animate({
+                height: "-=100px",
+                marginTop: "+=100px"
+            }, 500);
+
+        }
+    };
+
 });

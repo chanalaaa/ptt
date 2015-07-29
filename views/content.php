@@ -47,16 +47,16 @@
             </div>
             <div class="privilege-block_body">
                 <ul class="privilege-block_body_img_ul">
-                    <li><img src="img/privilege/pvl_img/1.jpg" alt=""></li>
-                    <li><img src="img/privilege/pvl_img/2.jpg" alt=""></li>
-                    <li><img src="img/privilege/pvl_img/3.jpg" alt=""></li>
+                    <li ><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                    <li ><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
+                    <li ><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
                 </ul>
                 <div class="privilege-block_body_info">
                     <ul class="privilege-block_body_info_ul">
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
                                 <div id="pvl_first_tab_li" class="privilege-block_body_info_li_tab"></div>
-                                <p>Takumi Japanese
+                                <p class="privilege-block_body_info_li_p">Takumi Japanese
                                     <br> กับสุดยอดเชฟจากแดนปลาดิบ
                                 </p>
                             </div>
@@ -64,13 +64,13 @@
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
                                 <div class="privilege-block_body_info_li_tab"></div>
-                                <p>Muthi Maya Forest Pool Villa</p>
+                                <p class="privilege-block_body_info_li_p">Muthi Maya Forest Pool Villa</p>
                             </div>
                         </li>
                         <li class="privilege-block_body_info_li">
                             <div class="privilege-block_body_info_box">
                                 <div id="pvl_last_tab_li" class="privilege-block_body_info_li_tab"></div>
-                                <p>Art In Paradise Bangkok</p>
+                                <p class="privilege-block_body_info_li_p">Art In Paradise Bangkok</p>
                             </div>
                         </li>
                     </ul>
