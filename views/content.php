@@ -314,6 +314,7 @@ $(function() {
         // auto: true,
         // preload: 'visible',
         // autoHover: false
+        transition: 'horizontal'
        
 
     });
