@@ -985,6 +985,7 @@ p.hotline {
 /* End Contact-Follow * --------------------------------------- */
 /* Footer * --------------------------------------- */
 .footer {
+  position: relative;
   margin-top: 2%;
   zoom: 1;
   content: " ";
@@ -996,7 +997,7 @@ p.hotline {
     .footer .footer_block p {
       color: #FFF;
       text-align: center;
-      padding-top: 2.5%; }
+      padding-top: 30px; }
 
 /* End Footer * --------------------------------------- */
 

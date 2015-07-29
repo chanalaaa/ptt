@@ -2,16 +2,18 @@
 /* Footer * --------------------------------------- */
 
 .footer {
+    position: relative;
     margin-top: 2%;
     @include clearfix;
     .footer_block {
+        //position:fixed;
         width: 100%;
         height: 78;
         background-color: #323232;
         p {
             color: #FFF;
             text-align: center;
-            padding-top: 2.5%;
+            padding-top: 30px;
         }
     }
 } //end .footer
