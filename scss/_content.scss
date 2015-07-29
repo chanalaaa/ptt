@@ -106,59 +106,90 @@ body {
     .today-block {
         width: 100%;
         max-height: 363px;
-        .sy-pager {
-            display: none;
-        }
-    }
-    a img {
-        border-radius: 15px;
-        width: 45%;
-        max-height: 363px;
-    }
-    .sy-caption-wrap {
-        width: 40%;
-        top: 75;
-        height: 100%;
-        bottom: 0em;
-        left: 70%;
-        .sy-caption {
-            text-align: center;
-            z-index: 333;
-            display: block;
-            .cap1_title {
-                background-color: #FFF;
-                color: #1F71B7;
-                padding: 5px 12px 2px;
-                width: 60%;
-                font-size: 1.5em;
-                margin: 0 auto;
-                letter-spacing: .1em;
-                text-transform: uppercase;
-            }
-            .cap1_info {
-                margin-top: 32px;
-                color: #FFF;
-                font-size: 1.7em;
-                //letter-spacing: .05em;
-            }
-            .cap1_btn img {
-                margin-top: 27px;
-                width: 58px;
-                height: 58px;
-                &:hover {
-                    opacity: .5;
+        .news-slider {
+            /* Style the actual content */
+            .text-content {
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.9);
+                width: 40%;
+                top: 75;
+                height: 100%;
+                bottom: 0em;
+                left: 70%;
+                text-align: center;
+                z-index: 333;
+                display: block;
+                .cap1_title {
+                    background-color: #FFF;
+                    color: #1F71B7;
+                    padding: 5px 12px 2px;
+                    width: 60%;
+                    font-size: 1.5em;
+                    margin: 0 auto;
+                    letter-spacing: .1em;
+                    text-transform: uppercase;
+                }
+                .cap1_info {
+                    margin-top: 32px;
+                    color: #FFF;
+                    font-size: 1.7em;
+                    //letter-spacing: .05em;
+                }
+                .cap1_btn img {
+                    margin-top: 27px;
+                    width: 58px;
+                    height: 58px;
+                    &:hover {
+                        opacity: .5;
+                    }
                 }
             }
-        }
+        
+    }
+    .news-slider .image-content {
+        line-height: 0;
+    }
+    .news-slider .image-content img {
+        max-width: 100%;
+    }
+    .news-slider .news-pager {
+        text-align: right;
+        display: block;
+        margin: 0.2em 0 0;
+        padding: 0;
+        list-style: none;
+    }
+    .news-slider .news-pager li {
+        display: inline-block;
+        padding: 0.6em;
+        margin: 0 0 0 1em;
+    }
+    .news-slider .news-pager li.sy-active a {
+        color: #31ace2;
+    }
+    .news-slider .news-pager li a {
+        font-weight: 500;
+        text-decoration: none;
+        display: block;
+        color: #222;
+    }
+    .sy-pager {
+        display: none;
     }
 }
 
+a img {
+    border-radius: 15px;
+    width: 45%;
+    max-height: 363px;
+}
+
+
+}
 
 /* End Today * --------------------------------------- */
 
-
 /* Privilege * --------------------------------------- */
-
 .privilege {
     position: relative;
     height: 466px;
@@ -173,6 +204,7 @@ body {
         overflow: hidden;
         z-index: 10;
     }
+    
     .privilege-block {
         width: 100%;
         max-height: 100%;
@@ -338,9 +370,7 @@ body {
 
 /* End Privilege * --------------------------------------- */
 
-
 /* Promotion * --------------------------------------- */
-
 .promotion {
     margin: 1% 1%;
     margin-top: 10px;
@@ -533,9 +563,7 @@ body {
 
 /* End Promotion * --------------------------------------- */
 
-
 /* News * --------------------------------------- */
-
 .news {
     margin: 4% 4% 0% 2%;
     .news-wrapper {
@@ -925,9 +953,7 @@ body {
 
 /*End News * --------------------------------------- */
 
-
 /* Regis * --------------------------------------- */
-
 .regis {
     margin: 3% 3%;
     @include clearfix;
@@ -1012,16 +1038,13 @@ body {
 
 /* End Regis * --------------------------------------- */
 
-
 /* Contact-Follow  * --------------------------------------- */
-
 p.hotline {
     margin-top: 4%;
     text-align: center;
     color: #FFF;
     font-size: 2em;
 }
-
 .follow {
     margin-top: 3.5%;
     .follow_block {

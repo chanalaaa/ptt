@@ -15,26 +15,41 @@
                 <section class="today-block">
                     <ul id="today_ul">
                         <li>
+                            <a href="#"><img src="img/today/image-1.jpg" alt=""></a>
+
+
+                            <div class="text-content">
+                                <div class='cap1_title'>
+                                    <p>today's special</p>
+                                </div>
+                                <br>
+                                <div class='cap1_info'>Blue Point 500 คะแนน
+                                    <br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม
+                                    <br>Combo Set Size L
+                                    <br>
+                                </div>
+                                <div class='cap1_btn'>
+                                    <a href='#'><img src='img/ico/ico_go.png'></a>
+                                </div>
+                            </div>
+
+
+                        </li>
+                        <li>
                             <a href="#"><img src="img/today/image-1.jpg" alt=" 
-                            <div class='cap1_title'><p>today's special</p></div> <br>
+                            <div class='cap1_title'><p>tomorrow special</p></div> <br>
                             <div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
                             <div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
         </li>
         <li>
             <a href="#"><img src="img/today/image-1.jpg" alt=" 
-                            <div class='cap1_title'><p>tomorrow special</p></div> <br>
-                            <div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
-                            <div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
-    </li>
-    <li>
-        <a href="#"><img src="img/today/image-1.jpg" alt=" 
                             <div class='cap1_title'><p>someday special</p></div> <br>
                             <div class='cap1_info'>Blue Point 500 คะแนน<br> แลกรับบัตรชมภาพยนตร์ 1 ใบพร้อม<br>Combo Set Size L<br></div>
                             <div class='cap1_btn'><a href='#'><img src='img/ico/ico_go.png'></a></div>"></a>
-</li>
-</ul>
-</section>
-</article>
+    </li>
+    </ul>
+    </section>
+    </article>
 </div>
 <!-- ****************** PRIVILEGE ****************** -->
 <div class="privilege">
@@ -314,22 +329,26 @@ $(function() {
         // auto: true,
         // preload: 'visible',
         // autoHover: false
+        slippryWrapper: '<div class="sy-box news-slider" />', // wrapper to wrap everything, including pager
+        //elements: 'article',
+        adaptiveHeight: false, // height of the sliders adapts to current 
+        captions: false,
+        autoDirection: 'prev',
         transition: 'horizontal'
-       
+
 
     });
 
     $("#promotion-slide_ul").slippry({
-
+        transition: 'horizontal'
     });
 
     $("#ac-slide_ul").slippry({
-
+        transition: 'horizontal'
     });
 
     $("#pr-slide_ul").slippry({
-
-
+        transition: 'horizontal'
     });
 
 });
