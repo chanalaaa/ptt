@@ -365,6 +365,8 @@ body {
               border-bottom-left-radius: 18px; }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box #pvl_last_tab_li {
               border-bottom-right-radius: 18px; }
+            .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box .privilege-block_body_info_li_p {
+              pointer-events: none; }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li .privilege-block_body_info_box p {
               position: absolute;
               color: #FFF;
