@@ -375,13 +375,10 @@ body {
                 img {
                     width: 100%;
                     height: 338px;
-                    
+                    ;
                 }
                 .sy-box {
                     height: 288px;
-                    .sy-next {
-                        right: -13px;
-                    }
                     .sy-caption-wrap {
                         z-index: 46;
                         bottom: -5.5em;
@@ -431,8 +428,11 @@ body {
                             }
                         }
                     }
+                   
                     .sy-controls li.sy-next {
-                        right: -16px;
+                        right: 9px;
+                        top: 0;
+                        min-width: auto;
                     }
                     .sy-pager {
                         display: none;
