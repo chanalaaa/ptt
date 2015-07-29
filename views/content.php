@@ -47,9 +47,9 @@
             </div>
             <div class="privilege-block_body">
                 <ul class="privilege-block_body_img_ul">
-                    <li ><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
-                    <li ><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
-                    <li ><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
+                    <li><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                    <li><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
+                    <li><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
                 </ul>
                 <div class="privilege-block_body_info">
                     <ul class="privilege-block_body_info_ul">
@@ -314,6 +314,7 @@ $(function() {
         // auto: true,
         // preload: 'visible',
         // autoHover: false
+       
 
     });
 

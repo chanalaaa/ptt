@@ -198,7 +198,9 @@
 
 /* next/ prev buttons, with arrows and clickable area a lot larger than the visible buttons */
 .sy-controls {
-  display: none;
+  display: block;
+  /*display: none;*/
+
   list-style: none;
   height: 100%;
   width: 100%;
