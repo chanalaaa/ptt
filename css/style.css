@@ -177,11 +177,12 @@ body {
 /* End Header * --------------------------------------- */
 /* Today * --------------------------------------- */
 .today {
-  width: 100%;
+  margin: 2% 2%;
+  width: 98%;
   position: relative;
-  height: 300px;
-  margin-left: 20px; }
+  height: 300px; }
   .today .today-wrapper {
+    margin-left: 20px;
     position: absolute;
     width: 100%;
     margin: 0 auto;
@@ -534,7 +535,7 @@ body {
             .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one .prm_info_one_info h2 {
               font-size: 2em; }
         .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block #ico_line {
-          width: 310px;
+          width: 100%;
           height: 1px;
           padding: 20px 0px; }
 
