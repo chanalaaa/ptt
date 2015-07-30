@@ -560,11 +560,12 @@ body {
         .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one {
           display: inline-flex;
           width: 100%; }
-          .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one img {
+          .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one img#prm_ico {
             width: 78px;
             height: 78px;
             float: left; }
           .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one .prm_info_one_info {
+            width: 60%;
             float: right;
             margin-top: 2.5%;
             color: #FFF;

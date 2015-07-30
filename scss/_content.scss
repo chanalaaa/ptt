@@ -552,12 +552,13 @@ body {
                 .prm_info_one {
                     display: inline-flex;
                     width: 100%;
-                    img {
+                    img#prm_ico {
                         width: 78px;
                         height: 78px;
                         float: left;
                     }
                     .prm_info_one_info {
+                        width: 60%;
                         float: right;
                         margin-top: 2.5%;
                         color: #FFF;
