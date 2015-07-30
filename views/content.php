@@ -370,6 +370,11 @@ $(function() {
     });
 
     $("#promotion-slide_ul").slippry({
+        slippryWrapper: '<div class="sy-box news-slider" />', // wrapper to wrap everything, including pager
+        //elements: 'article',
+        adaptiveHeight: false, // height of the sliders adapts to current 
+        captions: false,
+        autoDirection: 'prev',
         transition: 'horizontal'
     });
 
