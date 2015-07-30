@@ -135,14 +135,26 @@
                     <div class="promotion-slide_block">
                         <ul id="promotion-slide_ul">
                             <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>อิ่มฟรี... กับ PTT Blue Card
-                        </div><br><p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
-                            <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p></div>
-                                <div id='prm_ico'></div>"></a>
+                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <div class='prm-slide_tab_info'>
+                                        <div class='prm_info_title'>อิ่มฟรี... กับ PTT Blue Card
+                                        </div>
+                                        <br>
+                                        <p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
+                                            <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p>
+                                    </div>
+                                    <div id='prm_ico'></div>
+                                </div>
                             </li>
                             <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><p>Happiness! Blue Card</p></div>
-                                <div id='prm_ico'></div>"></a>
+                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
+                                <div class="text-content">
+                                    <div class='prm-slide_tab_info'>
+                                        <p>Happiness! Blue Card</p>
+                                    </div>
+                                    <div id='prm_ico'></div>
+                                </div>
                             </li>
                         </ul>
                     </div>
