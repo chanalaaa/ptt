@@ -71,58 +71,51 @@
         </div>
         <!-- ****************** PRIVILEGE ****************** -->
         <div class="privilege">
-            <article class="privilege-wrapper">
-                <section class="privilege-block">
-                    <div class="privilege-block_header_block">
-                        <div class="privilege-block_header">
-                            <p class="privilege-block_header_title">privilege</p>
-                        </div>
-                    </div>
-                    <div class="privilege-block_body">
-                        <ul class="privilege-block_body_img_ul">
-                            <li><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
-                            <li><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
-                            <li><img class="privilege-block_body_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
-                        </ul>
-                        <div class="privilege-block_body_info">
-                            <ul class="privilege-block_body_info_ul">
-                                <li class="privilege-block_body_info_li">
-                                    <div class="privilege-block_body_info_box">
-                                        <div id="pvl_first_tab_li" class="privilege-block_body_info_li_tab"></div>
-                                        <p class="privilege-block_body_info_li_p">Takumi Japanese
-                                            <br> กับสุดยอดเชฟจากแดนปลาดิบ
-                                        </p>
-                                    </div>
-                                </li>
-                                <li class="privilege-block_body_info_li">
-                                    <div class="privilege-block_body_info_box">
-                                        <div class="privilege-block_body_info_li_tab"></div>
-                                        <p class="privilege-block_body_info_li_p">Muthi Maya Forest Pool Villa</p>
-                                    </div>
-                                </li>
-                                <li class="privilege-block_body_info_li">
-                                    <div class="privilege-block_body_info_box">
-                                        <div id="pvl_last_tab_li" class="privilege-block_body_info_li_tab"></div>
-                                        <p class="privilege-block_body_info_li_p">Art In Paradise Bangkok</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
-                            <!--
-                    <ul class="privilege-block_body_info_ul_foot">
-                        <li class="privilege-block_body_info_li_foot">
+    <article class="privilege-wrapper">
+        <section class="privilege-block">
+            <div class="privilege-block_header">
+                <p class="privilege-block_header_title">privilege</p>
+            </div>
+            <div class="privilege-block_body">
+                <ul class="privilege-block_body_img_ul">
+                    <li><img src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                    <li><img src="img/privilege/pvl_img/2.jpg" alt=""></li>
+                    <li><img src="img/privilege/pvl_img/3.jpg" alt=""></li>
+                </ul>
+                <div class="privilege-block_body_info">
+                    <ul class="privilege-block_body_info_ul">
+                        <li class="privilege-block_body_info_li">
+                            <img src="img/privilege/tab_img.png" alt="">
+                            <p>Takumi Japanese
+                                <br> กับสุดยอดเชฟจากแดนปลาดิบ
+                            </p>
                         </li>
-                        <li class="privilege-block_body_info_li_foot">
+                        <li class="privilege-block_body_info_li">
+                            <img src="img/privilege/tab_img.png" alt="">
+                            <p>Muthi Maya Forest Pool Villa</p>
                         </li>
-                        <li class="privilege-block_body_info_li_foot">
+                        <li class="privilege-block_body_info_li">
+                            <img src="img/privilege/tab_img.png" alt="">
+                            <p>Art In Paradise Bangkok</p>
                         </li>
                     </ul>
-                    -->
-                        </div>
-                    </div>
-                </section>
-            </article>
-        </div>
+                    <ul  class="privilege-block_body_info_ul_foot">
+                        <li class="privilege-block_body_info_li_foot">
+                            
+                        </li>
+                        <li class="privilege-block_body_info_li_foot">
+                            
+                        </li>
+                        <li class="privilege-block_body_info_li_foot">
+                           
+                        </li>
+                    </ul>
+                    <img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
+                </div>
+            </div>
+        </section>
+    </article>
+</div>
         <!-- ****************** PROMOTION ****************** -->
         <div class="promotion">
             <article class="promotion-wrapper">
