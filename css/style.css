@@ -443,42 +443,6 @@ body {
         .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block img {
           width: 100%;
           height: 338px; }
-        .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .news-slider .text-content {
-          position: absolute;
-          width: 40%;
-          top: 75;
-          height: 100%;
-          bottom: 0em;
-          text-align: center;
-          z-index: 333;
-          display: block; }
-          .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .news-slider .text-content .prm-slide_tab_info {
-            width: auto;
-            height: auto;
-            position: absolute;
-            top: 30px;
-            left: 50px;
-            text-align: center;
-            z-index: 50;
-            /* margin: 0 auto; */ }
-            .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .news-slider .text-content .prm-slide_tab_info .prm_info_title {
-              font-size: 1.4em;
-              color: #FFF;
-              margin-left: 5%;
-              top: 10px;
-              margin-left: 33%;
-              position: absolute; }
-            .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .news-slider .text-content .prm-slide_tab_info p {
-              text-align: left;
-              font-size: 1.2em;
-              color: #FFF;
-              letter-spacing: .03em;
-              margin-top: 17px;
-              margin-left: 35%; }
-        .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .news-slider .image-content {
-          line-height: 0; }
-        .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .news-slider .image-content img {
-          max-width: 100%; }
         .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box {
           height: 288px; }
           .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap {
@@ -488,6 +452,28 @@ body {
             width: 100%; }
             .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption {
               top: -15; }
+              .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption .prm-slide_tab_info {
+                width: auto;
+                height: auto;
+                top: 30px;
+                left: 50px;
+                text-align: center;
+                z-index: 50;
+                /* margin: 0 auto; */ }
+                .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption .prm-slide_tab_info .prm_info_title {
+                  font-size: 1.4em;
+                  color: #FFF;
+                  margin-left: 5%;
+                  top: 10px;
+                  margin-left: 33%;
+                  position: absolute; }
+                .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption .prm-slide_tab_info p {
+                  text-align: left;
+                  font-size: 1.2em;
+                  color: #FFF;
+                  letter-spacing: .03em;
+                  margin-top: 17px;
+                  margin-left: 35%; }
               .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption div#prm_ico {
                 width: 43px;
                 height: 43px;

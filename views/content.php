@@ -135,26 +135,14 @@
                     <div class="promotion-slide_block">
                         <ul id="promotion-slide_ul">
                             <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
-                                <div class="text-content">
-                                    <div class='prm-slide_tab_info'>
-                                        <div class='prm_info_title'>อิ่มฟรี... กับ PTT Blue Card
-                                        </div>
-                                        <br>
-                                        <p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
-                                            <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p>
-                                    </div>
-                                    <div id='prm_ico'></div>
-                                </div>
+                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>อิ่มฟรี... กับ PTT Blue Card
+                        </div><br><p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
+                            <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p></div>
+                                <div id='prm_ico'></div>"></a>
                             </li>
                             <li>
-                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt=""></a>
-                                <div class="text-content">
-                                    <div class='prm-slide_tab_info'>
-                                        <p>Happiness! Blue Card</p>
-                                    </div>
-                                    <div id='prm_ico'></div>
-                                </div>
+                                <a href="#"><img src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><p>Happiness! Blue Card</p></div>
+                                <div id='prm_ico'></div>"></a>
                             </li>
                         </ul>
                     </div>
@@ -370,11 +358,6 @@ $(function() {
     });
 
     $("#promotion-slide_ul").slippry({
-        slippryWrapper: '<div class="sy-box news-slider" />', // wrapper to wrap everything, including pager
-        //elements: 'article',
-        adaptiveHeight: false, // height of the sliders adapts to current 
-        captions: false,
-        autoDirection: 'prev',
         transition: 'horizontal'
     });
 
