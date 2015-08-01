@@ -331,7 +331,10 @@ body {
               overflow: hidden;
               font-size: 0px; }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li:hover {
-              margin-top: -200px; }
+              margin-top: -200px;
+              -webkit-transition: margin .6s ease-in-out;
+              transition: margin .6s ease-in-out;
+              /* Safari */ }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li #pvl_first_tab_li {
               border-bottom-left-radius: 18px; }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li #pvl_last_tab_li {

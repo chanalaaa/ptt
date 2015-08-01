@@ -282,6 +282,10 @@ body {
                         }
                         &:hover {
                             margin-top: -200px;
+                            -webkit-transition: margin .6s ease-in-out;
+                            transition: margin .6s ease-in-out;
+
+                            /* Safari */
                             //opacity: .5;
                             //height: 120px;
                         }
