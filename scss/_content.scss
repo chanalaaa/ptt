@@ -274,7 +274,7 @@ body {
                         //background-position: center center;
                         //background-repeat: no-repeat;
                         img {
-                            height: 273px;
+                            height: 276px;
                             width: 320px;
                             position: absolute;
                             overflow: hidden;
@@ -303,20 +303,23 @@ body {
                         }
                     }
                 }
-                .privilege-block_body_info_ul_foot {
-                    margin: 0 auto;
-                    display: inline-flex;
-                    max-width: inherit;
-                    list-style: none;
-                    border: none;
-                    .privilege-block_body_info_li_foot {
-                        font-size: 0px;
-                        width: 320px;
-                        height: 20px;
-                        background-color: #6ACEED;
-                        margin-top: -1px;
-                    }
-                }
+            }
+        }
+        .privilege-block_body_info_ul_foot {
+            margin: 0 auto;
+            display: inline-flex;
+            max-width: inherit;
+            list-style: none;
+            border: none;
+            position: absolute;
+            z-index: 15; 
+            margin-top: -16px;
+            .privilege-block_body_info_li_foot2 {
+                font-size: 0px;
+                width: 320px;
+                height: 20px;
+                background-color: #6ACEED;
+                margin-top: -1px;
             }
         }
         .privilege-block_body_info_quote_footer {

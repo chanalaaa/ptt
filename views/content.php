@@ -87,7 +87,9 @@
                         <li class="privilege-block_body_info_li">
                             <img src="img/privilege/tab_img.png" alt="">
                             <p>Takumi Japanese
-                                <br> กับสุดยอดเชฟจากแดนปลาดิบ
+                                <br> กับสุดยอดเชฟจากแดนปลาดิบ <br><br>
+                                แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่นแฟกซ์ <br>
+                                 คอมเมนท์บัลลาสต์<br> อิมพีเรียลเชฟ วันเวย์น้องใหม่ 
                             </p>
                         </li>
                         <li class="privilege-block_body_info_li">
@@ -99,23 +101,24 @@
                             <p>Art In Paradise Bangkok</p>
                         </li>
                     </ul>
-                    <ul  class="privilege-block_body_info_ul_foot">
-                        <li class="privilege-block_body_info_li_foot">
-                            
-                        </li>
-                        <li class="privilege-block_body_info_li_foot">
-                            
-                        </li>
-                        <li class="privilege-block_body_info_li_foot">
-                           
-                        </li>
-                    </ul>
+                    
                     
                 </div>
             </div>
+            <ul  class="privilege-block_body_info_ul_foot">
+                        <li class="privilege-block_body_info_li_foot2">
+                            
+                        </li>
+                        <li class="privilege-block_body_info_li_foot2">
+                            
+                        </li>
+                        <li class="privilege-block_body_info_li_foot2">
+                           
+                        </li>
+                    </ul>
 <img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
         </section>
-        
+
     </article>
 </div>
         <!-- ****************** PROMOTION ****************** -->
