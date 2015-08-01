@@ -11,23 +11,23 @@ $(document).ready(function() {
             top_tab($id, false);
         });
 
-/*
-    $(".privilege-block_body_img_li")
+
+    $("#pvl_img_li")
         .mouseenter(function() {
-            $id = ($(this).index('.privilege-block_body_img_li'));
-            animate_tab($id, true);
+            $id = ($(this).index('#pvl_img_li'));
+            top_tab($id, true);
         })
         .mouseleave(function() {
-            $id = ($(this).index('.privilege-block_body_img_li'));
+            $id = ($(this).index('#pvl_img_li'));
             animate_tab($id, false);
         });
 
-*/
+
 
     
 
     /* Hover Func. *------------------------------*/
-
+/*
     function animate_tab($id, $bool) {
 
         if ($bool) {
@@ -46,19 +46,17 @@ $(document).ready(function() {
 
         }
     };
+    */
 
     function top_tab($id, $bool) {
 
         if ($bool) {
 
-            $("img.privilege-block_body_info_li_tab").eq($id).stop(true, true).css({
-                height: "+=100px",
-                marginTop: "-=100px"
-            }, 250);
+            $("#pvl_tab_img_li").eq($id).css( "margin-top", "-200px" );
 
         } else {
 
-            $("img.privilege-block_body_info_li_tab").eq($id).stop(true, true).animate({
+            $("pvl_tab_img_li").eq($id).stop(true, true).animate({
                 height: "-=100px",
                 marginTop: "+=100px"
             }, 500);
