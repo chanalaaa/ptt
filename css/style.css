@@ -352,13 +352,12 @@ body {
       border: none;
       position: absolute;
       z-index: 15;
-      margin-top: -16px; }
+      margin-top: -19px; }
       .privilege .privilege-block .privilege-block_body_info_ul_foot .privilege-block_body_info_li_foot2 {
         font-size: 0px;
         width: 320px;
         height: 20px;
-        background-color: #6ACEED;
-        margin-top: -1px; }
+        background-color: #6ACEED; }
     .privilege .privilege-block .privilege-block_body_info_quote_footer {
       float: right;
       width: 282px;
@@ -368,7 +367,7 @@ body {
 /* Promotion * --------------------------------------- */
 .promotion {
   margin: 1% 1%;
-  margin-top: 10px; }
+  margin-top: 5px; }
   .promotion .promotion-wrapper {
     position: relative;
     display: inline-block;
