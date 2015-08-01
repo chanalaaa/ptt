@@ -110,10 +110,12 @@
                            
                         </li>
                     </ul>
-                    <img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
+                    
                 </div>
             </div>
+<img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
         </section>
+        
     </article>
 </div>
         <!-- ****************** PROMOTION ****************** -->
