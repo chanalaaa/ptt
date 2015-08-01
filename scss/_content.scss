@@ -294,12 +294,12 @@ body {
                         p {
                             position: absolute;
                             color: #FFF;
-                            font-size: 1.4em;
+                            font-size: 1.35em;
                             font-weight: normal;
                             text-align: center;
                             top: 30%;
-                            width: 320px;
-                            //vertical-align: bottom;
+                            width: 91%;
+                            padding: 0px 15px;
                         }
                     }
                 }
@@ -312,14 +312,13 @@ body {
             list-style: none;
             border: none;
             position: absolute;
-            z-index: 15; 
+            z-index: 15;
             margin-top: -19px;
             .privilege-block_body_info_li_foot2 {
                 font-size: 0px;
                 width: 320px;
                 height: 20px;
                 background-color: #6ACEED;
-               
             }
         }
         .privilege-block_body_info_quote_footer {

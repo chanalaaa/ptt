@@ -339,11 +339,12 @@ body {
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li p {
               position: absolute;
               color: #FFF;
-              font-size: 1.4em;
+              font-size: 1.35em;
               font-weight: normal;
               text-align: center;
               top: 30%;
-              width: 320px; }
+              width: 91%;
+              padding: 0px 15px; }
     .privilege .privilege-block .privilege-block_body_info_ul_foot {
       margin: 0 auto;
       display: inline-flex;

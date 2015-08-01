@@ -94,11 +94,14 @@
                         </li>
                         <li class="privilege-block_body_info_li">
                             <img src="img/privilege/tab_img.png" alt="">
-                            <p>Muthi Maya Forest Pool Villa</p>
+                            <p>Muthi Maya Forest Pool Villa
+                            <br><br><br>สเปกสแตนเลส<br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธศตวรรษ</p>
                         </li>
                         <li class="privilege-block_body_info_li">
                             <img src="img/privilege/tab_img.png" alt="">
-                            <p>Art In Paradise Bangkok</p>
+                            <p>Art In Paradise Bangkok<br><br><br>
+                            ราสเบอร์รีอยุติธรรมเฉิ่มโปรเจ็ค<br>ฮมผลักดันจุ๊ยแครอท แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง<br>
+                            โอวัลติน สะบึมส์ตรวจสอบมายองเนส เรซินไฮเวย์รองรับอึมครึม </p>
                         </li>
                     </ul>
                     
