@@ -323,15 +323,15 @@ body {
             width: 320px;
             -webkit-transition: margin 2s;
             transition: margin 2s;
-            flex-grow: 1; }
+            flex-grow: 1;
+            -webkit-transition: margin .6s ease;
+            transition: margin .6s ease; }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li img {
               height: 276px;
               width: 320px;
               position: absolute;
               overflow: hidden;
               font-size: 0px; }
-            .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li:hover {
-              /* Safari */ }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li #pvl_first_tab_li {
               border-bottom-left-radius: 18px; }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li #pvl_last_tab_li {

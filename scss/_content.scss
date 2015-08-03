@@ -268,6 +268,8 @@ body {
                         -webkit-transition: margin 2s;
                         transition: margin 2s;
                         flex-grow: 1;
+                        -webkit-transition: margin .6s ease;
+                        transition: margin .6s ease;
                         //float: left;
                         //background-image: url("../img/privilege/tab_img.png");
                         //background-size: cover;
@@ -281,11 +283,9 @@ body {
                             font-size: 0px;
                         }
                         &:hover {
-                           // margin-top: -200px;
-                            //-webkit-transition: margin .6s ease-in-out;
-                           // transition: margin .6s ease-in-out;
-
-                            /* Safari */
+                            // margin-top: -200px;
+                            // -webkit-transition: margin .6s ease;
+                            // transition: margin .6s ease;
                             //opacity: .5;
                             //height: 120px;
                         }

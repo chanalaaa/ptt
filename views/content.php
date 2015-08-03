@@ -78,14 +78,14 @@
             </div>
             <div class="privilege-block_body">
                 <ul class="privilege-block_body_img_ul">
-                    <li><img id="pvl_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
-                    <li><img id="pvl_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
-                    <li><img id="pvl_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
+                    <li><img class="pvl_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                    <li><img class="pvl_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
+                    <li><img class="pvl_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
                 </ul>
                 <div class="privilege-block_body_info">
                     <ul class="privilege-block_body_info_ul">
                         <li class="privilege-block_body_info_li">
-                            <img id="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
+                            <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
                             <p>Takumi Japanese
                                 <br> กับสุดยอดเชฟจากแดนปลาดิบ <br><br>
                                 แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น <br>
@@ -93,13 +93,13 @@
                             </p>
                         </li>
                         <li class="privilege-block_body_info_li">
-                            <img id="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
+                            <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
                             <p>Muthi Maya Forest Pool Villa
                             <br><br><br>สเปกสแตนเลส<br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธศตวรรษ<br><br>มินต์นอมินีวืดเฟอร์รี่
                             แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</p>
                         </li>
                         <li class="privilege-block_body_info_li">
-                            <img id="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
+                            <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
                             <p>Art In Paradise Bangkok<br><br><br>
                             ราสเบอร์รีอยุติธรรมเฉิ่มโปรเจ็ค<br>ฮมผลักดันจุ๊ยแครอท แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึม<br>
                             โอวัลติน สะบึมส์ตรวจสอบมายองเนส เรซินไฮเวย์รองรับอึมครึม </p>
