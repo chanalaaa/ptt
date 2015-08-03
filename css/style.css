@@ -238,6 +238,9 @@ body {
           height: 58px; }
           .today .today-block .news-slider .text-content .cap1_btn img:hover {
             opacity: .5; }
+    .today .today-block .sy-controls li.sy-next {
+      right: -14px;
+      top: 0; }
     .today .today-block .news-slider .image-content {
       line-height: 0; }
     .today .today-block .news-slider .image-content img {
