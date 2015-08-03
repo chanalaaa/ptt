@@ -109,16 +109,8 @@
                     
                 </div>
             </div>
-            <ul  class="privilege-block_body_info_ul_foot">
-                        <li class="privilege-block_body_info_li_foot2">
-                            
-                        </li>
-                        <li class="privilege-block_body_info_li_foot2">
-                            
-                        </li>
-                        <li class="privilege-block_body_info_li_foot2">
-                           
-                        </li>
+            <ul class="privilege-block_body_info_ul_foot">
+                        <li class="privilege-block_body_info_li_foot2"></li>
                     </ul>
 <img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
         </section>

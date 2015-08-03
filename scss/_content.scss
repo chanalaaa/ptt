@@ -318,11 +318,14 @@ body {
             position: absolute;
             z-index: 15;
             margin-top: -19px;
+            width: 100%;
             .privilege-block_body_info_li_foot2 {
                 font-size: 0px;
-                width: 320px;
+                width: 100%;
                 height: 20px;
                 background-color: #6ACEED;
+                border-bottom-right-radius: 50px;
+                border-bottom-left-radius: 50px;
             }
         }
         .privilege-block_body_info_quote_footer {
@@ -341,7 +344,7 @@ body {
 
 .promotion {
     margin: 1% 1%;
-    margin-top: 5px;
+    margin-top: 15px;
     //margin-left: 20px;
     .promotion-wrapper {
         position: relative;
