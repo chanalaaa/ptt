@@ -77,11 +77,13 @@
                 <p class="privilege-block_header_title">privilege</p>
             </div>
             <div class="privilege-block_body">
+            <img class="pvl_img_tag" src="img/privilege/pvl_tag.png" alt="">
                 <ul class="privilege-block_body_img_ul">
                     <li><img class="pvl_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
                     <li><img class="pvl_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
                     <li><img class="pvl_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
                 </ul>
+                
                 <div class="privilege-block_body_info">
                     <ul class="privilege-block_body_info_ul">
                         <li class="privilege-block_body_info_li">

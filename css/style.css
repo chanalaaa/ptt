@@ -293,10 +293,17 @@ body {
         margin: 3.1% 5% 0% 0%;
         text-transform: uppercase; }
     .privilege .privilege-block .privilege-block_body {
+      width: 100%;
       height: 281px;
+      position: relative;
       overflow: hidden;
       border-bottom-right-radius: 30px;
       border-bottom-left-radius: 30px; }
+      .privilege .privilege-block .privilege-block_body .pvl_img_tag {
+        position: absolute;
+        width: 66px;
+        height: 66px;
+        z-index: 20; }
       .privilege .privilege-block .privilege-block_body .privilege-block_body_img_ul {
         max-width: inherit;
         list-style: none;
@@ -327,17 +334,22 @@ body {
             transition: margin 2s;
             flex-grow: 1;
             -webkit-transition: margin .6s ease;
-            transition: margin .6s ease; }
+            transition: margin .6s ease;
+            /*
+            #pvl_first_tab_li {
+                border-bottom-left-radius: 18px;
+            }
+            #pvl_last_tab_li {
+                border-bottom-right-radius: 18px;
+            }
+            */ }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li img {
               height: 276px;
               width: 320px;
               position: absolute;
               overflow: hidden;
-              font-size: 0px; }
-            .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li #pvl_first_tab_li {
-              border-bottom-left-radius: 18px; }
-            .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li #pvl_last_tab_li {
-              border-bottom-right-radius: 18px; }
+              font-size: 0px;
+              z-index: 21; }
             .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li p {
               position: absolute;
               color: #FFF;
@@ -346,7 +358,8 @@ body {
               text-align: center;
               top: 30%;
               width: 91%;
-              padding: 0px 15px; }
+              padding: 0px 15px;
+              z-index: 22; }
     .privilege .privilege-block .privilege-block_body_info_ul_foot {
       margin: 0 auto;
       display: inline-flex;
@@ -354,7 +367,7 @@ body {
       list-style: none;
       border: none;
       position: absolute;
-      z-index: 15;
+      z-index: 23;
       margin-top: -27px;
       width: 100%; }
       .privilege .privilege-block .privilege-block_body_info_ul_foot .privilege-block_body_info_li_foot2 {
