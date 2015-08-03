@@ -455,9 +455,8 @@ body {
                 .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption div#prm_ico:hover {
                   opacity: .6; }
           .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-controls li.sy-next {
-            right: 9px;
-            top: 0;
-            min-width: auto; }
+            right: -12px;
+            top: 0; }
           .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-pager {
             display: none; }
       .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_tab {
