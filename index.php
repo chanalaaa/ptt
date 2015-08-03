@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>PTT</title>
+    <title>PTT : Blue Card (demo)</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
