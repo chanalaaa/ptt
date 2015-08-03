@@ -70,13 +70,11 @@ body {
 
 /* Header * --------------------------------------- */
 
-
-    #section1 {
-        background-image: url("../img/header_img/1.jpg");
-        background-position: center center;
-        background-size: cover;
-    }
-
+#section1 {
+    background-image: url("../img/header_img/1.jpg");
+    background-position: center center;
+    background-size: cover;
+}
 
 
 /* End Header * --------------------------------------- */
@@ -234,11 +232,18 @@ body {
             overflow: hidden;
             border-bottom-right-radius: 30px;
             border-bottom-left-radius: 30px;
-            .pvl_img_tag{
+            .pvl_img_tag {
                 position: absolute;
                 width: 66px;
                 height: 66px;
                 z-index: 20;
+            }
+            .pvl_box_shadow {
+                position: absolute;
+                width: 100%;
+                height: 40px;
+                box-shadow: 0px 10px 50px -20px black inset;
+                z-index: 21;
             }
             .privilege-block_body_img_ul {
                 max-width: inherit;
@@ -459,7 +464,6 @@ body {
                     .sy-controls li.sy-next {
                         right: -12px;
                         top: 0;
-                        
                     }
                     .sy-pager {
                         display: none;

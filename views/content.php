@@ -77,6 +77,7 @@
                 <p class="privilege-block_header_title">privilege</p>
             </div>
             <div class="privilege-block_body">
+            <div class="pvl_box_shadow"></div>
             <img class="pvl_img_tag" src="img/privilege/pvl_tag.png" alt="">
                 <ul class="privilege-block_body_img_ul">
                     <li><img class="pvl_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
