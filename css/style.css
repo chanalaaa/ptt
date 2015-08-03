@@ -75,12 +75,20 @@ body {
   .nav_area ul {
     width: 50px; }
     .nav_area ul li img#nav_icon {
-      float: left;
       width: 30px;
-      height: 20px;
-      margin-top: 30px; }
-      .nav_area ul li img#nav_icon:hover {
-        opacity: .5; }
+      height: 20px; }
+  .nav_area .nav_menu {
+    float: left;
+    width: 100px;
+    height: 20px;
+    margin-top: 30px;
+    display: inline-flex; }
+    .nav_area .nav_menu p {
+      margin-left: 20px;
+      color: #1F71B7;
+      font-size: 1.5em; }
+    .nav_area .nav_menu:hover {
+      opacity: .5; }
   .nav_area #nav_logo {
     margin: 0 auto;
     width: 116px; }

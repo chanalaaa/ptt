@@ -1,8 +1,10 @@
 
 <div class="nav_main">
     <div class="nav_area">
-        <ul>
-            <li id="li_nav1"><img id="nav_icon" src="img/header_icon/nav_icon.png " alt="MENU"></li>
+        <ul>   
+            <li id="li_nav1"><div class="nav_menu"><img id="nav_icon" src="img/header_icon/nav_icon.png " alt="MENU">
+                <p>Menu</p></div>
+            </li>
         </ul>
         <div id="nav_logo">
             <img src="img/header_icon/logo_main.png " alt="PTT">

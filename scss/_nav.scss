@@ -35,14 +35,24 @@
         li {
             //display: inline;
             img#nav_icon {
-                float: left;
                 width: 30px;
                 height: 20px;
-                margin-top: 30px;
-                &:hover{
-                    opacity: .5;
-                }
             }
+        }
+    }
+    .nav_menu {
+        float: left;
+        width: 100px;
+        height: 20px;
+        margin-top: 30px;
+        display: inline-flex;
+        p {
+            margin-left: 20px;
+            color: #1F71B7;
+            font-size: 1.5em;
+        }
+        &:hover {
+            opacity: .5;
         }
     }
     #nav_logo {
@@ -65,7 +75,7 @@
             margin-right: 10px;
         }
         #nav_btn2 {
-            @include nav_btn(#808080);  
+            @include nav_btn(#808080);
         }
     }
 }
