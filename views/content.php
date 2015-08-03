@@ -1,5 +1,5 @@
 <div id="wrapper">
-    <div id="fullpage">
+    <div id="fullpage" style="height: 60%">
         <div class="section" id="section1">
             <div class="slide" id="slide1">
                 <div class="content">

@@ -164,7 +164,7 @@
 
         if(container !== null){
             css(container, {
-                'height': '100%',
+                'height': '45%',
                 'position': 'relative'
             });
 
