@@ -71,55 +71,94 @@
         </div>
         <!-- ****************** PRIVILEGE ****************** -->
         <div class="privilege">
-    <article class="privilege-wrapper">
-        <section class="privilege-block">
-            <div class="privilege-block_header">
-                <p class="privilege-block_header_title">privilege</p>
-            </div>
-            <div class="privilege-block_body">
-            <div class="pvl_box_shadow"></div>
-            <img class="pvl_img_tag" src="img/privilege/pvl_tag.png" alt="">
-                <ul class="privilege-block_body_img_ul">
-                    <li><img class="pvl_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
-                    <li><img class="pvl_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
-                    <li><img class="pvl_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
-                </ul>
-                
-                <div class="privilege-block_body_info">
-                    <ul class="privilege-block_body_info_ul">
-                        <li class="privilege-block_body_info_li">
-                            <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
-                            <p>Takumi Japanese
-                                <br> กับสุดยอดเชฟจากแดนปลาดิบ <br><br>
-                                แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น <br>
-                                 คอมเมนท์บัลลาสต์<br> อิมพีเรียลเชฟ วันเวย์น้องใหม่ 
-                            </p>
-                        </li>
-                        <li class="privilege-block_body_info_li">
-                            <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
-                            <p>Muthi Maya Forest Pool Villa
-                            <br><br><br>สเปกสแตนเลส<br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธศตวรรษ<br><br>มินต์นอมินีวืดเฟอร์รี่
-                            แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</p>
-                        </li>
-                        <li class="privilege-block_body_info_li">
-                            <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
-                            <p>Art In Paradise Bangkok<br><br><br>
-                            ราสเบอร์รีอยุติธรรมเฉิ่มโปรเจ็ค<br>ฮมผลักดันจุ๊ยแครอท แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึม<br>
-                            โอวัลติน สะบึมส์ตรวจสอบมายองเนส เรซินไฮเวย์รองรับอึมครึม </p>
-                        </li>
-                    </ul>
-                    
-                    
-                </div>
-            </div>
-            <ul class="privilege-block_body_info_ul_foot">
+            <article class="privilege-wrapper">
+                <section class="privilege-block">
+                    <div class="privilege-block_header">
+                        <p class="privilege-block_header_title">privilege</p>
+                    </div>
+                    <div class="privilege-block_body">
+                        <div class="pvl_box_shadow"></div>
+                        <img class="pvl_img_tag" src="img/privilege/pvl_tag.png" alt="">
+                        <ul class="privilege-block_body_img_ul">
+                            <li><img class="pvl_img_li" src="img/privilege/pvl_img/1.jpg" alt=""></li>
+                            <li><img class="pvl_img_li" src="img/privilege/pvl_img/2.jpg" alt=""></li>
+                            <li><img class="pvl_img_li" src="img/privilege/pvl_img/3.jpg" alt=""></li>
+                        </ul>
+                        <div class="privilege-block_body_info">
+                            <ul class="privilege-block_body_info_ul">
+                                <li class="privilege-block_body_info_li">
+                                    <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
+                                    <p>Takumi Japanese
+                                        <br> กับสุดยอดเชฟจากแดนปลาดิบ
+                                        <br>
+                                        <br> แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น
+                                        <br> คอมเมนท์บัลลาสต์
+                                        <br> อิมพีเรียลเชฟ วันเวย์น้องใหม่
+                                    </p>
+                                </li>
+                                <li class="privilege-block_body_info_li">
+                                    <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
+                                    <p>Muthi Maya Forest Pool Villa
+                                        <br>
+                                        <br>
+                                        <br>สเปกสแตนเลส
+                                        <br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธศตวรรษ
+                                        <br>
+                                        <br>มินต์นอมินีวืดเฟอร์รี่ แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</p>
+                                </li>
+                                <li class="privilege-block_body_info_li">
+                                    <img class="pvl_tab_img_li" src="img/privilege/tab_img.png" alt="">
+                                    <p>Art In Paradise Bangkok
+                                        <br>
+                                        <br>
+                                        <br> ราสเบอร์รีอยุติธรรมเฉิ่มโปรเจ็ค
+                                        <br>ฮมผลักดันจุ๊ยแครอท แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึม
+                                        <br> โอวัลติน สะบึมส์ตรวจสอบมายองเนส เรซินไฮเวย์รองรับอึมครึม </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="privilege-block_body_info_ul_foot">
                         <li class="privilege-block_body_info_li_foot2"></li>
                     </ul>
-<img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
-        </section>
-
-    </article>
-</div>
+                    <img class="privilege-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
+                </section>
+            </article>
+        </div>
+        <!-- ****************** PRIVILEGE-MD ****************** -->
+        <div class="privilegeMd">
+            <article class="privilegeMd-wrapper">
+                <section class="privilegeMd-block">
+                    <div class="pr">
+                        <div class="pr_block">
+                            <div class="pr_header">
+                                <p class="pr_header_title">pr & news</p>
+                            </div>
+                            <div class="pr-slide_block">
+                                <ul id="pr-slide_ul">
+                                    <li>
+                                        <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>PTT Blue Card Happiness<br>
+                                    Movie : Fast & Furious 7</p></div>
+                                <div id='pr_ico'></div>"></a>
+                                    </li>
+                                    
+                            <li>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
+                                <div id='pr_ico'></div>"></a>
+                            </li>
+                            
+                                </ul>
+                            </div>
+                            <div class="pr-slide_tab">
+                                <div class="pr-slide_tab_img">
+                                </div>
+                            </div>
+                            <img id="pr_quote_footer" src="img/news/news_tab/pr_quote_footer.png" alt="">
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
         <!-- ****************** PROMOTION ****************** -->
         <div class="promotion">
             <article class="promotion-wrapper">
