@@ -135,7 +135,7 @@
                     <div class="pvlMd-slide_block">
                         <ul id="pvlMd-slide_ul">
                             <li>
-                                <a href="#"><img src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
+                                <a href="#"><img class="pvlMd_img" src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
                                         <br> กับสุดยอดเชฟจากแดนปลาดิบ
                                         <br>
                                         <br> <div id='pvlMd-content'>แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น

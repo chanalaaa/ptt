@@ -525,105 +525,109 @@
                 @media #{$md} {
                     top: 0px;
                 }
-                .promotion-block_header_block {
-                    max-width: 100%;
-                    height: 48px;
-                    .promotion-block_header {
-                        @include bg_img("../img/promotion/prm_tab/prm_header.png");
-                        background-position: center left;
-                        //border-radius: 15px;
-                        .promotion-block_header_title {
-                            max-width: inherit;
-                            float: left;
-                            color: #FFFFFF;
-                            text-align: center;
-                            font-size: 1.4em;
-                            letter-spacing: .2em;
-                            margin: 3% 0% 0% 8%;
-                            text-transform: uppercase;
-                        }
-                    }
+            } //end .promotion-wrapper
+        } //end .promotion
+        .promotion-block_header_block {
+            max-width: 100%;
+            height: 48px;
+        }
+        .promotion-block_header {
+            @include bg_img("../img/promotion/prm_tab/prm_header.png");
+            background-position: center left;
+            //border-radius: 15px;
+        }
+        .promotion-block_header_title {
+            max-width: inherit;
+            float: left;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 1.4em;
+            letter-spacing: .2em;
+            margin: 3% 0% 0% 8%;
+            text-transform: uppercase;
+        }
+        .promotion-slide_block {
+            width: 100%;
+            max-height: 338px;
+            //overflow: hidden;
+            img {
+                width: 100%;
+                height: 338px;
+            }
+        } //end .promotion_slide_block > sy-box
+        .sy-box {
+            height: 288px;
+            .sy-caption-wrap {
+                z-index: 46;
+                bottom: -5.5em;
+                left: 22%;
+                width: 100%;
+            }
+        }
+        .sy-caption {
+            top: -15;
+            .prm-slide_tab_info {
+                width: auto;
+                height: auto;
+                //position: absolute;
+                top: 30px;
+                left: 50px;
+                //color: #FFF;
+                text-align: center;
+                z-index: 50;
+                /* margin: 0 auto; */
+                 }
+                .prm_info_title {
+                    font-size: 1.4em;
+                    //line-height: 2em;
+                    color: #FFF;
+                    margin-left: 5%;
+                    top: 10px;
+                    margin-left: 33%;
+                    position: absolute;
                 }
-                .promotion-slide_block {
-                    width: 100%;
-                    max-height: 338px;
-                    //overflow: hidden;
-                    img {
-                        width: 100%;
-                        height: 338px;
-                    }
-                    .sy-box {
-                        height: 288px;
-                        .sy-caption-wrap {
-                            z-index: 46;
-                            bottom: -5.5em;
-                            left: 22%;
-                            width: 100%;
-                            .sy-caption {
-                                top: -15;
-                                .prm-slide_tab_info {
-                                    width: auto;
-                                    height: auto;
-                                    //position: absolute;
-                                    top: 30px;
-                                    left: 50px;
-                                    //color: #FFF;
-                                    text-align: center;
-                                    z-index: 50;
-                                    /* margin: 0 auto; */
-                                    .prm_info_title {
-                                        font-size: 1.4em;
-                                        //line-height: 2em;
-                                        color: #FFF;
-                                        margin-left: 5%;
-                                        top: 10px;
-                                        margin-left: 33%;
-                                        position: absolute;
-                                    }
-                                    p {
-                                        text-align: left;
-                                        font-size: 1.2em;
-                                        color: #FFF;
-                                        letter-spacing: .03em;
-                                        margin-top: 17px;
-                                        margin-left: 35%;
-                                    }
-                                }
-                                div#prm_ico {
-                                    width: 43px;
-                                    height: 43px;
-                                    background-image: url("../img/ico/ico_go.png");
-                                    background-size: cover;
-                                    float: right;
-                                    margin-top: -45px;
-                                    margin-right: -28%;
-                                    &:hover {
-                                        opacity: .6;
-                                    }
-                                }
-                            }
-                        }
-                        .sy-controls li.sy-next {
-                            right: -12px;
-                            top: 0;
-                        }
-                        .sy-pager {
-                            display: none;
-                        }
-                    } //end .promotion_slide_block > sy-box
+                p {
+                    text-align: left;
+                    font-size: 1.2em;
+                    color: #FFF;
+                    letter-spacing: .03em;
+                    margin-top: 17px;
+                    margin-left: 35%;
                 }
-                .promotion-slide_tab {
-                    width: 100%;
-                    height: 137px;
-                    position: relative;
-                    .promotion-slide_tab_img {
-                        @include bg_img("../img/promotion/prm_tab/prm_tab.png");
-                        position: absolute;
-                        top: -32px;
-                        width: 100%;
-                        height: 137px;
-                        z-index: 35;
-                        /*
+            }
+
+            div#prm_ico {
+                width: 43px;
+                height: 43px;
+                background-image: url("../img/ico/ico_go.png");
+                background-size: cover;
+                float: right;
+                margin-top: -45px;
+                margin-right: -28%;
+                &:hover {
+                    opacity: .6;
+                }
+            }
+       
+        .sy-controls li.sy-next {
+            right: -12px;
+            top: 0;
+        }
+        .sy-pager {
+            display: none;
+        }
+        .promotion-slide_tab {
+            width: 100%;
+            height: 137px;
+            position: relative;
+            .promotion-slide_tab_img {
+                @include bg_img("../img/promotion/prm_tab/prm_tab.png");
+                position: absolute;
+                top: -32px;
+                width: 100%;
+                height: 137px;
+                z-index: 35;
+                /*
                     .promotion-slide_tab_info {
                         width: auto;
                         height: auto;
@@ -649,53 +653,51 @@
                         }
                     }
                     */
-                    }
-                }
-                img#prm_quote_footer {
-                    width: 148px;
-                    height: 48px;
-                    margin: -34px 36%;
-                }
-            } //end .promotion-block_slide
-            .promotion-block_info {
-                width: 31%;
-                height: 220px;
-                //background-color: red;
+            }
+        }
+        img#prm_quote_footer {
+            width: 148px;
+            height: 48px;
+            margin: -34px 36%;
+        }
+    } //end .promotion-block_slide
+    .promotion-block_info {
+        width: 31%;
+        height: 220px;
+        //background-color: red;
+        float: right;
+        margin-top: 3%;
+    } //end .promotion-block_info
+    .promotion-block_info_block {
+        display: block;
+        .prm_info_one {
+            display: inline-flex;
+            width: 100%;
+            img#prm_ico {
+                width: 78px;
+                height: 78px;
+                float: left;
+            }
+            .prm_info_one_info {
+                width: 60%;
                 float: right;
-                margin-top: 3%;
-                .promotion-block_info_block {
-                    display: block;
-                    .prm_info_one {
-                        display: inline-flex;
-                        width: 100%;
-                        img#prm_ico {
-                            width: 78px;
-                            height: 78px;
-                            float: left;
-                        }
-                        .prm_info_one_info {
-                            width: 60%;
-                            float: right;
-                            margin-top: 2.5%;
-                            color: #FFF;
-                            margin-left: 10%;
-                            p {
-                                font-size: 1.1em;
-                            }
-                            h2 {
-                                font-size: 2em;
-                            }
-                        }
-                    }
-                    #ico_line {
-                        width: 100%;
-                        height: 1px;
-                        padding: 20px 0px;
-                    }
+                margin-top: 2.5%;
+                color: #FFF;
+                margin-left: 10%;
+                p {
+                    font-size: 1.1em;
                 }
-            } //end .promotion-block_info
-        } //end .promotion-wrapper
-    } //end .promotion
+                h2 {
+                    font-size: 2em;
+                }
+            }
+        }
+        #ico_line {
+            width: 100%;
+            height: 1px;
+            padding: 20px 0px;
+        }
+    }
     /* End Promotion * --------------------------------------- */
     /* News * --------------------------------------- */
     

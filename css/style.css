@@ -545,152 +545,154 @@ div#pvlMd_ico {
       @media screen and (max-width: 768px) {
         .promotion .promotion-wrapper .promotion-block_slide {
           top: 0px; } }
-      .promotion .promotion-wrapper .promotion-block_slide .promotion-block_header_block {
-        max-width: 100%;
-        height: 48px; }
-        .promotion .promotion-wrapper .promotion-block_slide .promotion-block_header_block .promotion-block_header {
-          background-image: url("../img/promotion/prm_tab/prm_header.png");
-          background-size: 100% 100%;
-          background-position: center center;
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%;
-          background-position: center left; }
-          .promotion .promotion-wrapper .promotion-block_slide .promotion-block_header_block .promotion-block_header .promotion-block_header_title {
-            max-width: inherit;
-            float: left;
-            color: #FFFFFF;
-            text-align: center;
-            font-size: 1.4em;
-            letter-spacing: .2em;
-            margin: 3% 0% 0% 8%;
-            text-transform: uppercase; }
-      .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block {
-        width: 100%;
-        max-height: 338px; }
-        .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block img {
-          width: 100%;
-          height: 338px; }
-        .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box {
-          height: 288px; }
-          .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap {
-            z-index: 46;
-            bottom: -5.5em;
-            left: 22%;
-            width: 100%; }
-            .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption {
-              top: -15; }
-              .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption .prm-slide_tab_info {
-                width: auto;
-                height: auto;
-                top: 30px;
-                left: 50px;
-                text-align: center;
-                z-index: 50;
-                /* margin: 0 auto; */ }
-                .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption .prm-slide_tab_info .prm_info_title {
-                  font-size: 1.4em;
-                  color: #FFF;
-                  margin-left: 5%;
-                  top: 10px;
-                  margin-left: 33%;
-                  position: absolute; }
-                .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption .prm-slide_tab_info p {
-                  text-align: left;
-                  font-size: 1.2em;
-                  color: #FFF;
-                  letter-spacing: .03em;
-                  margin-top: 17px;
-                  margin-left: 35%; }
-              .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption div#prm_ico {
-                width: 43px;
-                height: 43px;
-                background-image: url("../img/ico/ico_go.png");
-                background-size: cover;
-                float: right;
-                margin-top: -45px;
-                margin-right: -28%; }
-                .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-caption-wrap .sy-caption div#prm_ico:hover {
-                  opacity: .6; }
-          .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-controls li.sy-next {
-            right: -12px;
-            top: 0; }
-          .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_block .sy-box .sy-pager {
-            display: none; }
-      .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_tab {
-        width: 100%;
-        height: 137px;
-        position: relative; }
-        .promotion .promotion-wrapper .promotion-block_slide .promotion-slide_tab .promotion-slide_tab_img {
-          background-image: url("../img/promotion/prm_tab/prm_tab.png");
-          background-size: 100% 100%;
-          background-position: center center;
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          top: -32px;
-          width: 100%;
-          height: 137px;
-          z-index: 35;
-      /*
-  .promotion-slide_tab_info {
+  .promotion .promotion-block_header_block {
+    max-width: 100%;
+    height: 48px; }
+  .promotion .promotion-block_header {
+    background-image: url("../img/promotion/prm_tab/prm_header.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center left; }
+  .promotion .promotion-block_header_title {
+    max-width: inherit;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: .2em;
+    margin: 3% 0% 0% 8%;
+    text-transform: uppercase; }
+  .promotion .promotion-slide_block {
+    width: 100%;
+    max-height: 338px; }
+    .promotion .promotion-slide_block img {
+      width: 100%;
+      height: 338px; }
+  .promotion .sy-box {
+    height: 288px; }
+    .promotion .sy-box .sy-caption-wrap {
+      z-index: 46;
+      bottom: -5.5em;
+      left: 22%;
+      width: 100%; }
+  .promotion .sy-caption {
+    top: -15; }
+    .promotion .sy-caption .prm-slide_tab_info {
       width: auto;
       height: auto;
+      top: 30px;
+      left: 50px;
+      text-align: center;
+      z-index: 50;
+      /* margin: 0 auto; */ }
+    .promotion .sy-caption .prm_info_title {
+      font-size: 1.4em;
+      color: #FFF;
+      margin-left: 5%;
+      top: 10px;
+      margin-left: 33%;
+      position: absolute; }
+    .promotion .sy-caption p {
+      text-align: left;
+      font-size: 1.2em;
+      color: #FFF;
+      letter-spacing: .03em;
+      margin-top: 17px;
+      margin-left: 35%; }
+  .promotion div#prm_ico {
+    width: 43px;
+    height: 43px;
+    background-image: url("../img/ico/ico_go.png");
+    background-size: cover;
+    float: right;
+    margin-top: -45px;
+    margin-right: -28%; }
+    .promotion div#prm_ico:hover {
+      opacity: .6; }
+  .promotion .sy-controls li.sy-next {
+    right: -12px;
+    top: 0; }
+  .promotion .sy-pager {
+    display: none; }
+  .promotion .promotion-slide_tab {
+    width: 100%;
+    height: 137px;
+    position: relative; }
+    .promotion .promotion-slide_tab .promotion-slide_tab_img {
+      background-image: url("../img/promotion/prm_tab/prm_tab.png");
+      background-size: 100% 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
       position: absolute;
-      top: 15;
-      left: 50;
-      p {
-          color: #FFF;
-          letter-spacing: .03em;
-      }
-      #prm_info_title {
-          font-size: 1.4em;
-          line-height: 2em;
-      }
-  }
-  img {
-      width: 58px;
-      height: 58px;
+      top: -32px;
+      width: 100%;
+      height: 137px;
+      z-index: 35;
+      /*
+          .promotion-slide_tab_info {
+              width: auto;
+              height: auto;
+              position: absolute;
+              top: 15;
+              left: 50;
+              p {
+                  color: #FFF;
+                  letter-spacing: .03em;
+              }
+              #prm_info_title {
+                  font-size: 1.4em;
+                  line-height: 2em;
+              }
+          }
+          img {
+              width: 58px;
+              height: 58px;
+              float: right;
+              margin: 7.5% 5% 0% 0%;
+              &:hover {
+                  opacity: .6;
+              }
+          }
+          */ }
+  .promotion img#prm_quote_footer {
+    width: 148px;
+    height: 48px;
+    margin: -34px 36%; }
+
+.promotion-block_info {
+  width: 31%;
+  height: 220px;
+  float: right;
+  margin-top: 3%; }
+
+.promotion-block_info_block {
+  display: block; }
+  .promotion-block_info_block .prm_info_one {
+    display: inline-flex;
+    width: 100%; }
+    .promotion-block_info_block .prm_info_one img#prm_ico {
+      width: 78px;
+      height: 78px;
+      float: left; }
+    .promotion-block_info_block .prm_info_one .prm_info_one_info {
+      width: 60%;
       float: right;
-      margin: 7.5% 5% 0% 0%;
-      &:hover {
-          opacity: .6;
-      }
-  }
-  */ }
-      .promotion .promotion-wrapper .promotion-block_slide img#prm_quote_footer {
-        width: 148px;
-        height: 48px;
-        margin: -34px 36%; }
-    .promotion .promotion-wrapper .promotion-block_info {
-      width: 31%;
-      height: 220px;
-      float: right;
-      margin-top: 3%; }
-      .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block {
-        display: block; }
-        .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one {
-          display: inline-flex;
-          width: 100%; }
-          .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one img#prm_ico {
-            width: 78px;
-            height: 78px;
-            float: left; }
-          .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one .prm_info_one_info {
-            width: 60%;
-            float: right;
-            margin-top: 2.5%;
-            color: #FFF;
-            margin-left: 10%; }
-            .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one .prm_info_one_info p {
-              font-size: 1.1em; }
-            .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block .prm_info_one .prm_info_one_info h2 {
-              font-size: 2em; }
-        .promotion .promotion-wrapper .promotion-block_info .promotion-block_info_block #ico_line {
-          width: 100%;
-          height: 1px;
-          padding: 20px 0px; }
+      margin-top: 2.5%;
+      color: #FFF;
+      margin-left: 10%; }
+      .promotion-block_info_block .prm_info_one .prm_info_one_info p {
+        font-size: 1.1em; }
+      .promotion-block_info_block .prm_info_one .prm_info_one_info h2 {
+        font-size: 2em; }
+  .promotion-block_info_block #ico_line {
+    width: 100%;
+    height: 1px;
+    padding: 20px 0px; }
 
 /* End Promotion * --------------------------------------- */
 /* News * --------------------------------------- */
