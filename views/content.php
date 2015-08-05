@@ -170,7 +170,7 @@
                     <div class="pvlMd-slide_tab">
                         <img class="pvlMd_tab_img" src="img/privilege/tab_img.png" alt="">
                     </div>
-                    <img id="pr_quote_footer" src="img/news/news_tab/pr_quote_footer.png" alt="">
+                    <img class="privilegeMd-block_body_info_quote_footer" src="img/privilege/pvl_quote_footer.png" alt="">
                 </section>
             </article>
         </div>
