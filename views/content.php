@@ -135,13 +135,32 @@
                     <div class="pvlMd-slide_block">
                         <ul id="pvlMd-slide_ul">
                             <li>
-                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pvlMd-slide_tab_info'><p>PTT Blue Card Happiness<br>
-                                    Movie : Fast & Furious 7</p></div>
+                                <a href="#"><img src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
+                                        <br> กับสุดยอดเชฟจากแดนปลาดิบ
+                                        <br>
+                                        <br> แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น
+                                        <br> คอมเมนท์บัลลาสต์
+                                        <br> อิมพีเรียลเชฟ วันเวย์น้องใหม่
+                                    </p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
                             <li>
-                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pvlMd-slide_tab_info'><p>
-                                    Movie : Fast & Furious 7</p></div>
+                                <a href="#"><img src="img/privilege/pvl_img/2.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Muthi Maya Forest Pool Villa
+                                        <br>
+                                        <br>
+                                        <br>สเปกสแตนเลส
+                                        <br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธศตวรรษ
+                                        <br>
+                                        <br>มินต์นอมินีวืดเฟอร์รี่ แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</p></div>
+                                <div id='pvlMd_ico'></div>"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/privilege/pvl_img/3.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Art In Paradise Bangkok
+                                        <br>
+                                        <br>
+                                        <br> ราสเบอร์รีอยุติธรรมเฉิ่มโปรเจ็ค
+                                        <br>ฮมผลักดันจุ๊ยแครอท แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึม
+                                        <br> โอวัลติน สะบึมส์ตรวจสอบมายองเนส เรซินไฮเวย์รองรับอึมครึม </p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
                         </ul>
