@@ -138,12 +138,13 @@
                                 <a href="#"><img src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
                                         <br> กับสุดยอดเชฟจากแดนปลาดิบ
                                         <br>
-                                        <br> แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น
+                                        <br> <div id='pvlMd-content'>แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น
                                         <br> คอมเมนท์บัลลาสต์
-                                        <br> อิมพีเรียลเชฟ วันเวย์น้องใหม่
+                                        <br> อิมพีเรียลเชฟ วันเวย์น้องใหม่</div>
                                     </p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
+                            <!--
                             <li>
                                 <a href="#"><img src="img/privilege/pvl_img/2.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Muthi Maya Forest Pool Villa
                                         <br>
@@ -163,6 +164,7 @@
                                         <br> โอวัลติน สะบึมส์ตรวจสอบมายองเนส เรซินไฮเวย์รองรับอึมครึม </p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
+                            -->
                         </ul>
                     </div>
                     <div class="pvlMd-slide_tab">

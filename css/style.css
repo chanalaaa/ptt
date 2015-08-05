@@ -447,36 +447,39 @@ body {
 
 .sy-box .sy-caption-wrap {
   z-index: 46;
-  bottom: -3em;
-  left: 22%;
-  width: 100%; }
+  bottom: -10.5em;
+  width: 75%; }
 
 .sy-caption {
   top: -15; }
   .sy-caption .pvlMd-slide_tab_info {
-    width: auto;
+    width: 100%;
     height: auto;
-    top: 30px;
-    left: 50px;
     text-align: center;
     z-index: 50;
     /* margin: 0 auto; */ }
     .sy-caption .pvlMd-slide_tab_info p {
-      text-align: left;
+      text-align: center;
       font-size: 1.2em;
       color: #FFF;
-      letter-spacing: .03em;
-      margin-left: 35%; }
-  .sy-caption div#pvlMd_ico {
-    width: 43px;
-    height: 43px;
-    background-image: url("../img/ico/ico_go.png");
-    background-size: cover;
-    float: right;
-    margin-top: -45px;
-    margin-right: -28%; }
-    .sy-caption div#pvlMd_ico:hover {
-      opacity: .6; }
+      letter-spacing: .03em; }
+
+div#pvlMd-content {
+  font-size: 1.2em; }
+  @media screen and (max-width: 480px) {
+    div#pvlMd-content {
+      text-align: left; } }
+
+div#pvlMd_ico {
+  margin-top: 10px;
+  width: 43px;
+  height: 43px;
+  background-image: url("../img/ico/ico_go.png");
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 20px; }
+  div#pvlMd_ico:hover {
+    opacity: .6; }
 
 .sy-controls li.sy-next {
   right: -16px; }

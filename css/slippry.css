@@ -300,10 +300,11 @@
     .sy-caption-wrap .sy-caption a:hover, .sy-caption-wrap .sy-caption a:focus {
       text-decoration: underline; }
   @media only screen and (max-device-width: 600px), screen and (max-width: 600px) {
+    /*
     .sy-caption-wrap {
       left: 0;
       bottom: 0.4em; }
-      /*
+      
       .sy-caption-wrap .sy-caption {
         left: 0;
         padding: 0.2em 0.4em;
