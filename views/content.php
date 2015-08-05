@@ -129,10 +129,9 @@
         <div class="privilegeMd">
             <article class="privilegeMd-wrapper">
                 <section class="privilegeMd-block">
-                    <div class="pr">
-                        <div class="pr_block">
-                            <div class="pr_header">
-                                <p class="pr_header_title">pr & news</p>
+                    
+                            <div class="pvlMd_header">
+                                <p class="pvlMd_header_title">privilege</p>
                             </div>
                             <div class="pr-slide_block">
                                 <ul id="pr-slide_ul">
@@ -154,8 +153,8 @@
                                 </div>
                             </div>
                             <img id="pr_quote_footer" src="img/news/news_tab/pr_quote_footer.png" alt="">
-                        </div>
-                    </div>
+                        
+                  
                 </section>
             </article>
         </div>

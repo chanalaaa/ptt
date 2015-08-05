@@ -419,6 +419,25 @@ body {
     width: 100%;
     height: 350px; }
 
+.pvlMd_header {
+  background-image: url("../img/privilege/pvl_headder_box.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  height: 46px; }
+  .pvlMd_header .pvlMd_header_title {
+    max-width: inherit;
+    float: right;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: .2em;
+    padding: 20px;
+    text-transform: uppercase; }
+
 /* End PrivilegeMd * --------------------------------------- */
 /* Promotion * --------------------------------------- */
 .promotion {
