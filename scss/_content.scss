@@ -96,79 +96,79 @@
         .today-block {
             width: 100%;
             max-height: 363px;
-            .news-slider {
-                /* Style the actual content */
-                .text-content {
-                    position: absolute;
-                    //background-color: rgba(255, 255, 255, 0.9);
-                    width: 40%;
-                    top: 75;
-                    height: 100%;
-                    bottom: 0em;
-                    left: 50%;
-                    text-align: center;
-                    z-index: 333;
-                    display: block;
-                    .cap1_title {
-                        background-color: #FFF;
-                        color: #1F71B7;
-                        padding: 5px 12px 2px;
-                        width: 60%;
-                        font-size: 1.5em;
-                        margin: 0 auto;
-                        letter-spacing: .1em;
-                        text-transform: uppercase;
-                    }
-                    .cap1_info {
-                        margin-top: 32px;
-                        color: #FFF;
-                        font-size: 1.7em;
-                        //letter-spacing: .05em;
-                    }
-                    .cap1_btn img {
-                        margin-top: 27px;
-                        width: 58px;
-                        height: 58px;
-                        &:hover {
-                            opacity: .5;
-                        }
-                    }
-                }
-            }
-            .sy-controls li.sy-next {
-                right: -14px;
-                top: 0;
-            }
-            .news-slider .image-content {
-                line-height: 0;
-            }
-            .news-slider .image-content img {
-                max-width: 100%;
-            }
-            .news-slider .news-pager {
-                text-align: right;
+        }
+        .news-slider {
+            /* Style the actual content */
+            .text-content {
+                position: absolute;
+                //background-color: rgba(255, 255, 255, 0.9);
+                width: 40%;
+                top: 75;
+                height: 100%;
+                bottom: 0em;
+                left: 50%;
+                text-align: center;
+                z-index: 333;
                 display: block;
-                margin: 0.2em 0 0;
-                padding: 0;
-                list-style: none;
             }
-            .news-slider .news-pager li {
-                display: inline-block;
-                padding: 0.6em;
-                margin: 0 0 0 1em;
+        }
+        .cap1_title {
+            background-color: #FFF;
+            color: #1F71B7;
+            padding: 5px 12px 2px;
+            width: 60%;
+            font-size: 1.5em;
+            margin: 0 auto;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+        .cap1_info {
+            margin-top: 32px;
+            color: #FFF;
+            font-size: 1.7em;
+            //letter-spacing: .05em;
+        }
+        .cap1_btn img {
+            margin-top: 27px;
+            width: 58px;
+            height: 58px;
+            &:hover {
+                opacity: .5;
             }
-            .news-slider .news-pager li.sy-active a {
-                color: #31ace2;
-            }
-            .news-slider .news-pager li a {
-                font-weight: 500;
-                text-decoration: none;
-                display: block;
-                color: #222;
-            }
-            .sy-pager {
-                display: none;
-            }
+        }
+        .sy-controls li.sy-next {
+            right: -14px;
+            top: 0;
+        }
+        .news-slider .image-content {
+            line-height: 0;
+        }
+        .news-slider .image-content img {
+            max-width: 100%;
+        }
+        .news-slider .news-pager {
+            text-align: right;
+            display: block;
+            margin: 0.2em 0 0;
+            padding: 0;
+            list-style: none;
+        }
+        .news-slider .news-pager li {
+            display: inline-block;
+            padding: 0.6em;
+            margin: 0 0 0 1em;
+        }
+        .news-slider .news-pager li.sy-active a {
+            color: #31ace2;
+        }
+        .news-slider .news-pager li a {
+            font-weight: 500;
+            text-decoration: none;
+            display: block;
+            color: #222;
+        }
+        .sy-pager {
+            display: none;
         }
         a img {
             border-radius: 15px;
@@ -193,111 +193,115 @@
             overflow: hidden;
             z-index: 10;
         }
-        .privilege-block {
-            width: 100%;
-            max-height: 100%;
-            .privilege-block_header {
-                background-image: url("../img/privilege/pvl_headder_box.png");
-                background-size: cover;
-                background-position: center center;
-                background-repeat: no-repeat;
+    } //end .privilege
+    .privilege-block {
+        width: 100%;
+        max-height: 100%;
+        .privilege-block_header {
+            background-image: url("../img/privilege/pvl_headder_box.png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            max-width: inherit;
+            height: 61px;
+            //border-radius: 15px;
+            .privilege-block_header_title {
                 max-width: inherit;
-                height: 61px;
-                //border-radius: 15px;
-                .privilege-block_header_title {
-                    max-width: inherit;
-                    float: right;
-                    color: #FFFFFF;
-                    text-align: center;
-                    font-size: 1.4em;
-                    letter-spacing: .2em;
-                    margin: 3.1% 5% 0% 0%;
-                    text-transform: uppercase;
+                float: right;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 1.4em;
+                letter-spacing: .2em;
+                margin: 3.1% 5% 0% 0%;
+                text-transform: uppercase;
+            }
+        }
+        .privilege-block_body {
+            width: 100%;
+            height: 281px;
+            position: relative;
+            overflow: hidden;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        .pvl_img_tag {
+            position: absolute;
+            width: 66px;
+            height: 66px;
+            z-index: 20;
+        }
+        .pvl_box_shadow {
+            position: absolute;
+            width: 100%;
+            height: 40px;
+            box-shadow: 0px 10px 50px -20px black inset;
+            z-index: 21;
+        }
+        .privilege-block_body_img_ul {
+            max-width: inherit;
+            list-style: none;
+            font-size: 0px;
+            margin: 0 auto;
+            overflow: hidden;
+            li {
+                display: inline;
+                img {
+                    position: relative;
+                    overflow: hidden;
+                    max-width: 320px;
+                    //height: 466px;
                 }
             }
-            .privilege-block_body {
-                width: 100%;
-                height: 281px;
-                position: relative;
+        }
+        .privilege-block_body_info {
+            //max-width: 100%;
+            // height: 466px;
+            height: 6.25em;
+            .privilege-block_body_info_ul {
+                margin: 0 auto;
+                display: inline-flex;
+                max-width: inherit;
+                list-style: none;
+                //border-style: #5FCDEF;
+                //position: absolute;
+                //position: relative;
+                //font-size: 0px;
+                //overflow: hidden;
+            }
+        }
+        li.privilege-block_body_info_li {
+            border: none;
+            position: relative;
+            margin-top: -11px;
+            display: inline-block;
+            height: 85px;
+            width: 320px;
+            -webkit-transition: margin 2s;
+            transition: margin 2s;
+            flex-grow: 1;
+            -webkit-transition: margin .6s ease;
+            transition: margin .6s ease;
+            //float: left;
+            //background-image: url("../img/privilege/tab_img.png");
+            //background-size: cover;
+            //background-position: center center;
+            //background-repeat: no-repeat;
+            img {
+                height: 276px;
+                width: 320px;
+                position: absolute;
                 overflow: hidden;
-                border-bottom-right-radius: 30px;
-                border-bottom-left-radius: 30px;
-                .pvl_img_tag {
-                    position: absolute;
-                    width: 66px;
-                    height: 66px;
-                    z-index: 20;
-                }
-                .pvl_box_shadow {
-                    position: absolute;
-                    width: 100%;
-                    height: 40px;
-                    box-shadow: 0px 10px 50px -20px black inset;
-                    z-index: 21;
-                }
-                .privilege-block_body_img_ul {
-                    max-width: inherit;
-                    list-style: none;
-                    font-size: 0px;
-                    margin: 0 auto;
-                    overflow: hidden;
-                    li {
-                        display: inline;
-                        img {
-                            position: relative;
-                            overflow: hidden;
-                            max-width: 320px;
-                            //height: 466px;
-                        }
-                    }
-                }
-                .privilege-block_body_info {
-                    //max-width: 100%;
-                    // height: 466px;
-                    height: 6.25em;
-                    .privilege-block_body_info_ul {
-                        margin: 0 auto;
-                        display: inline-flex;
-                        max-width: inherit;
-                        list-style: none;
-                        //border-style: #5FCDEF;
-                        //position: absolute;
-                        //position: relative;
-                        //font-size: 0px;
-                        //overflow: hidden;
-                        li.privilege-block_body_info_li {
-                            border: none;
-                            position: relative;
-                            margin-top: -11px;
-                            display: inline-block;
-                            height: 85px;
-                            width: 320px;
-                            -webkit-transition: margin 2s;
-                            transition: margin 2s;
-                            flex-grow: 1;
-                            -webkit-transition: margin .6s ease;
-                            transition: margin .6s ease;
-                            //float: left;
-                            //background-image: url("../img/privilege/tab_img.png");
-                            //background-size: cover;
-                            //background-position: center center;
-                            //background-repeat: no-repeat;
-                            img {
-                                height: 276px;
-                                width: 320px;
-                                position: absolute;
-                                overflow: hidden;
-                                font-size: 0px;
-                                z-index: 21;
-                            }
-                            &:hover {
-                                // margin-top: -200px;
-                                // -webkit-transition: margin .6s ease;
-                                // transition: margin .6s ease;
-                                //opacity: .5;
-                                //height: 120px;
-                            }
-                            /*
+                font-size: 0px;
+                z-index: 21;
+            }
+            &:hover {
+                // margin-top: -200px;
+                // -webkit-transition: margin .6s ease;
+                // transition: margin .6s ease;
+                //opacity: .5;
+                //height: 120px;
+            }
+            /*
                         #pvl_first_tab_li {
                             border-bottom-left-radius: 18px;
                         }
@@ -305,50 +309,46 @@
                             border-bottom-right-radius: 18px;
                         }
                         */
-                            p {
-                                position: absolute;
-                                color: #FFF;
-                                font-size: 1.35em;
-                                font-weight: normal;
-                                text-align: center;
-                                top: 30%;
-                                width: 91%;
-                                padding: 0px 15px;
-                                z-index: 22;
-                            }
-                        }
-                    }
-                }
-            }
-            .privilege-block_body_info_ul_foot {
-                margin: 0 auto;
-                display: inline-flex;
-                max-width: inherit;
-                list-style: none;
-                border: none;
+            p {
                 position: absolute;
-                z-index: 23;
-                margin-top: -27px;
-                width: 100%;
-                .privilege-block_body_info_li_foot2 {
-                    // font-size: 0px;
-                    width: 100%;
-                    height: 30px;
-                    background-color: #6ACEED;
-                    border-bottom-right-radius: 30px;
-                    border-bottom-left-radius: 30px;
-                }
-            }
-            .privilege-block_body_info_quote_footer {
-                float: right;
-                width: 282px;
-                height: 120px;
-                margin-right: 30px;
-                margin-top: 3px;
-                //position:absolute;
+                color: #FFF;
+                font-size: 1.35em;
+                font-weight: normal;
+                text-align: center;
+                top: 30%;
+                width: 91%;
+                padding: 0px 15px;
+                z-index: 22;
             }
         }
-    } //end .privilege
+        .privilege-block_body_info_ul_foot {
+            margin: 0 auto;
+            display: inline-flex;
+            max-width: inherit;
+            list-style: none;
+            border: none;
+            position: absolute;
+            z-index: 23;
+            margin-top: -27px;
+            width: 100%;
+            .privilege-block_body_info_li_foot2 {
+                // font-size: 0px;
+                width: 100%;
+                height: 30px;
+                background-color: #6ACEED;
+                border-bottom-right-radius: 30px;
+                border-bottom-left-radius: 30px;
+            }
+        }
+        .privilege-block_body_info_quote_footer {
+            float: right;
+            width: 282px;
+            height: 120px;
+            margin-right: 30px;
+            margin-top: 3px;
+            //position:absolute;
+        }
+    }
     /* End Privilege * --------------------------------------- */
     /* PrivilegeMd * --------------------------------------- */
     
@@ -368,7 +368,7 @@
             //margin-top: -7px;
             overflow: hidden;
             z-index: 10;
-            @include clearfix;
+            //@include clearfix;
         }
         .privilegeMd-block {
             position: absolute;
@@ -442,6 +442,42 @@
         }
     }
     
+    .sy-controls li.sy-next {
+        right: -16px;
+    }
+    
+    .sy-pager {
+        display: none;
+    }
+    
+    .pvlMd-slide_tab {
+        max-width: 100%;
+        height: 198px;
+        position: relative;
+        .pvlMd_tab_img {
+            @include bg_img("../img/privilege/pvlMd-img/pvlMd_tab_img.png");
+            position: absolute;
+            max-width: 100%;
+            height: 250px;
+            top: -50px;
+            z-index: 44;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+    }
+    
+    img.pvlMd_img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        min-width: 50%;
+        min-height: 50%;
+        overflow-x: hidden;
+    }
+    
     div#pvlMd_ico {
         margin-top: 10px;
         width: 43px;
@@ -458,45 +494,12 @@
         }
     }
     
-    .sy-controls li.sy-next {
-        right: -16px;
-    }
-    
-    .sy-pager {
-        display: none;
-    }
-    
-    .pvlMd-slide_tab {
-        width: 100%;
-        height: 198px;
-        position: relative;
-        .pvlMd_tab_img {
-            @include bg_img("../img/privilege/pvlMd-img/pvlMd_tab_img.png");
-            position: absolute;
-            width: 100%;
-            height: 250px;
-            top: -50px;
-            z-index: 44;
-            border-bottom-left-radius: 30px;
-            border-bottom-right-radius: 30px;
-            img {
-                width: 43px;
-                height: 43px;
-                margin: 8% 5% 0% 0%;
-                float: right;
-                &:hover {
-                    opacity: .6;
-                }
-            }
-        }
-    }
-    
     .privilegeMd-block_body_info_quote_footer {
         float: right;
         width: 282px;
         height: 120px;
         margin-right: 30px;
-       // margin-top: 3px;
+        // margin-top: 3px;
         //position:absolute;
     }
     /* End PrivilegeMd * --------------------------------------- */
@@ -774,7 +777,7 @@
                 .reward {
                     max-width: 100%;
                     height: 582px;
-                    background: gray;
+                    //background: gray;
                     position: relative;
                     margin-top: 10%;
                     border-radius: 40px;

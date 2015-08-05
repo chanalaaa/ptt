@@ -207,63 +207,63 @@ body {
   .today .today-block {
     width: 100%;
     max-height: 363px; }
-    .today .today-block .news-slider {
-      /* Style the actual content */ }
-      .today .today-block .news-slider .text-content {
-        position: absolute;
-        width: 40%;
-        top: 75;
-        height: 100%;
-        bottom: 0em;
-        left: 50%;
-        text-align: center;
-        z-index: 333;
-        display: block; }
-        .today .today-block .news-slider .text-content .cap1_title {
-          background-color: #FFF;
-          color: #1F71B7;
-          padding: 5px 12px 2px;
-          width: 60%;
-          font-size: 1.5em;
-          margin: 0 auto;
-          letter-spacing: .1em;
-          text-transform: uppercase; }
-        .today .today-block .news-slider .text-content .cap1_info {
-          margin-top: 32px;
-          color: #FFF;
-          font-size: 1.7em; }
-        .today .today-block .news-slider .text-content .cap1_btn img {
-          margin-top: 27px;
-          width: 58px;
-          height: 58px; }
-          .today .today-block .news-slider .text-content .cap1_btn img:hover {
-            opacity: .5; }
-    .today .today-block .sy-controls li.sy-next {
-      right: -14px;
-      top: 0; }
-    .today .today-block .news-slider .image-content {
-      line-height: 0; }
-    .today .today-block .news-slider .image-content img {
-      max-width: 100%; }
-    .today .today-block .news-slider .news-pager {
-      text-align: right;
-      display: block;
-      margin: 0.2em 0 0;
-      padding: 0;
-      list-style: none; }
-    .today .today-block .news-slider .news-pager li {
-      display: inline-block;
-      padding: 0.6em;
-      margin: 0 0 0 1em; }
-    .today .today-block .news-slider .news-pager li.sy-active a {
-      color: #31ace2; }
-    .today .today-block .news-slider .news-pager li a {
-      font-weight: 500;
-      text-decoration: none;
-      display: block;
-      color: #222; }
-    .today .today-block .sy-pager {
-      display: none; }
+  .today .news-slider {
+    /* Style the actual content */ }
+    .today .news-slider .text-content {
+      position: absolute;
+      width: 40%;
+      top: 75;
+      height: 100%;
+      bottom: 0em;
+      left: 50%;
+      text-align: center;
+      z-index: 333;
+      display: block; }
+  .today .cap1_title {
+    background-color: #FFF;
+    color: #1F71B7;
+    padding: 5px 12px 2px;
+    width: 60%;
+    font-size: 1.5em;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    text-transform: uppercase; }
+  .today .cap1_info {
+    margin-top: 32px;
+    color: #FFF;
+    font-size: 1.7em; }
+  .today .cap1_btn img {
+    margin-top: 27px;
+    width: 58px;
+    height: 58px; }
+    .today .cap1_btn img:hover {
+      opacity: .5; }
+  .today .sy-controls li.sy-next {
+    right: -14px;
+    top: 0; }
+  .today .news-slider .image-content {
+    line-height: 0; }
+  .today .news-slider .image-content img {
+    max-width: 100%; }
+  .today .news-slider .news-pager {
+    text-align: right;
+    display: block;
+    margin: 0.2em 0 0;
+    padding: 0;
+    list-style: none; }
+  .today .news-slider .news-pager li {
+    display: inline-block;
+    padding: 0.6em;
+    margin: 0 0 0 1em; }
+  .today .news-slider .news-pager li.sy-active a {
+    color: #31ace2; }
+  .today .news-slider .news-pager li a {
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    color: #222; }
+  .today .sy-pager {
+    display: none; }
   .today a img {
     border-radius: 15px;
     width: 45%;
@@ -284,121 +284,122 @@ body {
     max-height: 100%;
     overflow: hidden;
     z-index: 10; }
-  .privilege .privilege-block {
-    width: 100%;
-    max-height: 100%; }
-    .privilege .privilege-block .privilege-block_header {
-      background-image: url("../img/privilege/pvl_headder_box.png");
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
+
+.privilege-block {
+  width: 100%;
+  max-height: 100%; }
+  .privilege-block .privilege-block_header {
+    background-image: url("../img/privilege/pvl_headder_box.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: inherit;
+    height: 61px; }
+    .privilege-block .privilege-block_header .privilege-block_header_title {
       max-width: inherit;
-      height: 61px; }
-      .privilege .privilege-block .privilege-block_header .privilege-block_header_title {
-        max-width: inherit;
-        float: right;
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 1.4em;
-        letter-spacing: .2em;
-        margin: 3.1% 5% 0% 0%;
-        text-transform: uppercase; }
-    .privilege .privilege-block .privilege-block_body {
-      width: 100%;
-      height: 281px;
-      position: relative;
-      overflow: hidden;
-      border-bottom-right-radius: 30px;
-      border-bottom-left-radius: 30px; }
-      .privilege .privilege-block .privilege-block_body .pvl_img_tag {
-        position: absolute;
-        width: 66px;
-        height: 66px;
-        z-index: 20; }
-      .privilege .privilege-block .privilege-block_body .pvl_box_shadow {
-        position: absolute;
-        width: 100%;
-        height: 40px;
-        box-shadow: 0px 10px 50px -20px black inset;
-        z-index: 21; }
-      .privilege .privilege-block .privilege-block_body .privilege-block_body_img_ul {
-        max-width: inherit;
-        list-style: none;
-        font-size: 0px;
-        margin: 0 auto;
-        overflow: hidden; }
-        .privilege .privilege-block .privilege-block_body .privilege-block_body_img_ul li {
-          display: inline; }
-          .privilege .privilege-block .privilege-block_body .privilege-block_body_img_ul li img {
-            position: relative;
-            overflow: hidden;
-            max-width: 320px; }
-      .privilege .privilege-block .privilege-block_body .privilege-block_body_info {
-        height: 6.25em; }
-        .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul {
-          margin: 0 auto;
-          display: inline-flex;
-          max-width: inherit;
-          list-style: none; }
-          .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li {
-            border: none;
-            position: relative;
-            margin-top: -11px;
-            display: inline-block;
-            height: 85px;
-            width: 320px;
-            -webkit-transition: margin 2s;
-            transition: margin 2s;
-            flex-grow: 1;
-            -webkit-transition: margin .6s ease;
-            transition: margin .6s ease;
-        /*
-    #pvl_first_tab_li {
-        border-bottom-left-radius: 18px;
-    }
-    #pvl_last_tab_li {
-        border-bottom-right-radius: 18px;
-    }
-    */ }
-            .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li img {
-              height: 276px;
-              width: 320px;
-              position: absolute;
-              overflow: hidden;
-              font-size: 0px;
-              z-index: 21; }
-            .privilege .privilege-block .privilege-block_body .privilege-block_body_info .privilege-block_body_info_ul li.privilege-block_body_info_li p {
-              position: absolute;
-              color: #FFF;
-              font-size: 1.35em;
-              font-weight: normal;
-              text-align: center;
-              top: 30%;
-              width: 91%;
-              padding: 0px 15px;
-              z-index: 22; }
-    .privilege .privilege-block .privilege-block_body_info_ul_foot {
+      float: right;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 1.4em;
+      letter-spacing: .2em;
+      margin: 3.1% 5% 0% 0%;
+      text-transform: uppercase; }
+  .privilege-block .privilege-block_body {
+    width: 100%;
+    height: 281px;
+    position: relative;
+    overflow: hidden;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px; }
+  .privilege-block .pvl_img_tag {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    z-index: 20; }
+  .privilege-block .pvl_box_shadow {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 10px 50px -20px black inset;
+    z-index: 21; }
+  .privilege-block .privilege-block_body_img_ul {
+    max-width: inherit;
+    list-style: none;
+    font-size: 0px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .privilege-block .privilege-block_body_img_ul li {
+      display: inline; }
+      .privilege-block .privilege-block_body_img_ul li img {
+        position: relative;
+        overflow: hidden;
+        max-width: 320px; }
+  .privilege-block .privilege-block_body_info {
+    height: 6.25em; }
+    .privilege-block .privilege-block_body_info .privilege-block_body_info_ul {
       margin: 0 auto;
       display: inline-flex;
       max-width: inherit;
-      list-style: none;
-      border: none;
+      list-style: none; }
+  .privilege-block li.privilege-block_body_info_li {
+    border: none;
+    position: relative;
+    margin-top: -11px;
+    display: inline-block;
+    height: 85px;
+    width: 320px;
+    -webkit-transition: margin 2s;
+    transition: margin 2s;
+    flex-grow: 1;
+    -webkit-transition: margin .6s ease;
+    transition: margin .6s ease;
+    /*
+                #pvl_first_tab_li {
+                    border-bottom-left-radius: 18px;
+                }
+                #pvl_last_tab_li {
+                    border-bottom-right-radius: 18px;
+                }
+                */ }
+    .privilege-block li.privilege-block_body_info_li img {
+      height: 276px;
+      width: 320px;
       position: absolute;
-      z-index: 23;
-      margin-top: -27px;
-      width: 100%; }
-      .privilege .privilege-block .privilege-block_body_info_ul_foot .privilege-block_body_info_li_foot2 {
-        width: 100%;
-        height: 30px;
-        background-color: #6ACEED;
-        border-bottom-right-radius: 30px;
-        border-bottom-left-radius: 30px; }
-    .privilege .privilege-block .privilege-block_body_info_quote_footer {
-      float: right;
-      width: 282px;
-      height: 120px;
-      margin-right: 30px;
-      margin-top: 3px; }
+      overflow: hidden;
+      font-size: 0px;
+      z-index: 21; }
+    .privilege-block li.privilege-block_body_info_li p {
+      position: absolute;
+      color: #FFF;
+      font-size: 1.35em;
+      font-weight: normal;
+      text-align: center;
+      top: 30%;
+      width: 91%;
+      padding: 0px 15px;
+      z-index: 22; }
+  .privilege-block .privilege-block_body_info_ul_foot {
+    margin: 0 auto;
+    display: inline-flex;
+    max-width: inherit;
+    list-style: none;
+    border: none;
+    position: absolute;
+    z-index: 23;
+    margin-top: -27px;
+    width: 100%; }
+    .privilege-block .privilege-block_body_info_ul_foot .privilege-block_body_info_li_foot2 {
+      width: 100%;
+      height: 30px;
+      background-color: #6ACEED;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 30px; }
+  .privilege-block .privilege-block_body_info_quote_footer {
+    float: right;
+    width: 282px;
+    height: 120px;
+    margin-right: 30px;
+    margin-top: 3px; }
 
 /* End Privilege * --------------------------------------- */
 /* PrivilegeMd * --------------------------------------- */
@@ -414,10 +415,7 @@ body {
     height: 650px;
     margin: 0 auto;
     overflow: hidden;
-    z-index: 10;
-    zoom: 1;
-    content: " ";
-    clear: both; }
+    z-index: 10; }
   .privilegeMd .privilegeMd-block {
     position: absolute;
     width: 100%;
@@ -474,17 +472,6 @@ div#pvlMd-content {
     div#pvlMd-content {
       text-align: left; } }
 
-div#pvlMd_ico {
-  margin-top: 10px;
-  width: 43px;
-  height: 43px;
-  background-image: url("../img/ico/ico_go.png");
-  background-size: cover;
-  margin: 0 auto;
-  margin-top: 20px; }
-  div#pvlMd_ico:hover {
-    opacity: .6; }
-
 .sy-controls li.sy-next {
   right: -16px; }
 
@@ -492,7 +479,7 @@ div#pvlMd_ico {
   display: none; }
 
 .pvlMd-slide_tab {
-  width: 100%;
+  max-width: 100%;
   height: 198px;
   position: relative; }
   .pvlMd-slide_tab .pvlMd_tab_img {
@@ -503,19 +490,34 @@ div#pvlMd_ico {
     width: 100%;
     height: 100%;
     position: absolute;
-    width: 100%;
+    max-width: 100%;
     height: 250px;
     top: -50px;
     z-index: 44;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px; }
-    .pvlMd-slide_tab .pvlMd_tab_img img {
-      width: 43px;
-      height: 43px;
-      margin: 8% 5% 0% 0%;
-      float: right; }
-      .pvlMd-slide_tab .pvlMd_tab_img img:hover {
-        opacity: .6; }
+
+img.pvlMd_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  overflow-x: hidden; }
+
+div#pvlMd_ico {
+  margin-top: 10px;
+  width: 43px;
+  height: 43px;
+  background-image: url("../img/ico/ico_go.png");
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 20px; }
+  div#pvlMd_ico:hover {
+    opacity: .6; }
 
 .privilegeMd-block_body_info_quote_footer {
   float: right;
@@ -756,7 +758,6 @@ div#pvlMd_ico {
       .news .news-wrapper .news-block_left .reward {
         max-width: 100%;
         height: 582px;
-        background: gray;
         position: relative;
         margin-top: 10%;
         border-radius: 40px; }
