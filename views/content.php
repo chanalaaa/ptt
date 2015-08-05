@@ -135,7 +135,7 @@
                     <div class="pvlMd-slide_block">
                         <ul id="pvlMd-slide_ul">
                             <li>
-                                <a href="#"><img class="pvlMd_img" src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
+                                <a href="#"><img class="myBackgroundImage" src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
                                         <br> กับสุดยอดเชฟจากแดนปลาดิบ
                                         <br>
                                         <br> <div id='pvlMd-content'>แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น
@@ -144,17 +144,18 @@
                                     </p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
-                            <!--
+                           
                             <li>
-                                <a href="#"><img src="img/privilege/pvl_img/2.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Muthi Maya Forest Pool Villa
+                                <a href="#"><img class="myBackgroundImage" src="img/privilege/pvl_img/2.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Muthi Maya Forest Pool Villa
                                         <br>
-                                        <br>
-                                        <br>สเปกสแตนเลส
+                                        
+                                        <br> <div id='pvlMd-content'>สเปกสแตนเลส
                                         <br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธศตวรรษ
                                         <br>
-                                        <br>มินต์นอมินีวืดเฟอร์รี่ แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</p></div>
+                                        <br>มินต์นอมินีวืดเฟอร์รี่ แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</div></p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
+                             <!--
                             <li>
                                 <a href="#"><img src="img/privilege/pvl_img/3.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Art In Paradise Bangkok
                                         <br>
@@ -423,6 +424,8 @@ $(function() {
     $("#pr-slide_ul").slippry({
         transition: 'horizontal'
     });
+
+    $("img.myBackgroundImage").cover();
 
 });
 </script>

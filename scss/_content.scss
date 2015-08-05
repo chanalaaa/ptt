@@ -82,16 +82,9 @@
             position: absolute;
             width: 100%;
             margin: 0 auto;
-            max-height: 363px;
+            // max-height: 363px;
             top: -65px;
             overflow: hidden;
-        }
-        @media screen and (max-width: 800px) {
-            /*
-        .today-wrapper {
-            width: 80%;
-        }
-        */
         }
         .today-block {
             width: 100%;
@@ -355,6 +348,8 @@
     .privilegeMd {
         margin: 4% 4%;
         display: none;
+        //width: 100%;
+        //position: relative;
         @media #{$md} {
             display: block;
         }
@@ -405,10 +400,19 @@
         //height: 288px;
         .sy-caption-wrap {
             z-index: 46;
-            bottom: -11.5em;
-            //left: 22%;
-            width: 75%;
+            bottom: -12em;
+            left: 15%;
+            width: 70%;
+            max-height: 75%;
         }
+    }
+    
+    .news-slider .image-content {
+        line-height: 0;
+    }
+    
+    .news-slider .image-content img {
+        max-width: 100%;
     }
     
     .sy-caption {
@@ -466,16 +470,9 @@
         }
     }
     
-    img.pvlMd_img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        min-width: 50%;
-        min-height: 50%;
-        overflow-x: hidden;
+    .sy-caption-wrap .sy-caption {
+        position: relative;
+        left: 0%;
     }
     
     div#pvlMd_ico {
@@ -501,6 +498,10 @@
         margin-right: 30px;
         // margin-top: 3px;
         //position:absolute;
+    }
+    
+    .greenishCover {
+        height: 325px;
     }
     /* End PrivilegeMd * --------------------------------------- */
     /* Promotion * --------------------------------------- */
@@ -695,6 +696,10 @@
             height: 1px;
             padding: 20px 0px;
         }
+    }
+    
+    .greenishCover {
+        height: 325px;
     }
     /* End Promotion * --------------------------------------- */
     /* News * --------------------------------------- */
