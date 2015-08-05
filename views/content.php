@@ -129,32 +129,27 @@
         <div class="privilegeMd">
             <article class="privilegeMd-wrapper">
                 <section class="privilegeMd-block">
-                    
-                            <div class="pvlMd_header">
-                                <p class="pvlMd_header_title">privilege</p>
-                            </div>
-                            <div class="pr-slide_block">
-                                <ul id="pr-slide_ul">
-                                    <li>
-                                        <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>PTT Blue Card Happiness<br>
-                                    Movie : Fast & Furious 7</p></div>
-                                <div id='pr_ico'></div>"></a>
-                                    </li>
-                                    
+                    <div class="pvlMd_header">
+                        <p class="pvlMd_header_title">privilege</p>
+                    </div>
+                    <div class="pvlMd-slide_block">
+                        <ul id="pvlMd-slide_ul">
                             <li>
-                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
-                                <div id='pr_ico'></div>"></a>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pvlMd-slide_tab_info'><p>PTT Blue Card Happiness<br>
+                                    Movie : Fast & Furious 7</p></div>
+                                <div id='pvlMd_ico'></div>"></a>
                             </li>
-                            
-                                </ul>
-                            </div>
-                            <div class="pr-slide_tab">
-                                <div class="pr-slide_tab_img">
-                                </div>
-                            </div>
-                            <img id="pr_quote_footer" src="img/news/news_tab/pr_quote_footer.png" alt="">
-                        
-                  
+                            <li>
+                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pvlMd-slide_tab_info'><p>
+                                    Movie : Fast & Furious 7</p></div>
+                                <div id='pvlMd_ico'></div>"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pvlMd-slide_tab">
+                        <img class="pvlMd_tab_img" src="img/privilege/tab_img.png" alt="">
+                    </div>
+                    <img id="pr_quote_footer" src="img/news/news_tab/pr_quote_footer.png" alt="">
                 </section>
             </article>
         </div>
@@ -393,6 +388,10 @@ $(function() {
     });
 
     $("#promotion-slide_ul").slippry({
+        transition: 'horizontal'
+    });
+
+    $("#pvlMd-slide_ul").slippry({
         transition: 'horizontal'
     });
 
