@@ -395,6 +395,10 @@
             max-width: 100%;
             height: 288px;
         }
+        .sy-caption-wrap .sy-caption {
+            position: relative;
+            left: 0%;
+        }
     } //end .pvlMd-slide_block
     .sy-box {
         //height: 288px;
@@ -468,11 +472,6 @@
             border-bottom-left-radius: 30px;
             border-bottom-right-radius: 30px;
         }
-    }
-    
-    .sy-caption-wrap .sy-caption {
-        position: relative;
-        left: 0%;
     }
     
     div#pvlMd_ico {

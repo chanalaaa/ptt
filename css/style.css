@@ -438,6 +438,9 @@ body {
   .pvlMd-slide_block img {
     max-width: 100%;
     height: 288px; }
+  .pvlMd-slide_block .sy-caption-wrap .sy-caption {
+    position: relative;
+    left: 0%; }
 
 .sy-box .sy-caption-wrap {
   z-index: 46;
@@ -496,10 +499,6 @@ div#pvlMd-content {
     z-index: 44;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px; }
-
-.sy-caption-wrap .sy-caption {
-  position: relative;
-  left: 0%; }
 
 div#pvlMd_ico {
   margin-top: 10px;
