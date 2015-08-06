@@ -135,7 +135,7 @@
                     <div class="pvlMd-slide_block">
                         <ul id="pvlMd-slide_ul">
                             <li>
-                                <a href="#"><img class="myBackgroundImage" src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
+                                <a href="#"><img class="slide_img_cover" src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
                                         <br> กับสุดยอดเชฟจากแดนปลาดิบ
                                         <br>
                                         <br> <div id='pvlMd-content'>แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น
@@ -146,7 +146,7 @@
                             </li>
                            
                             <li>
-                                <a href="#"><img class="myBackgroundImage" src="img/privilege/pvl_img/2.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Muthi Maya Forest Pool Villa
+                                <a href="#"><img class="slide_img_cover" src="img/privilege/pvl_img/2.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Muthi Maya Forest Pool Villa
                                         <br>
                                         
                                         <br> <div id='pvlMd-content'>สเปกสแตนเลส
@@ -187,13 +187,13 @@
                     <div class="promotion-slide_block">
                         <ul id="promotion-slide_ul">
                             <li>
-                                <a href="#"><img class="myBackgroundImage" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>อิ่มฟรี... กับ PTT Blue Card
+                                <a href="#"><img class="slide_img_cover" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>อิ่มฟรี... กับ PTT Blue Card
                         </div><br><p>สมัครสมาชิก PTT Blue Card ในเดือนกรกฎาคม 2558
                             <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p></div>
                                 <div id='prm_ico'></div>"></a>
                             </li>
                             <li>
-                                <a href="#"><img class="myBackgroundImage" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><p>Happiness! Blue Card</p></div>
+                                <a href="#"><img class="slide_img_cover" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><p>Happiness! Blue Card</p></div>
                                 <div id='prm_ico'></div>"></a>
                             </li>
                         </ul>
@@ -276,13 +276,13 @@
                             <div class="ac-slide_block">
                                 <ul id="ac-slide_ul">
                                     <li>
-                                        <a href="#"><img class="myBackgroundImage" src="img/news/news_img/2.jpg" alt="
+                                        <a href="#"><img class="slide_img_cover" src="img/news/news_img/2.jpg" alt="
                                 <div class='ac-slide_tab_info'><p>Pray for Nepal</p></div>
                                 <div id='ac_ico'></div>">
                             </a>
                                     </li>
                                     <li>
-                                        <a href="#"><img class="myBackgroundImage" src="img/news/news_img/2.jpg" alt="<div class='ac-slide_tab_info'><p>PTT Blue Card Happiness<br>
+                                        <a href="#"><img class="slide_img_cover" src="img/news/news_img/2.jpg" alt="<div class='ac-slide_tab_info'><p>PTT Blue Card Happiness<br>
                                     Movie : Fast & Furious 7</p></div>
                                 <div id='ac_ico'></div>"></a>
                                     </li>
@@ -302,7 +302,7 @@
                             <div class="pr-slide_block">
                                 <ul id="pr-slide_ul">
                                     <li>
-                                        <a href="#"><img class="myBackgroundImage" src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>PTT Blue Card Happiness<br>
+                                        <a href="#"><img class="slide_img_cover" src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>PTT Blue Card Happiness<br>
                                     Movie : Fast & Furious 7</p></div>
                                 <div id='pr_ico'></div>"></a>
                                     </li>
@@ -425,7 +425,7 @@ $(function() {
         transition: 'horizontal'
     });
 
-    $("img.myBackgroundImage").cover({
+    $("img.slide_img_cover").cover({
 
       backgroundPosition:"center",
     });

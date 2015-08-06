@@ -560,20 +560,23 @@
             .sy-caption-wrap {
                 z-index: 46;
                 bottom: -5.5em;
-                left: 22%;
-                width: 100%;
+                left: 3%;
+                width: 80%;
             }
+        }
+        .sy-caption-wrap .sy-caption{
+            left: 0%
         }
         .sy-caption {
             top: -15;
             .prm-slide_tab_info {
-                width: auto;
+                width: 100%;
                 height: auto;
                 //position: absolute;
-                top: 30px;
-                left: 50px;
+                //top: 30px;
+                //left: 50px;
                 //color: #FFF;
-                text-align: center;
+                text-align: left;
                 z-index: 50;
                 /* margin: 0 auto; */
             }
@@ -581,10 +584,11 @@
                 font-size: 1.4em;
                 //line-height: 2em;
                 color: #FFF;
-                margin-left: 5%;
+                //margin-left: 5%;
                 top: 10px;
-                margin-left: 33%;
+                //margin-left: 33%;
                 position: absolute;
+
             }
             p {
                 text-align: left;
@@ -592,7 +596,8 @@
                 color: #FFF;
                 letter-spacing: .03em;
                 margin-top: 17px;
-                margin-left: 35%;
+                //margin-left: 35%;
+
             }
         }
         div#prm_ico {
@@ -601,14 +606,14 @@
             background-image: url("../img/ico/ico_go.png");
             background-size: cover;
             float: right;
-            margin-top: -45px;
-            margin-right: -28%;
+            margin-top: -50px;
+            margin-right: -80px;
             &:hover {
                 opacity: .6;
             }
         }
         .sy-controls li.sy-next {
-            right: -12px;
+            right: -14px;
             top: 0;
         }
         .sy-pager {
