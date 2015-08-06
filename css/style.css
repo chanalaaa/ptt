@@ -659,7 +659,7 @@ div#pvlMd_ico {
   width: 31%;
   height: 220px;
   float: right;
-  margin-top: 3%; }
+  margin-top: 2%; }
 
 .promotion-block_info_block {
   display: block; }
@@ -686,6 +686,7 @@ div#pvlMd_ico {
     padding: 20px 0px; }
 
 .greenishCover {
+  width: 102%;
   height: 325px; }
 
 /* End Promotion * --------------------------------------- */
