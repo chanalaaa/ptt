@@ -900,8 +900,8 @@
                         .sy-caption-wrap {
                             z-index: 46;
                             bottom: -4.5em;
-                            left: 0%;
-                            width: 80%;
+                            left: 1%;
+                            width: 81%;
                             .sy-caption {
                                 top: -15;
                                 .ac-slide_tab_info {
@@ -930,7 +930,7 @@
                                     background-size: cover;
                                     float: right;
                                     margin-top: -35px;
-                                    margin-right: -28%;
+                                    margin-right: -65px;
                                     &:hover {
                                         opacity: .6;
                                     }
@@ -1001,17 +1001,17 @@
                 //height: 288px;
                 .sy-caption-wrap {
                     z-index: 46;
-                    bottom: -3em;
-                    left: 22%;
-                    width: 100%;
+                    bottom: -2.5em;
+                    left: 1%;
+                    width: 90%;
                     .sy-caption {
                         top: -15;
                         .pr-slide_tab_info {
                             width: auto;
                             height: auto;
                             //position: absolute;
-                            top: 30px;
-                            left: 50px;
+                            //top: 30px;
+                            //left: 50px;
                             //color: #FFF;
                             text-align: center;
                             z-index: 50;
@@ -1022,7 +1022,7 @@
                                 color: #FFF;
                                 letter-spacing: .03em;
                                 //margin-top: 20px;
-                                margin-left: 35%;
+                                //margin-left: 35%;
                             }
                         }
                         div#pr_ico {
@@ -1031,8 +1031,8 @@
                             background-image: url("../img/ico/ico_go.png");
                             background-size: cover;
                             float: right;
-                            margin-top: -45px;
-                            margin-right: -28%;
+                            margin-top: -37px;
+                            margin-right: -28px;
                             &:hover {
                                 opacity: .6;
                             }
