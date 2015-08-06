@@ -308,7 +308,7 @@
                                     </li>
                                     <!--
                             <li>
-                                <a href="#"><img src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
+                                <a href="#"><img class="slide_img_cover" src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
                                 <div id='pr_ico'></div>"></a>
                             </li>
                             -->
