@@ -516,7 +516,7 @@
             height: 350px;
             .promotion-block_slide {
                 position: absolute;
-                width: 63%;
+                width: 64%;
                 height: 540px;
                 float: left;
                 //background-color: red;
@@ -564,7 +564,7 @@
                 width: 82%;
             }
         }
-        .sy-caption-wrap .sy-caption{
+        .sy-caption-wrap .sy-caption {
             left: 0%
         }
         .sy-caption {
@@ -588,7 +588,6 @@
                 top: 10px;
                 //margin-left: 33%;
                 position: absolute;
-
             }
             p {
                 text-align: left;
@@ -597,7 +596,6 @@
                 letter-spacing: .03em;
                 margin-top: 17px;
                 //margin-left: 35%;
-
             }
         }
         div#prm_ico {
@@ -615,6 +613,9 @@
         .sy-controls li.sy-next {
             right: -14px;
             top: 0;
+            @media #{$md} {
+                //right: -14px;
+            }
         }
         .sy-pager {
             display: none;
@@ -900,8 +901,8 @@
                         .sy-caption-wrap {
                             z-index: 46;
                             bottom: -4.5em;
-                            left: 1%;
-                            width: 81%;
+                            left: 5%;
+                            width: 80%;
                             .sy-caption {
                                 top: -15;
                                 .ac-slide_tab_info {
@@ -920,7 +921,7 @@
                                         color: #323232;
                                         letter-spacing: .03em;
                                         margin-top: 17px;
-                                       //margin-left: 35%;
+                                        //margin-left: 35%;
                                     }
                                 }
                                 div#ac_ico {
@@ -1002,8 +1003,8 @@
                 .sy-caption-wrap {
                     z-index: 46;
                     bottom: -2.5em;
-                    left: 1%;
-                    width: 90%;
+                    left: 5%;
+                    width: 88%;
                     .sy-caption {
                         top: -15;
                         .pr-slide_tab_info {
