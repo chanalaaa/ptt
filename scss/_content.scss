@@ -551,8 +551,8 @@
             max-height: 338px;
             //overflow: hidden;
             img {
-                width: 100%;
-                height: 338px;
+                max-width: 100%;
+                //height: 338px;
             }
         } //end .promotion_slide_block > sy-box
         .sy-box {
@@ -886,8 +886,8 @@
                     height: 288px;
                     //overflow: hidden;
                     img {
-                        width: 100%;
-                        height: 288px;
+                        max-width: 100%;
+                        //height: 288px;
                         background-size: cover;
                     }
                     .sy-box {
@@ -988,8 +988,8 @@
                 height: 288px;
                 //overflow: hidden;
                 img {
-                    width: 100%;
-                    height: 288px;
+                    max-width: 100%;
+                    //height: 288px;
                 }
             } //end .pr-slide_block
             .sy-box {
