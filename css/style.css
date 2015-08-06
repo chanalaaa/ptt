@@ -940,6 +940,9 @@ div#pvlMd_ico {
     .news-block_right .pr_block .pr-slide_block {
       width: 100%;
       height: 288px; }
+      .news-block_right .pr_block .pr-slide_block .greenishCover {
+        width: 102%;
+        height: 275px; }
       .news-block_right .pr_block .pr-slide_block img {
         max-width: 100%; }
     .news-block_right .pr_block .sy-box .sy-caption-wrap {
