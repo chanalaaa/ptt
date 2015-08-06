@@ -561,7 +561,7 @@
                 z-index: 46;
                 bottom: -5.5em;
                 left: 3%;
-                width: 80%;
+                width: 82%;
             }
         }
         .sy-caption-wrap .sy-caption{
@@ -900,18 +900,18 @@
                         .sy-caption-wrap {
                             z-index: 46;
                             bottom: -4.5em;
-                            left: 22%;
-                            width: 100%;
+                            left: 0%;
+                            width: 80%;
                             .sy-caption {
                                 top: -15;
                                 .ac-slide_tab_info {
                                     width: auto;
                                     height: auto;
                                     //position: absolute;
-                                    top: 30px;
-                                    left: 50px;
+                                    //top: 30px;
+                                    //left: 50px;
                                     //color: #FFF;
-                                    text-align: center;
+                                    text-align: left;
                                     z-index: 50;
                                     /* margin: 0 auto; */
                                     p {
@@ -920,7 +920,7 @@
                                         color: #323232;
                                         letter-spacing: .03em;
                                         margin-top: 17px;
-                                        margin-left: 35%;
+                                       //margin-left: 35%;
                                     }
                                 }
                                 div#ac_ico {
