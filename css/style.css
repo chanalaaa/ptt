@@ -54,6 +54,10 @@ table {
 body {
   font-family: 'supermarket'; }
 
+#wrapper {
+  overflow: hidden;
+  width: 100%; }
+
 @font-face {
   font-family: 'supermarket';
   src: url("fonts/supermarket-webfont.eot");

@@ -2,6 +2,7 @@
 @import 'font-face';
 body {
     font-family: 'supermarket';
+    
 }
 
 @mixin clearfix {
@@ -10,7 +11,10 @@ body {
     clear: both;
 }
 
-
+#wrapper{
+	overflow: hidden;
+	width: 100%;
+}
 
 $xs: "screen and (max-width: 414px)";
 $md: "screen and (max-width: 768px)";
