@@ -267,6 +267,7 @@
         margin-top: -1.4em;
         margin-left: -1.4em;
         }
+        /
   @media only screen and (max-device-width: 600px) {
     .sy-controls {
       display: block; }
