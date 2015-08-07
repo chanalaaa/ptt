@@ -136,7 +136,7 @@
                         <ul id="pvlMd-slide_ul">
                             <li>
                                 <a href="#"><img class="slide_img_cover" src="img/privilege/pvl_img/1.jpg" alt="<div class='pvlMd-slide_tab_info'> <p>Takumi Japanese
-                                        <br> กับสุดยอดเชฟจากแดนปลาดิบ
+                                        <br>กับสุดยอดเชฟจากแดนปลาดิบ
                                         <br>
                                         <br> <div id='pvlMd-content'>แผดเผาคอนเซปต์ยนตรกรรมคอลเล็กชั่น
                                         <br> คอมเมนท์บัลลาสต์
@@ -149,7 +149,7 @@
                                         <br>
                                         
                                         <br> <div id='pvlMd-content'>สเปกสแตนเลส
-                                        <br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธศตวรรษ
+                                        <br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธ
                                         <br>
                                         <br>มินต์นอมินีวืดเฟอร์รี่ แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</div></p></div>
                                 <div id='pvlMd_ico'></div>"></a>
