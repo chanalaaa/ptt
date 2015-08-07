@@ -144,7 +144,6 @@
                                     </p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
-                           
                             <li>
                                 <a href="#"><img class="slide_img_cover" src="img/privilege/pvl_img/2.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Muthi Maya Forest Pool Villa
                                         <br>
@@ -155,7 +154,7 @@
                                         <br>มินต์นอมินีวืดเฟอร์รี่ แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</div></p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
-                             <!--
+                            <!--
                             <li>
                                 <a href="#"><img src="img/privilege/pvl_img/3.jpg" alt="<div class='pvlMd-slide_tab_info'><p>Art In Paradise Bangkok
                                         <br>
@@ -214,6 +213,24 @@
                 </section>
                 <section class="promotion-block_info">
                     <div class="promotion-block_info_block">
+                        <div class="prm_info_one">
+                            <img id="prm_ico" src="img/promotion/prm_ico/ico_gas.png " alt="">
+                            <div class="prm_info_one_info">
+                                <p>Blue Gasohal 95</p>
+                                <h2>35.66 บาท</h2>
+                            </div>
+                        </div>
+                        <img id="ico_line" src="img/promotion/prm_ico/ico_line.png " alt="">
+                        <div class="prm_info_one">
+                            <img id="prm_ico" src="img/promotion/prm_ico/ico_twit.png" alt="">
+                            <div class="prm_info_one_info">
+                                <p>ปตท. ร่วมใจช่วยภัยแล้ง สมาชิกบัตรสินเชื่อ เกษตรกร รับส่วนลดน้ำมัน ลิตรละ 50 ส.ต. และส่วนลด 10 %</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="promotionXs-block_info">
+                    <div class="promotionXs-block_info_block">
                         <div class="prm_info_one">
                             <img id="prm_ico" src="img/promotion/prm_ico/ico_gas.png " alt="">
                             <div class="prm_info_one_info">
@@ -427,7 +444,7 @@ $(function() {
 
     $("img.slide_img_cover").cover({
 
-      backgroundPosition:"center",
+        backgroundPosition: "center",
     });
 
 });
