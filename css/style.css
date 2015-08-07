@@ -233,6 +233,10 @@ body {
   width: 98%;
   position: relative;
   height: 300px; }
+  @media screen and (max-width: 768px) {
+    .today {
+      width: 95%;
+      margin: 2% 2.5%; } }
   @media screen and (max-width: 414px) {
     .today {
       width: 100%;
@@ -332,7 +336,8 @@ body {
     @media screen and (max-width: 414px) {
       .today a img {
         width: 100%;
-        height: 290px; } }
+        height: 290px;
+        border-radius: 30px; } }
 
 /* End Today * --------------------------------------- */
 /* Privilege * --------------------------------------- */
