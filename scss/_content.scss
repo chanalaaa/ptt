@@ -445,7 +445,7 @@
     
     div#pvlMd-content {
         font-size: 1.2em;
-        @media #{$sm} {
+        @media #{$xs} {
             text-align: left;
         }
     }

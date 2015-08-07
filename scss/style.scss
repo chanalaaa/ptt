@@ -10,7 +10,7 @@ body {
     clear: both;
 }
 
-$sm: "screen and (max-width: 480px)";
+$xs: "screen and (max-width: 380px)";
 $md: "screen and (max-width: 768px)";
 
 @import 'nav';
