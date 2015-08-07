@@ -416,7 +416,7 @@
             z-index: 10;
             //@include clearfix;
             @media #{$xs} {
-                height: 700px;
+                height: 750px;
             }
         }
         .privilegeMd-block {
@@ -430,7 +430,7 @@
         max-width: 100%;
         height: 46px;
         @media #{$xs} {
-            height: 57px;
+            height: 70px;
             background-size: 103% 100%;
         }
         .pvlMd_header_title {
@@ -442,9 +442,9 @@
             letter-spacing: .2em;
             padding: 20px;
             text-transform: uppercase;
-            @media #{$xs}{
-                padding: 28px;
-                font-size: 1.5em;
+            @media #{$xs} {
+                padding: 35px;
+                font-size: 1.8em;
                 float: none;
             }
         }
@@ -588,6 +588,10 @@
         margin: 1% 1%;
         margin-top: 6px;
         //margin-left: 20px;
+        @media #{$xs} {
+            margin: 0%;
+            //margin-top: 30px;
+        }
         .promotion-wrapper {
             position: relative;
             display: inline-block;
@@ -613,11 +617,19 @@
         .promotion-block_header_block {
             max-width: 100%;
             height: 48px;
+            @media #{$xs} {
+                height: 70px;
+            }
         }
         .promotion-block_header {
             @include bg_img("../img/promotion/prm_tab/prm_header.png");
             background-position: center left;
-            //border-radius: 15px;
+            //border-radius: 15px;\
+            @media #{$xs} {
+                height: 70px;
+                background-size: 107% 100%;
+                background-position: center center;
+            }
         }
         .promotion-block_header_title {
             max-width: inherit;
@@ -628,6 +640,10 @@
             letter-spacing: .2em;
             margin: 3% 0% 0% 8%;
             text-transform: uppercase;
+            @media #{$xs} {
+                   font-size: 1.8em;
+    margin: 9% 0% 0% 27%;
+            }
         }
         .promotion-slide_block {
             width: 100%;
