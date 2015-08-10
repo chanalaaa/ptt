@@ -247,6 +247,7 @@
                                 <p>ปตท. ร่วมใจช่วยภัยแล้ง สมาชิกบัตรสินเชื่อ เกษตรกร รับส่วนลดน้ำมัน ลิตรละ 50 ส.ต. และส่วนลด 10 %</p>
                             </div>
                         </div>
+                        <img id="ico_lineXs" src="img/promotion/prm_ico/ico_line.png " alt="">
                     </div>
                 </section>
             </article>

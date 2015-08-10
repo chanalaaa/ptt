@@ -655,7 +655,7 @@ div#pvlMd_ico {
     height: 350px; }
     @media screen and (max-width: 414px) {
       .promotion .promotion-wrapper {
-        height: 900px; } }
+        height: 850px; } }
     .promotion .promotion-wrapper .promotion-block_slide {
       position: relative;
       width: 64%;
@@ -914,9 +914,17 @@ div#pvlMd_ico {
       .promotionXs-block_info_block .prm_info_one .prm_info_one_info h2 {
         font-size: 2em; }
   .promotionXs-block_info_block #ico_line {
-    width: 90%;
+    width: 100%;
     height: 1px;
     padding: 20px 0px; }
+  .promotionXs-block_info_block #ico_lineXs {
+    display: none;
+    width: 100%;
+    height: 1px;
+    padding: 20px 0px; }
+    @media screen and (max-width: 414px) {
+      .promotionXs-block_info_block #ico_lineXs {
+        display: block; } }
 
 .greenishCover {
   width: 102%;
@@ -926,6 +934,9 @@ div#pvlMd_ico {
 /* News * --------------------------------------- */
 .news {
   margin: 4% 4% 0% 2%; }
+  @media screen and (max-width: 414px) {
+    .news {
+      margin: 0% 4% 0% 2%; } }
   .news .news-wrapper {
     display: inline-block;
     width: 100%;
@@ -951,25 +962,23 @@ div#pvlMd_ico {
     @media screen and (max-width: 414px) {
       .news-block_left .email {
         height: 200px;
-        width: 100%;
-        overflow: visible; } }
+        width: 100%; } }
     .news-block_left .email .news_email_title {
       width: 62%;
       height: auto;
       margin: 0 auto; }
       @media screen and (max-width: 414px) {
         .news-block_left .email .news_email_title {
-          width: 75%; } }
+          width: 75%;
+          overflow: visible;
+          margin-left: 9%; } }
       .news-block_left .email .news_email_title img#email_ico {
         width: 57px;
         height: 36px;
         float: left; }
         @media screen and (max-width: 414px) {
           .news-block_left .email .news_email_title img#email_ico {
-            /*
-            width: 16vw;
-            height: 11vw;
-            */ } }
+            margin-left: 10%; } }
       .news-block_left .email .news_email_title .news_email_info {
         float: right;
         color: #FFF; }
