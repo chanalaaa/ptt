@@ -192,7 +192,8 @@
                                 <div id='prm_ico'></div>"></a>
                             </li>
                             <li>
-                                <a href="#"><img class="slide_img_cover" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>Happiness! Blue Card</div><br><p></p></div>
+                                <a href="#"><img class="slide_img_cover" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>Happiness! Blue Card</div><br><p>คอมเมนท์บัลลาสต์
+                                        <br> อิมพีเรียลเชฟ วันเวย์น้องใหม่</p></div>
                                 <div id='prm_ico'></div>"></a>
                             </li>
                         </ul>
