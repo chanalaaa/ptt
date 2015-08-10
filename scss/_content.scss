@@ -929,7 +929,7 @@
         } //end .news-wrapper
         @media #{$xs} {
             margin: 0%;
-            height: 1800px;
+            height: 2050px;
         }
     } //end .news
     .news-block_left {
@@ -1285,7 +1285,7 @@
                     bottom: -2.5em;
                     left: 5%;
                     width: 88%;
-                    @media #{$xs}{
+                    @media #{$xs} {
                         left: 0%;
                     }
                     .sy-caption {
@@ -1308,10 +1308,10 @@
                                 //margin-top: 20px;
                                 //margin-left: 35%;
                                 @media #{$xs} {
-                                text-align: center;
+                                    text-align: center;
+                                }
                             }
-                            }
-                             @media #{$xs} {
+                            @media #{$xs} {
                                 position: relative;
                             }
                         }
@@ -1330,7 +1330,6 @@
                                 float: none;
                                 margin: 0 auto;
                                 margin-top: 30px;
-
                             }
                         }
                     }
@@ -1404,6 +1403,9 @@
     .regis {
         margin: 3% 3%;
         @include clearfix;
+        @media #{$xs} {
+            margin: 3% 0%;
+        }
         .regis-wrapper {
             .regis-block {
                 position: relative;
@@ -1411,12 +1413,19 @@
                 width: 100%;
                 height: 182px;
                 border-radius: 20px;
+                @media #{$xs} {
+                    @include bg_img("../img/regis_bar/regis_img/regis_bgXs.jpg");
+                    height: 385px;
+                }
                 .regis-block_opacity {
                     position: absolute;
                     background-color: rgba(255, 255, 255, 0.5);
                     width: 100%;
                     height: 182px;
                     border-radius: 20px;
+                    @media #{$xs} {
+                        height: 385px;
+                    }
                     .regis-block_opacity_gra {
                         position: absolute;
                         width: 100%;
@@ -1435,6 +1444,9 @@
                         /* IE10+ */
                         background: linear-gradient(to right, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
                         /* W3C */
+                        @media #{$xs} {
+                            height: 385px;
+                        }
                     }
                 }
                 .regis-block_info {
