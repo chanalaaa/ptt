@@ -714,10 +714,12 @@ div#pvlMd_ico {
   .promotion .sy-caption-wrap .sy-caption {
     left: 0%; }
   .promotion .sy-caption {
-    top: -15; }
+    top: 0; }
     .promotion .sy-caption .prm-slide_tab_info {
       width: 100%;
       height: auto;
+      position: absolute;
+      top: 10px;
       text-align: left;
       z-index: 50;
       /* margin: 0 auto; */ }
@@ -738,7 +740,7 @@ div#pvlMd_ico {
     background-image: url("../img/ico/ico_go.png");
     background-size: cover;
     float: right;
-    margin-top: -50px;
+    margin-top: 40px;
     margin-right: -80px; }
     .promotion div#prm_ico:hover {
       opacity: .6; }
@@ -753,7 +755,7 @@ div#pvlMd_ico {
     position: relative; }
     @media screen and (max-width: 414px) {
       .promotion .promotion-slide_tab {
-        height: 104px; } }
+        height: 255px; } }
     .promotion .promotion-slide_tab .promotion-slide_tab_img {
       background-image: url("../img/promotion/prm_tab/prm_tab.png");
       background-size: 100% 100%;
@@ -792,6 +794,9 @@ div#pvlMd_ico {
               }
           }
           */ }
+      @media screen and (max-width: 414px) {
+        .promotion .promotion-slide_tab .promotion-slide_tab_img {
+          height: 255px; } }
   .promotion img#prm_quote_footer {
     width: 148px;
     height: 48px;

@@ -191,10 +191,12 @@
                             <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p></div>
                                 <div id='prm_ico'></div>"></a>
                             </li>
+                            
                             <li>
                                 <a href="#"><img class="slide_img_cover" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><p>Happiness! Blue Card</p></div>
                                 <div id='prm_ico'></div>"></a>
                             </li>
+                           
                         </ul>
                     </div>
                     <div class="promotion-slide_tab">
