@@ -577,7 +577,7 @@ body {
     /* margin: 0 auto; */ }
     .sy-caption .pvlMd-slide_tab_info p {
       text-align: center;
-      font-size: 1.7em;
+      font-size: 1.5em;
       color: #FFF;
       letter-spacing: .03em; }
 
@@ -670,7 +670,8 @@ div#pvlMd_ico {
       @media screen and (max-width: 414px) {
         .promotion .promotion-wrapper .promotion-block_slide {
           top: 0px;
-          width: 100%; } }
+          width: 100%;
+          margin-bottom: -8px; } }
   .promotion .promotion-block_header_block {
     max-width: 100%;
     height: 48px; }
@@ -731,18 +732,19 @@ div#pvlMd_ico {
     .promotion .sy-caption .prm-slide_tab_info {
       width: 100%;
       height: auto;
+      position: absolute;
       top: 10px;
       text-align: left;
       z-index: 50;
       /* margin: 0 auto; */ }
       @media screen and (max-width: 414px) {
         .promotion .sy-caption .prm-slide_tab_info {
-          top: 0; } }
+          top: 0;
+          position: relative; } }
     .promotion .sy-caption .prm_info_title {
       font-size: 1.4em;
       color: #FFF;
       top: 10px;
-      padding-bottom: 20px;
       position: absolute; }
       @media screen and (max-width: 414px) {
         .promotion .sy-caption .prm_info_title {
@@ -837,6 +839,14 @@ div#pvlMd_ico {
     margin: -34px 36%; }
     @media screen and (max-width: 414px) {
       .promotion img#prm_quote_footer {
+        display: none; } }
+  .promotion img#prm_quote_footerXs {
+    display: none;
+    width: 148px;
+    height: 48px; }
+    @media screen and (max-width: 414px) {
+      .promotion img#prm_quote_footerXs {
+        display: block;
         margin: 0px;
         margin-left: 30px;
         margin-top: -10px; } }

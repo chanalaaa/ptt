@@ -151,7 +151,7 @@
                                         <br> <div id='pvlMd-content'>สเปกสแตนเลส
                                         <br>ไฮเปอร์บอดี้โยเกิร์ตบุ๋น แป๋วสเกตช์พุทธ
                                         <br>
-                                        <br>มินต์นอมินีวืดเฟอร์รี่ แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวงตาอึมครึมเสือโคร่ง พีเรียดไดเอ็ตวิดีโอนิว แบ็กโฮ</div></p></div>
+                                        <br>มินต์นอมินีวืดเฟอร์รี่ แซ็กแคมเปญเมจิก สเต็ปคาเฟ่ ไตรมาสหลวงปู่หลวง </div></p></div>
                                 <div id='pvlMd_ico'></div>"></a>
                             </li>
                             <!--
@@ -191,12 +191,10 @@
                             <br> รับฟรีคูปองแลกรับชานมไข่มุก Pearly</p></div>
                                 <div id='prm_ico'></div>"></a>
                             </li>
-                            
                             <li>
                                 <a href="#"><img class="slide_img_cover" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>Happiness! Blue Card</div><br><p></p></div>
                                 <div id='prm_ico'></div>"></a>
                             </li>
-                           
                         </ul>
                     </div>
                     <div class="promotion-slide_tab">
@@ -211,9 +209,9 @@
                     -->
                         </div>
                     </div>
-                    
+                    <img id="prm_quote_footer" src="img/promotion/prm_tab/prm_quote_footer.png" alt="">
                 </section>
-                <img id="prm_quote_footer" src="img/promotion/prm_tab/prm_quote_footer.png" alt="">
+                <img id="prm_quote_footerXs" src="img/promotion/prm_tab/prm_quote_footer.png" alt="">
                 <section class="promotion-block_info">
                     <div class="promotion-block_info_block">
                         <div class="prm_info_one">
@@ -301,13 +299,11 @@
                                 <div id='ac_ico'></div>">
                             </a>
                                     </li>
-                                      
                                     <li>
                                         <a href="#"><img class="slide_img_cover" src="img/news/news_img/2.jpg" alt="<div class='ac-slide_tab_info'><p>PTT Blue Card Happiness<br>
                                     Movie : Fast & Furious 7</p></div>
                                 <div id='ac_ico'></div>"></a>
                                     </li>
-                                    
                                 </ul>
                             </div>
                             <div class="ac-slide_tab">
@@ -328,12 +324,10 @@
                                     Movie : Fast & Furious 7</p></div>
                                 <div id='pr_ico'></div>"></a>
                                     </li>
-                                    
-                            <li>
-                                <a href="#"><img class="slide_img_cover" src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
+                                    <li>
+                                        <a href="#"><img class="slide_img_cover" src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
                                 <div id='pr_ico'></div>"></a>
-                            </li>
-                           
+                                    </li>
                                 </ul>
                             </div>
                             <div class="pr-slide_tab">
