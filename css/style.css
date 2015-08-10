@@ -950,7 +950,9 @@ div#pvlMd_ico {
     height: 92px; }
     @media screen and (max-width: 414px) {
       .news-block_left .email {
-        height: 200px; } }
+        height: 200px;
+        width: 100%;
+        overflow: visible; } }
     .news-block_left .email .news_email_title {
       width: 62%;
       height: auto;
@@ -958,10 +960,16 @@ div#pvlMd_ico {
       @media screen and (max-width: 414px) {
         .news-block_left .email .news_email_title {
           width: 75%; } }
-      .news-block_left .email .news_email_title img {
+      .news-block_left .email .news_email_title img#email_ico {
         width: 57px;
         height: 36px;
         float: left; }
+        @media screen and (max-width: 414px) {
+          .news-block_left .email .news_email_title img#email_ico {
+            /*
+            width: 16vw;
+            height: 11vw;
+            */ } }
       .news-block_left .email .news_email_title .news_email_info {
         float: right;
         color: #FFF; }
@@ -989,7 +997,9 @@ div#pvlMd_ico {
         opacity: 1; }
       @media screen and (max-width: 414px) {
         .news-block_left .email .news_email_input input.email_input_box {
-          margin: 20px 9% 0px; } }
+          margin: 20px 20px 0px 11.5%;
+          width: 74vw;
+          height: 10vw; } }
     .news-block_left .email .news_email_input input.email_submit_btn {
       padding: 1px 30px;
       margin-left: 1.5%;

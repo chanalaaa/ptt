@@ -937,6 +937,8 @@
             height: 92px;
             @media #{$xs} {
                 height: 200px;
+                width: 100%;
+                overflow: visible;
             }
             .news_email_title {
                 width: 62%;
@@ -945,10 +947,16 @@
                 @media #{$xs} {
                     width: 75%;
                 }
-                img {
+                img#email_ico {
                     width: 57px;
                     height: 36px;
-                    float: left
+                    float: left;
+                    @media #{$xs} {
+                        /*
+                        width: 16vw;
+                        height: 11vw;
+                        */
+                    }
                 }
                 .news_email_info {
                     float: right;
@@ -983,7 +991,9 @@
                         opacity: 1;
                     }
                     @media #{$xs} {
-                         margin: 20px 9% 0px;
+                        margin: 20px 20px 0px 11.5%;
+                        width: 74vw;
+                        height: 10vw;
                     }
                 }
                 input.email_submit_btn {
