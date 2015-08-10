@@ -616,7 +616,6 @@
                     top: 0px;
                     width: 100%;
                 }
-
             } //end .promotion-wrapper
         } //end .promotion
         .promotion-block_header_block {
@@ -655,22 +654,21 @@
             max-height: 338px;
             //overflow: hidden;
             @media #{$xs} {
-                    max-height: 200px;
-                }
+                max-height: 200px;
+            }
             img {
                 max-width: 100%;
                 //height: 338px;
                 @media #{$xs} {
-                    max-height: 225px;
+                    max-height: 235px;
                 }
             }
         } //end .promotion_slide_block > sy-box
         .sy-box {
             height: 288px;
             @media #{$xs} {
-                   height: 220px;
-
-                }
+                height: 220px;
+            }
             .sy-caption-wrap {
                 z-index: 46;
                 bottom: -5.5em;
@@ -687,13 +685,16 @@
             .prm-slide_tab_info {
                 width: 100%;
                 height: auto;
-                position: absolute;
+                //position: absolute;
                 top: 10px;
                 //left: 50px;
                 //color: #FFF;
                 text-align: left;
                 z-index: 50;
                 /* margin: 0 auto; */
+                @media #{$xs} {
+                    top: 0;
+                }
             }
             .prm_info_title {
                 font-size: 1.4em;
@@ -702,7 +703,12 @@
                 //margin-left: 5%;
                 top: 10px;
                 //margin-left: 33%;
+                padding-bottom: 20px;
                 position: absolute;
+                @media #{$xs} {
+                    font-size: 1.5em;
+                    top: 0;
+                }
             }
             p {
                 text-align: left;
@@ -711,6 +717,9 @@
                 letter-spacing: .03em;
                 margin-top: 17px;
                 //margin-left: 35%;
+                @media #{$xs} {
+                    font-size: 1.3em;
+                }
             }
         }
         div#prm_ico {
@@ -721,6 +730,11 @@
             float: right;
             margin-top: 40px;
             margin-right: -80px;
+            @media #{$xs} {
+                float: none;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
             &:hover {
                 opacity: .6;
             }
@@ -788,6 +802,7 @@
             @media #{$xs} {
                 margin: 0px;
                 margin-left: 30px;
+                margin-top: -10px;
             }
         }
     } //end .promotion-block_slide

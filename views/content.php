@@ -193,7 +193,7 @@
                             </li>
                             
                             <li>
-                                <a href="#"><img class="slide_img_cover" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><p>Happiness! Blue Card</p></div>
+                                <a href="#"><img class="slide_img_cover" src="img/promotion/prm_img/1.jpg" alt="<div class='prm-slide_tab_info'><div class='prm_info_title'>Happiness! Blue Card</div><br><p></p></div>
                                 <div id='prm_ico'></div>"></a>
                             </li>
                            
@@ -211,8 +211,9 @@
                     -->
                         </div>
                     </div>
-                    <img id="prm_quote_footer" src="img/promotion/prm_tab/prm_quote_footer.png" alt="">
+                    
                 </section>
+                <img id="prm_quote_footer" src="img/promotion/prm_tab/prm_quote_footer.png" alt="">
                 <section class="promotion-block_info">
                     <div class="promotion-block_info_block">
                         <div class="prm_info_one">

@@ -713,7 +713,7 @@ div#pvlMd_ico {
       max-width: 100%; }
       @media screen and (max-width: 414px) {
         .promotion .promotion-slide_block img {
-          max-height: 225px; } }
+          max-height: 235px; } }
   .promotion .sy-box {
     height: 288px; }
     @media screen and (max-width: 414px) {
@@ -731,22 +731,32 @@ div#pvlMd_ico {
     .promotion .sy-caption .prm-slide_tab_info {
       width: 100%;
       height: auto;
-      position: absolute;
       top: 10px;
       text-align: left;
       z-index: 50;
       /* margin: 0 auto; */ }
+      @media screen and (max-width: 414px) {
+        .promotion .sy-caption .prm-slide_tab_info {
+          top: 0; } }
     .promotion .sy-caption .prm_info_title {
       font-size: 1.4em;
       color: #FFF;
       top: 10px;
+      padding-bottom: 20px;
       position: absolute; }
+      @media screen and (max-width: 414px) {
+        .promotion .sy-caption .prm_info_title {
+          font-size: 1.5em;
+          top: 0; } }
     .promotion .sy-caption p {
       text-align: left;
       font-size: 1.2em;
       color: #FFF;
       letter-spacing: .03em;
       margin-top: 17px; }
+      @media screen and (max-width: 414px) {
+        .promotion .sy-caption p {
+          font-size: 1.3em; } }
   .promotion div#prm_ico {
     width: 43px;
     height: 43px;
@@ -755,6 +765,11 @@ div#pvlMd_ico {
     float: right;
     margin-top: 40px;
     margin-right: -80px; }
+    @media screen and (max-width: 414px) {
+      .promotion div#prm_ico {
+        float: none;
+        margin: 0 auto;
+        margin-top: 20px; } }
     .promotion div#prm_ico:hover {
       opacity: .6; }
   .promotion .sy-controls li.sy-next {
@@ -823,7 +838,8 @@ div#pvlMd_ico {
     @media screen and (max-width: 414px) {
       .promotion img#prm_quote_footer {
         margin: 0px;
-        margin-left: 30px; } }
+        margin-left: 30px;
+        margin-top: -10px; } }
 
 .promotion-block_info {
   width: 31%;
