@@ -929,6 +929,7 @@
         } //end .news-wrapper
         @media #{$xs} {
             margin: 0%;
+            height: 1800px;
         }
     } //end .news
     .news-block_left {
@@ -1048,12 +1049,18 @@
                 position: relative;
                 width: 100%;
                 height: 324px;
+                @media #{$xs} {
+                    height: 510px;
+                }
                 .reward_tab_img {
                     position: absolute;
                     top: -32px;
                     @include bg_img("../img/news/news_tab/news_tab.png");
                     z-index: 40;
                     height: inherit;
+                    @media #{$xs} {
+                        @include bg_img("../img/news/news_tab/news_tabXs.png");
+                    }
                     div.reward_tab_img_info {
                         width: auto;
                         height: auto;
@@ -1102,6 +1109,10 @@
         width: 49%;
         height: 750px;
         float: right;
+        @media #{$xs} {
+            float: none;
+            width: 100%;
+        }
         //background-color: rgba(0, 255, 0, 0.5);
         .activity {
             width: 100%;
@@ -1114,6 +1125,10 @@
                 overflow: hidden;
                 top: -130px;
                 z-index: 40;
+                @media #{$xs} {
+                    top: 150px;
+                    height: 635px;
+                }
                 .ac_header {
                     @include bg_img("../img/news/news_tab/ac_header.png");
                     max-width: 100%;
@@ -1199,6 +1214,10 @@
                         height: 208px;
                         top: -25px;
                         z-index: 44;
+                        @media #{$xs} {
+                            @include bg_img("../img/news/news_tab/ac_tabXs.png");
+                            height: 325px;
+                        }
                     }
                 }
             }
@@ -1216,6 +1235,9 @@
             overflow: hidden;
             top: -175px;
             z-index: 47;
+            @media #{$xs} {
+                top: 280px;
+            }
             .pr_header {
                 @include bg_img("../img/news/news_tab/pr_header.png");
                 max-width: 100%;

@@ -943,7 +943,8 @@ div#pvlMd_ico {
     height: 700px; }
   @media screen and (max-width: 414px) {
     .news {
-      margin: 0%; } }
+      margin: 0%;
+      height: 1800px; } }
 
 .news-block_left {
   position: relative;
@@ -1046,6 +1047,9 @@ div#pvlMd_ico {
       position: relative;
       width: 100%;
       height: 324px; }
+      @media screen and (max-width: 414px) {
+        .news-block_left .reward .reward_tab {
+          height: 510px; } }
       .news-block_left .reward .reward_tab .reward_tab_img {
         position: absolute;
         top: -32px;
@@ -1057,6 +1061,14 @@ div#pvlMd_ico {
         height: 100%;
         z-index: 40;
         height: inherit; }
+        @media screen and (max-width: 414px) {
+          .news-block_left .reward .reward_tab .reward_tab_img {
+            background-image: url("../img/news/news_tab/news_tabXs.png");
+            background-size: 100% 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%; } }
         .news-block_left .reward .reward_tab .reward_tab_img div.reward_tab_img_info {
           width: auto;
           height: auto;
@@ -1096,6 +1108,10 @@ div#pvlMd_ico {
   width: 49%;
   height: 750px;
   float: right; }
+  @media screen and (max-width: 414px) {
+    .news-block_right {
+      float: none;
+      width: 100%; } }
   .news-block_right .activity {
     width: 100%;
     height: 453px; }
@@ -1106,6 +1122,10 @@ div#pvlMd_ico {
       overflow: hidden;
       top: -130px;
       z-index: 40; }
+      @media screen and (max-width: 414px) {
+        .news-block_right .activity .activity_block {
+          top: 150px;
+          height: 635px; } }
       .news-block_right .activity .activity_block .ac_header {
         background-image: url("../img/news/news_tab/ac_header.png");
         background-size: 100% 100%;
@@ -1181,6 +1201,15 @@ div#pvlMd_ico {
           height: 208px;
           top: -25px;
           z-index: 44; }
+          @media screen and (max-width: 414px) {
+            .news-block_right .activity .activity_block .ac-slide_tab .ac-slide_tab_img {
+              background-image: url("../img/news/news_tab/ac_tabXs.png");
+              background-size: 100% 100%;
+              background-position: center center;
+              background-repeat: no-repeat;
+              width: 100%;
+              height: 100%;
+              height: 325px; } }
   .news-block_right .pr {
     position: relative;
     width: 100%;
@@ -1192,6 +1221,9 @@ div#pvlMd_ico {
     overflow: hidden;
     top: -175px;
     z-index: 47; }
+    @media screen and (max-width: 414px) {
+      .news-block_right .pr_block {
+        top: 280px; } }
     .news-block_right .pr_block .pr_header {
       background-image: url("../img/news/news_tab/pr_header.png");
       background-size: 100% 100%;
