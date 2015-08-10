@@ -963,7 +963,7 @@ div#pvlMd_ico {
     @media screen and (max-width: 414px) {
       .news-block_left .email {
         height: 200px;
-        width: 100%; } }
+        width: 24em; } }
     .news-block_left .email .news_email_title {
       width: 62%;
       height: auto;
