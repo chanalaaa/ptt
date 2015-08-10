@@ -300,11 +300,13 @@
                                 <div id='ac_ico'></div>">
                             </a>
                                     </li>
+                                      
                                     <li>
                                         <a href="#"><img class="slide_img_cover" src="img/news/news_img/2.jpg" alt="<div class='ac-slide_tab_info'><p>PTT Blue Card Happiness<br>
                                     Movie : Fast & Furious 7</p></div>
                                 <div id='ac_ico'></div>"></a>
                                     </li>
+                                    
                                 </ul>
                             </div>
                             <div class="ac-slide_tab">
@@ -325,12 +327,12 @@
                                     Movie : Fast & Furious 7</p></div>
                                 <div id='pr_ico'></div>"></a>
                                     </li>
-                                    <!--
+                                    
                             <li>
                                 <a href="#"><img class="slide_img_cover" src="img/news/news_img/3.jpg" alt="<div class='pr-slide_tab_info'><p>Pray for Nepal</p></div>
                                 <div id='pr_ico'></div>"></a>
                             </li>
-                            -->
+                           
                                 </ul>
                             </div>
                             <div class="pr-slide_tab">

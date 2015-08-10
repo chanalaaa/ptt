@@ -1065,8 +1065,8 @@
                                 .ac-slide_tab_info {
                                     width: auto;
                                     height: auto;
-                                    //position: absolute;
-                                    //top: 30px;
+                                    position: absolute;
+                                    top: 30px;
                                     //left: 50px;
                                     //color: #FFF;
                                     text-align: left;
@@ -1087,7 +1087,7 @@
                                     background-image: url("../img/ico/ico_go_dark.png");
                                     background-size: cover;
                                     float: right;
-                                    margin-top: -35px;
+                                    margin-top: 55px;
                                     margin-right: -65px;
                                     &:hover {
                                         opacity: .6;
@@ -1171,8 +1171,8 @@
                         .pr-slide_tab_info {
                             width: auto;
                             height: auto;
-                            //position: absolute;
-                            //top: 30px;
+                            position: absolute;
+                            top: 20px;
                             //left: 50px;
                             //color: #FFF;
                             text-align: center;
@@ -1193,7 +1193,7 @@
                             background-image: url("../img/ico/ico_go.png");
                             background-size: cover;
                             float: right;
-                            margin-top: -37px;
+                            margin-top: 20px;
                             margin-right: -28px;
                             &:hover {
                                 opacity: .6;
