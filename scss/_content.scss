@@ -1248,6 +1248,7 @@
             z-index: 47;
             @media #{$xs} {
                 top: 280px;
+                height: 520px;
             }
             .pr_header {
                 @include bg_img("../img/news/news_tab/pr_header.png");
@@ -1284,13 +1285,16 @@
                     bottom: -2.5em;
                     left: 5%;
                     width: 88%;
+                    @media #{$xs}{
+                        left: 0%;
+                    }
                     .sy-caption {
                         top: -15;
                         .pr-slide_tab_info {
                             width: auto;
                             height: auto;
                             position: absolute;
-                            top: 20px;
+                            top: 10px;
                             //left: 50px;
                             //color: #FFF;
                             text-align: center;
@@ -1303,6 +1307,12 @@
                                 letter-spacing: .03em;
                                 //margin-top: 20px;
                                 //margin-left: 35%;
+                                @media #{$xs} {
+                                text-align: center;
+                            }
+                            }
+                             @media #{$xs} {
+                                position: relative;
                             }
                         }
                         div#pr_ico {
@@ -1315,6 +1325,12 @@
                             margin-right: -28px;
                             &:hover {
                                 opacity: .6;
+                            }
+                            @media #{$xs} {
+                                float: none;
+                                margin: 0 auto;
+                                margin-top: 30px;
+
                             }
                         }
                     }
@@ -1355,6 +1371,10 @@
                                 }
                             }
                             */
+                    @media #{$xs} {
+                        @include bg_img("../img/news/news_tab/pr_tabXs.png");
+                        height: 200px;
+                    }
                     img {
                         width: 43px;
                         height: 43px;
@@ -1371,6 +1391,10 @@
                 height: 36px;
                 margin-left: 10%;
                 float: left;
+                @media #{$xs} {
+                    margin-top: 100px;
+                    margin-left: 35%;
+                }
             }
         }
     } //end .news-block_right
