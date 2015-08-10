@@ -1439,7 +1439,7 @@ div#pvlMd_ico {
       @media screen and (max-width: 414px) {
         .regis .regis-wrapper .regis-block .regis-block_info {
           height: 220px;
-          width: 72%;
+          width: 17em;
           margin: 0 auto; } }
       .regis .regis-wrapper .regis-block .regis-block_info .regis-block_info_ul {
         margin: 0;
