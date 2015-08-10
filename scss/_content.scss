@@ -1455,6 +1455,13 @@
                     width: 70%;
                     height: 88px;
                     //background-color: gray;
+                    @media #{$xs} {
+                        height: 220px;
+                        width: 72%;
+                        margin: 0 auto;
+                    
+                        
+                    }
                     padding-top: 50px;
                     .regis-block_info_ul {
                         margin: 0;
@@ -1472,6 +1479,10 @@
                             img#regis_card {
                                 width: 137px;
                                 height: 86px;
+                                @media #{$xs} {
+                                    width: 219px;
+                                    height: 137px;
+                                }
                             }
                             p#regis_btn {
                                 text-transform: uppercase;
@@ -1481,12 +1492,21 @@
                                 padding: 12px 20px 7px;
                                 border-radius: 5px;
                                 margin-top: 20px;
+                                @media #{$xs} {
+                                    padding: 12px 40px 7px;
+                                    margin-left: 9px;
+                                    margin-top: 40px;
+                                }
                             }
                             text-decoration: none;
                             p#regis_word {
                                 font-size: 1.5em;
                                 margin-top: 30px;
                                 color: #1F71B7;
+                                @media #{$xs} {
+                                    margin-left: 40px;
+                                    margin-top: 40px;
+                                }
                             }
                         }
                     }

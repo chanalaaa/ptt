@@ -1436,6 +1436,11 @@ div#pvlMd_ico {
       width: 70%;
       height: 88px;
       padding-top: 50px; }
+      @media screen and (max-width: 414px) {
+        .regis .regis-wrapper .regis-block .regis-block_info {
+          height: 220px;
+          width: 72%;
+          margin: 0 auto; } }
       .regis .regis-wrapper .regis-block .regis-block_info .regis-block_info_ul {
         margin: 0;
         padding: 0;
@@ -1451,6 +1456,10 @@ div#pvlMd_ico {
           .regis .regis-wrapper .regis-block .regis-block_info .regis-block_info_ul a img#regis_card {
             width: 137px;
             height: 86px; }
+            @media screen and (max-width: 414px) {
+              .regis .regis-wrapper .regis-block .regis-block_info .regis-block_info_ul a img#regis_card {
+                width: 219px;
+                height: 137px; } }
           .regis .regis-wrapper .regis-block .regis-block_info .regis-block_info_ul a p#regis_btn {
             text-transform: uppercase;
             color: #FFF;
@@ -1459,10 +1468,19 @@ div#pvlMd_ico {
             padding: 12px 20px 7px;
             border-radius: 5px;
             margin-top: 20px; }
+            @media screen and (max-width: 414px) {
+              .regis .regis-wrapper .regis-block .regis-block_info .regis-block_info_ul a p#regis_btn {
+                padding: 12px 40px 7px;
+                margin-left: 9px;
+                margin-top: 40px; } }
           .regis .regis-wrapper .regis-block .regis-block_info .regis-block_info_ul a p#regis_word {
             font-size: 1.5em;
             margin-top: 30px;
             color: #1F71B7; }
+            @media screen and (max-width: 414px) {
+              .regis .regis-wrapper .regis-block .regis-block_info .regis-block_info_ul a p#regis_word {
+                margin-left: 40px;
+                margin-top: 40px; } }
 
 /* End Regis * --------------------------------------- */
 /* Contact-Follow  * --------------------------------------- */
