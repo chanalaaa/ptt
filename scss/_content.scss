@@ -949,24 +949,27 @@
             margin: 0 auto;
             height: 92px;
             @media #{$xs} {
+                width: 100%;
                 height: 200px;
-                width: 24em;
+                // width: 24em;
             }
             .news_email_title {
                 width: 62%;
                 height: auto;
                 margin: 0 auto;
                 @media #{$xs} {
-                    width: 75%;
+                    //width: 75%;
+                    //margin-left: 9%
+                    width: 18em;
+                    height: 40px;
                     overflow: visible;
-                    margin-left: 9%
                 }
                 img#email_ico {
                     width: 57px;
                     height: 36px;
                     float: left;
                     @media #{$xs} {
-                        margin-left: 10%
+                        margin-left: 5%
                         /*
                         width: 16vw;
                         height: 11vw;
@@ -976,6 +979,9 @@
                 .news_email_info {
                     float: right;
                     color: #FFF;
+                    @media #{$xs} {
+                        margin-right: 6%;
+                    }
                     h2 {
                         font-size: 1.3em;
                         letter-spacing: .2em;
@@ -1006,9 +1012,9 @@
                         opacity: 1;
                     }
                     @media #{$xs} {
-                        margin: 20px 20px 0px 11.5%;
-                        width: 74vw;
-                        height: 10vw;
+                        width: 84vw;
+                        height: 11.2vw;
+                        margin-left: 5%;
                     }
                 }
                 input.email_submit_btn {
@@ -1529,23 +1535,23 @@
     .follow {
         margin-top: 5%;
         @media #{$xs} {
-                margin-top: 15%;
-            }
+            margin-top: 15%;
+        }
         .follow_block {
             width: 65%;
             height: 52px;
             @media #{$xs} {
-                    margin: 0 auto;
-                    width: 17em;
-                    height: 100px;
+                margin: 0 auto;
+                width: 17em;
+                height: 100px;
             }
             //margin: 0 auto;
             ul {
                 float: right;
                 @media #{$xs} {
-                       margin-bottom: 30px;
-                       float: none;
-                    }
+                    margin-bottom: 30px;
+                    float: none;
+                }
                 li {
                     margin-left: 30px;
                     display: inline;
@@ -1553,7 +1559,6 @@
                     @media #{$xs} {
                         float: none;
                         margin-left: 10px;
-
                     }
                     p {
                         font-size: 1.2em;
