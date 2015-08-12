@@ -1032,6 +1032,9 @@
                     @media #{$xs} {
                         margin: 20px 35%;
                     }
+                    @media #{$xxs} {
+                        margin: 20px 33%;
+                    }
                 }
             }
         } //end .email

@@ -109,6 +109,9 @@
                 height: 100%;
                 margin: 17px 18% 15px;
             }
+            @media #{$xxs} {
+                margin: 17px 13% 15px;
+            }
         }
         #nav_btn1 {
             @include nav_btn(#1F71B7);
