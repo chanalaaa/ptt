@@ -1489,22 +1489,47 @@ p.hotline {
   text-align: center;
   color: #FFF;
   font-size: 2em; }
+  @media screen and (max-width: 414px) {
+    p.hotline {
+      margin-top: 15%;
+      font-size: 1.7em; } }
 
 .follow {
-  margin-top: 3.5%; }
+  margin-top: 5%; }
+  @media screen and (max-width: 414px) {
+    .follow {
+      margin-top: 15%; } }
   .follow .follow_block {
     width: 65%;
     height: 52px; }
+    @media screen and (max-width: 414px) {
+      .follow .follow_block {
+        margin: 0 auto;
+        width: 17em;
+        height: 100px; } }
     .follow .follow_block ul {
       float: right; }
+      @media screen and (max-width: 414px) {
+        .follow .follow_block ul {
+          margin-bottom: 30px;
+          float: none; } }
       .follow .follow_block ul li {
         margin-left: 30px;
         display: inline;
         float: left; }
+        @media screen and (max-width: 414px) {
+          .follow .follow_block ul li {
+            float: none;
+            margin-left: 10px; } }
         .follow .follow_block ul li p {
           font-size: 1.2em;
           margin-top: 20px;
           color: #FFF; }
+          @media screen and (max-width: 414px) {
+            .follow .follow_block ul li p {
+              margin: 0 auto;
+              width: 100px;
+              margin-bottom: 15px; } }
         .follow .follow_block ul li img {
           width: 52px;
           height: 52px; }

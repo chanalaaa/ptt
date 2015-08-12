@@ -950,7 +950,7 @@
             height: 92px;
             @media #{$xs} {
                 height: 200px;
-                    width: 24em;
+                width: 24em;
             }
             .news_email_title {
                 width: 62%;
@@ -1459,7 +1459,6 @@
                         height: 220px;
                         width: 17em;
                         margin: 0 auto;
-                        
                     }
                     padding-top: 50px;
                     .regis-block_info_ul {
@@ -1521,25 +1520,51 @@
         text-align: center;
         color: #FFF;
         font-size: 2em;
+        @media #{$xs} {
+            margin-top: 15%;
+            font-size: 1.7em;
+        }
     }
     
     .follow {
-        margin-top: 3.5%;
+        margin-top: 5%;
+        @media #{$xs} {
+                margin-top: 15%;
+            }
         .follow_block {
             width: 65%;
             height: 52px;
+            @media #{$xs} {
+                    margin: 0 auto;
+                    width: 17em;
+                    height: 100px;
+            }
             //margin: 0 auto;
             ul {
                 float: right;
+                @media #{$xs} {
+                       margin-bottom: 30px;
+                       float: none;
+                    }
                 li {
                     margin-left: 30px;
+                    display: inline;
+                    float: left;
+                    @media #{$xs} {
+                        float: none;
+                        margin-left: 10px;
+
+                    }
                     p {
                         font-size: 1.2em;
                         margin-top: 20px;
                         color: #FFF;
+                        @media #{$xs} {
+                            margin: 0 auto;
+                            width: 100px;
+                            margin-bottom: 15px
+                        }
                     }
-                    display: inline;
-                    float: left;
                     img {
                         width: 52px;
                         height: 52px;
