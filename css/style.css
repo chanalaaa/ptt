@@ -1017,7 +1017,7 @@ div#pvlMd_ico {
           height: 11.2vw;
           margin-left: 7.5%; } }
     .news-block_left .email .news_email_input input.email_submit_btn {
-      padding: 1px 30px;
+      padding: 2.5px 30px 1px;
       margin-left: 1.5%;
       color: #1F71B7;
       background: #FFF;
